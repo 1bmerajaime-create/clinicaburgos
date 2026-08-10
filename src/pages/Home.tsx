@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { motion, useReducedMotion, useScroll, useTransform } from "framer-motion";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import { ServiceCarousel } from "../components/ServiceCarousel";
 
 const services = [
@@ -26,12 +26,40 @@ const services = [
 
 export function Home() {
   const reduce = useReducedMotion();
+  const videoRef = useRef<HTMLVideoElement>(null);
   const ctaRef = useRef<HTMLElement>(null);
   const { scrollYProgress } = useScroll({
     target: ctaRef,
     offset: ["start end", "end start"],
   });
   const bgY = useTransform(scrollYProgress, [0, 1], reduce ? ["0%", "0%"] : ["-12%", "12%"]);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video || reduce) return;
+
+    video.muted = true;
+    video.defaultMuted = true;
+    video.playsInline = true;
+
+    const tryPlay = () => {
+      const playPromise = video.play();
+      if (playPromise !== undefined) {
+        playPromise.catch(() => {
+          /* Autoplay may still be blocked; poster remains visible. */
+        });
+      }
+    };
+
+    tryPlay();
+    video.addEventListener("canplay", tryPlay);
+    video.addEventListener("loadeddata", tryPlay);
+
+    return () => {
+      video.removeEventListener("canplay", tryPlay);
+      video.removeEventListener("loadeddata", tryPlay);
+    };
+  }, [reduce]);
 
   const fade = {
     hidden: { opacity: 0, y: reduce ? 0 : 16 },
@@ -46,7 +74,15 @@ export function Home() {
     <main>
       <section className="hero" id="inicio">
         <div className="hero-media">
-          <video autoPlay muted loop playsInline poster="/images/espera.jpg">
+          <video
+            ref={videoRef}
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="auto"
+            poster="/images/espera.jpg"
+          >
             <source src="/video/hero.mp4" type="video/mp4" />
           </video>
         </div>
