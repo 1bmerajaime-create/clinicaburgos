@@ -14,7 +14,7 @@ const serviceLinks = [
 ];
 
 export function Estetica() {
-  const [open, setOpen] = useState<number | null>(0);
+  const [open, setOpen] = useState<number | null>(null);
 
   return (
     <main className="page">
@@ -27,10 +27,10 @@ export function Estetica() {
         </div>
         <div className="page-hero-overlay" />
         <div className="page-hero-content">
-          <h1 className="display">Medicina Estética en Alhaurín el Grande</h1>
+          <h1 className="display">Medicina Estética</h1>
           <p>
-            Clínica estética y médico estético en Alhaurín el Grande: tratamientos
-            faciales para realzar tu belleza natural con resultados equilibrados.
+            Tratamientos faciales médicos para realzar tu belleza natural con
+            resultados equilibrados y elegantes.
           </p>
         </div>
       </section>
@@ -50,13 +50,12 @@ export function Estetica() {
               Tratamientos estéticos con criterio médico
             </h2>
             <p className="body">
-              Si buscas medicina estética en Alhaurín el Grande o una clínica
-              estética cercana en el Valle del Guadalhorce, ofrecemos un enfoque
-              sereno: armonización facial, ácido hialurónico, ojeras, labios y
-              rejuvenecimiento facial sin cirugía, sin perder naturalidad.
+              Un enfoque sereno en Alhaurín el Grande: armonización facial,
+              ácido hialurónico, ojeras, labios y rejuvenecimiento facial sin
+              cirugía, sin perder naturalidad.
             </p>
             <Link className="btn btn-outline btn-sm" to="/contacto#cita">
-              Pedir cita medicina estética
+              Pedir cita
             </Link>
           </div>
         </div>
@@ -71,7 +70,7 @@ export function Estetica() {
             </div>
             <p className="body services-head-lead">
               Información sobre ácido hialurónico, arrugas, ojeras y
-              rejuvenecimiento facial en Alhaurín el Grande y Málaga.
+              rejuvenecimiento facial.
             </p>
           </div>
           <div className="seo-link-grid">
@@ -92,8 +91,8 @@ export function Estetica() {
               <h2 className="display h2">Medicina estética facial</h2>
             </div>
             <p className="body services-head-lead">
-              Procedimientos seleccionados para luminosidad, firmeza y equilibrio.
-              Pulsa cada uno para conocer más detalle.
+              Procedimientos seleccionados para luminosidad, firmeza y
+              equilibrio. Pulsa cada uno para conocer más detalle.
             </p>
           </div>
 
@@ -140,20 +139,6 @@ export function Estetica() {
               Pedir cita
             </Link>
           </div>
-        </div>
-      </section>
-
-      <section className="section section-cream">
-        <div className="shell seo-prose">
-          <h2 className="display h2">
-            Clínica estética cerca de Alhaurín el Grande
-          </h2>
-          <p className="body">
-            Atendemos medicina estética facial a pacientes de Alhaurín el Grande,
-            Coín, Cártama, Alhaurín de la Torre, Mijas y el resto de Málaga que
-            buscan tratamientos estéticos naturales y una primera consulta de
-            medicina estética clara y cercana.
-          </p>
         </div>
       </section>
     </main>

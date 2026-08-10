@@ -15,8 +15,8 @@ const serviceLinks = [
 ];
 
 export function Oftalmologia() {
-  const [open, setOpen] = useState<number | null>(0);
-  const [openMirada, setOpenMirada] = useState<number | null>(0);
+  const [open, setOpen] = useState<number | null>(null);
+  const [openMirada, setOpenMirada] = useState<number | null>(null);
 
   return (
     <main className="page">
@@ -24,16 +24,15 @@ export function Oftalmologia() {
         <div className="page-hero-media">
           <img
             src="/images/generated/oftalmo-hero.jpg?v=5"
-            alt="Oftalmólogo en Alhaurín el Grande — Clínica Burgos"
+            alt="Oftalmología en Clínica Burgos Alhaurín el Grande"
           />
         </div>
         <div className="page-hero-overlay" />
         <div className="page-hero-content">
-          <h1 className="display">Oftalmólogo en Alhaurín el Grande</h1>
+          <h1 className="display">Oftalmología</h1>
           <p>
-            Clínica oftalmológica en Alhaurín el Grande (Málaga): revisión de la
-            vista, diagnóstico y tratamiento con precisión clínica y
-            acompañamiento cercano.
+            Cuidamos tu salud visual con precisión clínica, tecnología
+            diagnóstica y un acompañamiento cercano en cada etapa.
           </p>
         </div>
       </section>
@@ -43,21 +42,19 @@ export function Oftalmologia() {
           <div className="panel-media panel-media-sm">
             <img
               src="/images/espacio.jpg"
-              alt="Consulta de oftalmología Clínica Burgos Alhaurín el Grande"
+              alt="Consulta de oftalmología Clínica Burgos"
               loading="eager"
             />
           </div>
           <div className="panel-copy">
             <h2 className="display h2">Primera consulta oftalmológica</h2>
             <p className="body">
-              Si buscas un oftalmólogo en Alhaurín el Grande o una clínica de
-              ojos cercana en el Valle del Guadalhorce, en Clínica Burgos
-              valoramos tu caso de forma personalizada: antecedentes, síntomas y
+              Valoramos tu caso de forma personalizada: antecedentes, síntomas y
               necesidades visuales. Te explicamos con claridad el diagnóstico y
               las opciones de tratamiento.
             </p>
             <Link className="btn btn-primary btn-sm" to="/contacto#cita">
-              Pedir cita oftalmólogo
+              Pedir cita
             </Link>
           </div>
         </div>
@@ -72,7 +69,7 @@ export function Oftalmologia() {
             </div>
             <p className="body services-head-lead">
               Información detallada sobre revisión oftalmológica, patologías y
-              tratamientos en Alhaurín el Grande y Málaga.
+              tratamientos.
             </p>
           </div>
           <div className="seo-link-grid">
@@ -94,8 +91,7 @@ export function Oftalmologia() {
             </div>
             <p className="body services-head-lead">
               Diagnóstico y tratamiento de las patologías oculares más
-              frecuentes: ojo seco, cataratas, glaucoma, retina, DMAE, miopía,
-              presbicia y más. Pulsa cada una para conocer detalle.
+              frecuentes. Pulsa cada una para conocer más detalle.
             </p>
           </div>
 
@@ -167,7 +163,7 @@ export function Oftalmologia() {
           <figure className="panel-media tall blefaro-shot">
             <img
               src="/images/generated/blefaroplastia.jpg?v=4"
-              alt="Blefaroplastia en Clínica Burgos Alhaurín el Grande"
+              alt="Blefaroplastia en Clínica Burgos"
               loading="eager"
             />
             <figcaption>Blefaroplastia</figcaption>
@@ -183,9 +179,9 @@ export function Oftalmologia() {
               <h2 className="display h2">Estética de la Mirada</h2>
             </div>
             <p className="body services-head-lead">
-              La mirada define tu rostro. En Clínica Burgos devolvemos frescura,
-              corregimos lo que molesta y realzamos lo que ya está. Cirugía de
-              párpados, tratamiento de ojeras y soluciones para cada caso.
+              La mirada define tu rostro. Devolvemos frescura, corregimos lo que
+              molesta y realzamos lo que ya está. Pulsa cada opción para más
+              detalle.
             </p>
           </div>
 
@@ -227,18 +223,6 @@ export function Oftalmologia() {
               Solicitar valoración
             </Link>
           </div>
-        </div>
-      </section>
-
-      <section className="section section-cream">
-        <div className="shell seo-prose">
-          <h2 className="display h2">Oftalmólogo cerca de Alhaurín el Grande</h2>
-          <p className="body">
-            Atendemos a pacientes de Alhaurín el Grande, Coín, Cártama, Alhaurín
-            de la Torre, Mijas, Fuengirola y el resto del Valle del Guadalhorce
-            y la Costa del Sol que buscan un oftalmólogo privado o una clínica
-            oftalmológica cercana.
-          </p>
         </div>
       </section>
     </main>

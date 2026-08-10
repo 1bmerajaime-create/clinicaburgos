@@ -3,7 +3,7 @@ import { useState } from "react";
 type Item = { title: string; body: string };
 
 export function Accordion({ items }: { items: Item[] }) {
-  const [open, setOpen] = useState<number | null>(0);
+  const [open, setOpen] = useState<number | null>(null);
 
   return (
     <div className="accordion">

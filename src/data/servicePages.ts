@@ -409,7 +409,7 @@ export const servicePages: ServicePage[] = [
     sections: [
       {
         heading: "Enfoque integral",
-        body: "Toxina botulínica para líneas de expresión, ácido hialurónico para volúmenes, mesoterapia o inductores para luminosidad y firmeza, e IPL o resurfacing según la piel.",
+        body: "Neuromoduladores para líneas de expresión, ácido hialurónico para volúmenes, mesoterapia o inductores para luminosidad y firmeza, e IPL o resurfacing según la piel.",
       },
       {
         heading: "Resultados progresivos y naturales",
@@ -487,12 +487,12 @@ export const servicePages: ServicePage[] = [
     h1: "Tratamiento de arrugas en Alhaurín el Grande",
     title: "Tratamiento de arrugas en Alhaurín el Grande | Clínica Burgos",
     description:
-      "Tratamiento de arrugas, patas de gallo, entrecejo y frente en Alhaurín el Grande y Málaga. Toxina botulínica y rejuvenecimiento sin cirugía. Clínica Burgos.",
+      "Tratamiento de arrugas, patas de gallo, entrecejo y frente en Alhaurín el Grande y Málaga. Neuromoduladores y rejuvenecimiento sin cirugía. Clínica Burgos.",
     keywords:
-      "tratamiento arrugas Alhaurín el Grande, tratamiento arrugas Málaga, patas de gallo, entrecejo, líneas de expresión, toxina botulínica",
+      "tratamiento arrugas Alhaurín el Grande, tratamiento arrugas Málaga, patas de gallo, entrecejo, líneas de expresión, neuromoduladores",
     lead: "Suavizamos arrugas de expresión en frente, entrecejo y patas de gallo manteniendo un gesto natural y descansado.",
     image: "/images/generated/toxina.jpg",
-    imageAlt: "Tratamiento de arrugas con toxina botulínica",
+    imageAlt: "Tratamiento de arrugas con neuromoduladores",
     sections: [
       {
         heading: "Qué tratamos",

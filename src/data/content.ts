@@ -188,11 +188,11 @@ export const miradaTreatments: TreatmentItem[] = [
 
 export const esteticaTreatments: TreatmentItem[] = [
   {
-    title: "Toxina Botulínica",
+    title: "Neuromoduladores",
     subtitle: "Arrugas de expresión",
     image: "/images/generated/toxina.jpg",
     href: "/medicina-estetica/tratamiento-arrugas",
-    body: "Suaviza arrugas de expresión en frente, entrecejo y patas de gallo, manteniendo un gesto natural y descansado. Tratamiento de líneas de expresión sin cirugía en Alhaurín el Grande.",
+    body: "Suavizan arrugas de expresión en frente, entrecejo y patas de gallo, manteniendo un gesto natural y descansado. Tratamiento de líneas de expresión sin cirugía en Alhaurín el Grande.",
   },
   {
     title: "Rellenos Dérmicos",
