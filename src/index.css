@@ -473,16 +473,22 @@ ul {
   position: relative;
   z-index: 2;
   text-align: center;
-  width: min(34rem, calc(100% - 2rem));
+  width: min(40rem, calc(100% - 2rem));
   padding: 3rem 0 4rem;
 }
 
 .hero h1 {
-  font-size: clamp(2rem, 4.8vw, 3rem);
+  font-size: clamp(1.55rem, 4.2vw, 2.55rem);
 }
 
 .hero h1 span {
   display: block;
+}
+
+.hero-seo-title {
+  max-width: 22ch;
+  margin-inline: auto;
+  line-height: 1.15;
 }
 
 .hero-lead {
@@ -1856,3 +1862,54 @@ main > section[id] {
 .access-gate-form .btn {
   justify-self: start;
 }
+
+/* SEO helpers */
+.seo-prose {
+  max-width: 42rem;
+}
+
+.seo-prose .body a,
+.seo-prose a {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.seo-breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  align-items: center;
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  margin-bottom: 0.25rem;
+}
+
+.seo-breadcrumb a:hover {
+  color: var(--bronze-deep);
+}
+
+.seo-link-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 1.25rem;
+}
+
+.seo-link-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.55rem 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  color: var(--ink);
+  background: var(--white);
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.seo-link-chip:hover {
+  border-color: rgba(91, 76, 58, 0.45);
+  color: var(--bronze-deep);
+}
+

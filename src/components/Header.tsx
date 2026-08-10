@@ -30,7 +30,7 @@ export function Header() {
 
           <nav className="nav-links" aria-label="Principal">
             <NavLink to="/oftalmologia">Oftalmología</NavLink>
-            <NavLink to="/estetica">Medicina Estética</NavLink>
+            <NavLink to="/medicina-estetica">Medicina Estética</NavLink>
             <NavLink to="/contacto">Contacto</NavLink>
             <Link to="/contacto#cita" className="btn btn-primary btn-sm">
               Pedir cita
@@ -53,7 +53,7 @@ export function Header() {
         <NavLink to="/oftalmologia" onClick={close}>
           Oftalmología
         </NavLink>
-        <NavLink to="/estetica" onClick={close}>
+        <NavLink to="/medicina-estetica" onClick={close}>
           Medicina Estética
         </NavLink>
         <NavLink to="/contacto" onClick={close}>

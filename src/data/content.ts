@@ -11,42 +11,56 @@ export const ADDRESS = {
   region: "Málaga",
 };
 
-export const oftalmologiaTreatments = [
+export type TreatmentItem = {
+  title: string;
+  subtitle: string;
+  image: string;
+  body: string;
+  href?: string;
+};
+
+export const oftalmologiaTreatments: TreatmentItem[] = [
   {
     title: "Cataratas",
     subtitle: "Cirugía del cristalino",
     image: "/images/generated/oft-cataratas.jpg",
-    body: "Opacidad del cristalino que genera visión borrosa y deslumbramiento. Valoramos el grado de afectación y, cuando procede, planificamos una cirugía precisa para recuperar nitidez y calidad visual.",
+    href: "/oftalmologia/cataratas",
+    body: "Opacidad del cristalino que genera visión borrosa y deslumbramiento. En Clínica Burgos (Alhaurín el Grande) valoramos el grado de afectación y, cuando procede, orientamos la operación de cataratas para recuperar nitidez y calidad visual.",
   },
   {
     title: "Presbicia o vista cansada",
     subtitle: "Visión de cerca",
     image: "/images/generated/oft-presbicia.jpg",
-    body: "Dificultad progresiva para enfocar de cerca a partir de los 40–45 años. Estudiamos tus hábitos visuales y te proponemos la solución más adecuada: gafas, lentes de contacto o alternativas quirúrgicas.",
+    href: "/oftalmologia/presbicia",
+    body: "Dificultad progresiva para enfocar de cerca a partir de los 40–45 años. Estudiamos tus hábitos visuales y te proponemos la solución más adecuada: gafas, lentes de contacto o alternativas quirúrgicas. Tratamiento de presbicia en Alhaurín el Grande y Málaga.",
   },
   {
     title: "Defectos refractivos",
     subtitle: "Miopía, hipermetropía, astigmatismo",
     image: "/images/generated/oft-refractivos.jpg",
-    body: "Alteraciones del enfoque que impiden ver nítido de lejos o de cerca. Realizamos una refracción completa y orientamos la corrección óptima según tu caso.",
+    href: "/oftalmologia/miopia",
+    body: "Alteraciones del enfoque que impiden ver nítido de lejos o de cerca. Realizamos una refracción completa (graduación de la vista) y orientamos la corrección óptima según tu caso: miopía, hipermetropía o astigmatismo.",
   },
   {
     title: "Degeneración macular (DMAE)",
     subtitle: "Retina · visión central",
     image: "/images/generated/oft-dmae.jpg",
-    body: "Afecta la mácula y puede reducir la visión central. La detección precoz y el seguimiento con pruebas de retina son clave para preservar la visión el mayor tiempo posible.",
+    href: "/oftalmologia/dmae",
+    body: "La degeneración macular asociada a la edad afecta la mácula y puede reducir la visión central. La detección precoz y el seguimiento con pruebas de retina son clave para preservar la visión el mayor tiempo posible.",
   },
   {
     title: "Desprendimiento de vítreo",
     subtitle: "Moscas volantes y destellos",
     image: "/images/generated/oft-vitreo.jpg",
-    body: "Separación del gel vítreo que puede provocar moscas volantes o destellos. Evaluamos el fondo de ojo para descartar complicaciones y te indicamos el seguimiento necesario.",
+    href: "/oftalmologia/retina",
+    body: "Separación del gel vítreo que puede provocar moscas volantes (miodesopsias), manchas o destellos. Evaluamos el fondo de ojo para descartar complicaciones y te indicamos el seguimiento necesario.",
   },
   {
     title: "Síndrome de ojo seco",
     subtitle: "Confort ocular",
     image: "/images/generated/oft-ojoseco.jpg",
-    body: "Sequedad, escozor, fatiga o sensación de arenilla. Diagnosticamos la causa (lágrima, párpados, ambiente) y diseñamos un tratamiento personalizado para recuperar confort.",
+    href: "/oftalmologia/ojo-seco",
+    body: "Sequedad, escozor, fatiga o sensación de arenilla. Diagnosticamos la causa (lágrima, párpados, ambiente) y diseñamos un tratamiento personalizado. Especialistas en ojo seco en Alhaurín el Grande.",
   },
   {
     title: "Blefaritis",
@@ -70,24 +84,28 @@ export const oftalmologiaTreatments = [
     title: "Retinopatía diabética",
     subtitle: "Retina · diabetes",
     image: "/images/generated/oft-retinopatia.jpg",
+    href: "/oftalmologia/retina",
     body: "Complicación de la diabetes que daña los vasos de la retina. Controlamos el fondo de ojo de forma periódica y actuamos a tiempo para preservar la visión.",
   },
   {
     title: "Glaucoma",
     subtitle: "Presión intraocular",
     image: "/images/generated/oft-glaucoma.jpg",
-    body: "Enfermedad del nervio óptico ligada a menudo a la presión intraocular. El diagnóstico precoz y el seguimiento permiten frenar la pérdida de campo visual.",
+    href: "/oftalmologia/glaucoma",
+    body: "Enfermedad del nervio óptico ligada a menudo a la presión ocular o tensión ocular. El diagnóstico precoz y el seguimiento permiten frenar la pérdida de campo visual. Revisión de glaucoma en Alhaurín el Grande.",
   },
   {
     title: "Desprendimiento de retina",
     subtitle: "Urgencia retiniana",
     image: "/images/generated/oft-desprendimiento.jpg",
+    href: "/oftalmologia/retina",
     body: "Separación de la retina que puede causar sombra, destellos o pérdida brusca de visión. Es una urgencia: valoramos de inmediato y orientamos el tratamiento quirúrgico si procede.",
   },
   {
     title: "Trombosis de retina",
     subtitle: "Vascular retiniana",
     image: "/images/generated/oft-trombosis.jpg",
+    href: "/oftalmologia/retina",
     body: "Obstrucción de una vena o arteria retiniana que altera la visión de forma súbita. Estudiamos el fondo de ojo y el riesgo vascular para pautar seguimiento y tratamiento.",
   },
   {
@@ -102,9 +120,16 @@ export const oftalmologiaTreatments = [
     image: "/images/generated/oft-uveitis.jpg",
     body: "Inflamación de las capas internas del ojo: dolor, fotofobia o visión borrosa. Diagnosticamos el tipo de uveítis y controlamos la inflamación para proteger la visión.",
   },
+  {
+    title: "Oftalmología infantil",
+    subtitle: "Salud visual en niños",
+    image: "/images/generated/oftalmo-hero.jpg?v=5",
+    href: "/oftalmologia/oftalmologia-infantil",
+    body: "Revisión de la vista en niños para detectar a tiempo miopía, hipermetropía, astigmatismo u otros problemas de visión. Oftalmólogo infantil en Alhaurín el Grande con atención cercana a las familias.",
+  },
 ];
 
-export const miradaTreatments = [
+export const miradaTreatments: TreatmentItem[] = [
   {
     title: "Blefaroplastia",
     subtitle: "Cirugía de párpados",
@@ -161,30 +186,34 @@ export const miradaTreatments = [
   },
 ];
 
-export const esteticaTreatments = [
+export const esteticaTreatments: TreatmentItem[] = [
   {
     title: "Toxina Botulínica",
-    subtitle: "Expresión relajada",
+    subtitle: "Arrugas de expresión",
     image: "/images/generated/toxina.jpg",
-    body: "Suaviza arrugas de expresión en frente, entrecejo y patas de gallo, manteniendo un gesto natural y descansado. Ideal para prevenir y atenuar líneas dinámicas sin perder expresividad.",
+    href: "/medicina-estetica/tratamiento-arrugas",
+    body: "Suaviza arrugas de expresión en frente, entrecejo y patas de gallo, manteniendo un gesto natural y descansado. Tratamiento de líneas de expresión sin cirugía en Alhaurín el Grande.",
   },
   {
     title: "Rellenos Dérmicos",
     subtitle: "Ácido hialurónico",
     image: "/images/generated/rellenos.jpg",
-    body: "Restaura volumen y armonía facial con ácido hialurónico: labios, pómulos, surcos o mentón. Resultados inmediatos, personalizados y reversibles según tu anatomía.",
+    href: "/medicina-estetica/acido-hialuronico",
+    body: "Restaura volumen y armonía facial con ácido hialurónico: labios, ojeras, pómulos, surcos nasogenianos o mentón. Resultados inmediatos, personalizados y naturales en Clínica Burgos.",
   },
   {
     title: "Mesoterapia",
-    subtitle: "Luminosidad",
+    subtitle: "Luminosidad e hidratación",
     image: "/images/generated/mesoterapia.jpg",
-    body: "Microinyecciones de vitaminas, aminoácidos y ácido hialurónico para hidratar en profundidad, mejorar el brillo y revitalizar la calidad de la piel.",
+    href: "/medicina-estetica/mesoterapia",
+    body: "Microinyecciones de vitaminas, aminoácidos y ácido hialurónico para hidratar en profundidad, mejorar el brillo y revitalizar la calidad de la piel. Mesoterapia facial en Alhaurín el Grande.",
   },
   {
     title: "Inductores de Colágeno",
-    subtitle: "Firmeza",
+    subtitle: "Bioestimulación",
     image: "/images/generated/colageno.jpg",
-    body: "Estimulan la producción natural de colágeno para mejorar firmeza y contorno de forma progresiva. Un enfoque regenerativo con efecto sostenido en el tiempo.",
+    href: "/medicina-estetica/bioestimulacion",
+    body: "Bioestimulación facial para estimular la producción natural de colágeno, mejorar firmeza y contorno de forma progresiva. Enfoque regenerativo con efecto sostenido.",
   },
   {
     title: "IPL",

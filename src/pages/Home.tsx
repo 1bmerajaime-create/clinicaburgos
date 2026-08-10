@@ -7,19 +7,19 @@ const services = [
   {
     to: "/oftalmologia",
     title: "Oftalmología",
-    text: "Salud visual con precisión clínica y tecnología avanzada.",
+    text: "Oftalmólogo en Alhaurín el Grande: revisión, diagnóstico y tratamientos de salud visual.",
     image: "/images/generated/oftalmo-hero.jpg?v=5",
   },
   {
-    to: "/estetica",
+    to: "/medicina-estetica",
     title: "Medicina Estética",
-    text: "Tratamientos faciales para realzar tu armonía con naturalidad.",
+    text: "Clínica estética en Alhaurín el Grande: tratamientos faciales con resultado natural.",
     image: "/images/generated/estetica-card.jpg?v=1",
   },
   {
     to: "/oftalmologia#mirada",
     title: "Estética de la Mirada",
-    text: "Una mirada más descansada, abierta y expresiva.",
+    text: "Blefaroplastia, ojeras y rejuvenecimiento de la mirada con criterio médico.",
     image: "/images/generated/estetica-mirada-card.jpg?v=1",
   },
 ];
@@ -89,13 +89,12 @@ export function Home() {
         <div className="hero-overlay" />
         <div className="hero-content">
           <motion.h1
-            className="display"
+            className="display hero-seo-title"
             initial={reduce ? false : { opacity: 0, y: 14 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.85 }}
           >
-            <span>Cuidamos tu visión</span>
-            <span>Realzamos tu bienestar</span>
+            Clínica de Oftalmología y Medicina Estética en Alhaurín el Grande
           </motion.h1>
           <motion.p
             className="hero-lead"
@@ -103,7 +102,7 @@ export function Home() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.15, duration: 0.7 }}
           >
-            Oftalmología y medicina estética · Alhaurín el Grande
+            Cuidamos tu visión. Realzamos tu bienestar. Clínica Burgos · Málaga
           </motion.p>
           <motion.div
             className="hero-actions"
@@ -135,7 +134,11 @@ export function Home() {
             whileInView="show"
             viewport={{ once: true, amount: 0.25 }}
           >
-            <img src="/images/espera.jpg" alt="Sala de espera Clínica Burgos" loading="lazy" />
+            <img
+              src="/images/espera.jpg"
+              alt="Clínica Burgos oftalmología y medicina estética en Alhaurín el Grande"
+              loading="lazy"
+            />
           </motion.figure>
           <motion.div
             className="panel-copy"
@@ -146,11 +149,18 @@ export function Home() {
           >
             <p className="eyebrow">Clínica Burgos</p>
             <h2 className="display h2">
-              Salud visual y estética de la mirada
+              Oftalmólogo y medicina estética en Alhaurín el Grande
             </h2>
             <p className="body">
-              Unimos oftalmología y medicina estética en un espacio sereno,
-              pensado para que cada visita se sienta clara, cuidada e intuitiva.
+              En Clínica Burgos unimos oftalmología y medicina estética en un
+              espacio sereno en el corazón de Alhaurín el Grande. Si buscas un
+              oftalmólogo privado, una clínica oftalmológica cercana o
+              tratamientos de medicina estética facial con resultado natural,
+              estás en el lugar adecuado.
+            </p>
+            <p className="body">
+              Atendemos pacientes del Valle del Guadalhorce, Coín, Cártama,
+              Alhaurín de la Torre, Mijas y el resto de la provincia de Málaga.
             </p>
             <Link className="btn btn-outline btn-sm" to="/contacto#cita">
               Pedir cita
@@ -162,6 +172,51 @@ export function Home() {
       <section className="section services-visual" id="servicios">
         <div className="shell">
           <ServiceCarousel items={services} />
+        </div>
+      </section>
+
+      <section className="section section-cream" id="especialidades-clave">
+        <div className="shell seo-prose">
+          <p className="eyebrow">Salud visual y estética</p>
+          <h2 className="display h2">Qué tratamos en Clínica Burgos</h2>
+          <p className="body">
+            Ofrecemos{" "}
+            <Link to="/oftalmologia/revision-oftalmologica">
+              revisión oftalmológica
+            </Link>
+            , diagnóstico y seguimiento de{" "}
+            <Link to="/oftalmologia/ojo-seco">ojo seco</Link>,{" "}
+            <Link to="/oftalmologia/cataratas">cataratas</Link>,{" "}
+            <Link to="/oftalmologia/glaucoma">glaucoma</Link>,{" "}
+            <Link to="/oftalmologia/retina">retina</Link> y{" "}
+            <Link to="/oftalmologia/dmae">DMAE</Link>, además de{" "}
+            <Link to="/oftalmologia/presbicia">presbicia</Link> y{" "}
+            <Link to="/oftalmologia/oftalmologia-infantil">
+              oftalmología infantil
+            </Link>
+            .
+          </p>
+          <p className="body">
+            En medicina estética trabajamos{" "}
+            <Link to="/medicina-estetica/acido-hialuronico">
+              ácido hialurónico
+            </Link>
+            ,{" "}
+            <Link to="/medicina-estetica/labios">labios</Link>,{" "}
+            <Link to="/medicina-estetica/ojeras">ojeras</Link>,{" "}
+            <Link to="/medicina-estetica/armonizacion-facial">
+              armonización facial
+            </Link>
+            ,{" "}
+            <Link to="/medicina-estetica/tratamiento-arrugas">
+              tratamiento de arrugas
+            </Link>{" "}
+            y{" "}
+            <Link to="/medicina-estetica/rejuvenecimiento-facial">
+              rejuvenecimiento facial
+            </Link>{" "}
+            sin cirugía.
+          </p>
         </div>
       </section>
 
@@ -199,7 +254,7 @@ export function Home() {
           >
             <img
               src="/images/generated/blefaroplastia.jpg?v=4"
-              alt="Blefaroplastia — estética de la mirada"
+              alt="Blefaroplastia y estética de la mirada en Clínica Burgos Alhaurín el Grande"
               loading="eager"
             />
             <figcaption>Blefaroplastia</figcaption>
@@ -215,12 +270,13 @@ export function Home() {
           <div className="cta-parallax-veil" />
           <div className="shell cta-parallax-content">
             <p className="eyebrow" style={{ color: "rgba(255,255,255,0.72)" }}>
-              Tu próximo paso
+              Pedir cita oftalmólogo o medicina estética
             </p>
             <h2 className="display">Reserva tu cita en Clínica Burgos</h2>
             <p>
-              Cuéntanos qué necesitas. Te orientamos hacia el tratamiento más
-              adecuado para ti.
+              Primera consulta de oftalmología o medicina estética en Alhaurín
+              el Grande. Te orientamos hacia el tratamiento más adecuado para
+              ti.
             </p>
             <div className="cta-row-actions">
               <Link className="btn btn-light btn-sm" to="/contacto#cita">
@@ -235,13 +291,25 @@ export function Home() {
         <div className="shell">
           <div className="gallery-stack" aria-label="Espacios de la clínica">
             <figure className="gs gs-a">
-              <img src="/images/doctora-1.jpg" alt="Recepción Clínica Burgos" loading="lazy" />
+              <img
+                src="/images/doctora-1.jpg"
+                alt="Recepción Clínica Burgos Alhaurín el Grande"
+                loading="lazy"
+              />
             </figure>
             <figure className="gs gs-b">
-              <img src="/images/mirada.jpg" alt="Detalle de iluminación" loading="lazy" />
+              <img
+                src="/images/mirada.jpg"
+                alt="Detalle de iluminación en Clínica Burgos"
+                loading="lazy"
+              />
             </figure>
             <figure className="gs gs-c">
-              <img src="/images/espacio.jpg" alt="Consulta Clínica Burgos" loading="lazy" />
+              <img
+                src="/images/espacio.jpg"
+                alt="Consulta oftalmológica Clínica Burgos Málaga"
+                loading="lazy"
+              />
             </figure>
           </div>
         </div>

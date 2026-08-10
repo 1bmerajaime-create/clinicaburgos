@@ -39,17 +39,18 @@ export function Contacto() {
       <section className="section contact-page" id="cita">
         <div className="shell contact-split">
           <div className="contact-copy">
-            <h1 className="display">Contáctanos</h1>
+            <h1 className="display">Pedir cita en Clínica Burgos</h1>
             <p className="body">
-              ¿Tienes alguna pregunta o quieres reservar una cita? Escríbenos o
-              llámanos. Estaremos encantados de ayudarte.
+              Reserva tu consulta de oftalmología o medicina estética en Alhaurín
+              el Grande. Escríbenos, llámanos o completa el formulario: te
+              responderemos lo antes posible.
             </p>
 
             <div className="contact-mini">
               <a href={PHONE_HREF}>{PHONE_DISPLAY}</a>
               <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
               <span>
-                {ADDRESS.street}, {ADDRESS.city} {ADDRESS.zip}
+                {ADDRESS.street}, {ADDRESS.city} ({ADDRESS.region}) {ADDRESS.zip}
               </span>
             </div>
 

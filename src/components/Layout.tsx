@@ -2,6 +2,7 @@ import { Outlet, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
+import { Seo } from "./Seo";
 import { WHATSAPP_HREF } from "../data/content";
 
 function ScrollToTop() {
@@ -37,6 +38,7 @@ function ScrollToTop() {
 export function Layout() {
   return (
     <>
+      <Seo />
       <ScrollToTop />
       <Header />
       <Outlet />
