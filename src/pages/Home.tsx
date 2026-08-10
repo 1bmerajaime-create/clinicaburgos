@@ -89,12 +89,13 @@ export function Home() {
         <div className="hero-overlay" />
         <div className="hero-content">
           <motion.h1
-            className="display hero-seo-title"
+            className="display"
             initial={reduce ? false : { opacity: 0, y: 14 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.85 }}
           >
-            Clínica de Oftalmología y Medicina Estética en Alhaurín el Grande
+            <span>Cuidamos tu visión</span>
+            <span>Realzamos tu bienestar</span>
           </motion.h1>
           <motion.p
             className="hero-lead"
@@ -102,7 +103,8 @@ export function Home() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.15, duration: 0.7 }}
           >
-            Cuidamos tu visión. Realzamos tu bienestar. Clínica Burgos · Málaga
+            Clínica de Oftalmología y Medicina Estética en Alhaurín el Grande,
+            Málaga
           </motion.p>
           <motion.div
             className="hero-actions"
