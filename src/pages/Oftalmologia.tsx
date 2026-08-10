@@ -1,0 +1,192 @@
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import { miradaTreatments, oftalmologiaTreatments } from "../data/content";
+
+export function Oftalmologia() {
+  const [open, setOpen] = useState<number | null>(0);
+  const [openMirada, setOpenMirada] = useState<number | null>(0);
+
+  return (
+    <main className="page">
+      <section className="page-hero page-hero-sm">
+        <div className="page-hero-media">
+          <img
+            src="/images/generated/oftalmo-hero.jpg?v=5"
+            alt="Consulta oftalmológica en Clínica Burgos"
+          />
+        </div>
+        <div className="page-hero-overlay" />
+        <div className="page-hero-content">
+          <h1 className="display">Oftalmología</h1>
+          <p>
+            Cuidamos tu salud visual con precisión clínica, tecnología diagnóstica
+            y un acompañamiento cercano en cada etapa.
+          </p>
+        </div>
+      </section>
+
+      <section className="section section-compact">
+        <div className="shell split">
+          <div className="panel-media panel-media-sm">
+            <img
+              src="/images/espacio.jpg"
+              alt="Consulta oftalmológica Clínica Burgos"
+              loading="eager"
+            />
+          </div>
+          <div className="panel-copy">
+            <h2 className="display h2">Primera consulta oftalmológica</h2>
+            <p className="body">
+              Valoramos tu caso de forma personalizada: antecedentes, síntomas y
+              necesidades visuales. Te explicamos con claridad el diagnóstico y
+              las opciones de tratamiento.
+            </p>
+            <Link className="btn btn-primary btn-sm" to="/contacto#cita">
+              Pedir cita
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="section section-cream" id="especialidades">
+        <div className="shell">
+          <div className="services-head-row">
+            <div>
+              <p className="eyebrow">Áreas de atención</p>
+              <h2 className="display h2">Especialidades en oftalmología</h2>
+            </div>
+            <p className="body services-head-lead">
+              Diagnóstico y tratamiento de las patologías oculares más frecuentes.
+              Pulsa cada una para conocer más detalle.
+            </p>
+          </div>
+
+          <div className="treatments-expand">
+            {oftalmologiaTreatments.map((item, index) => {
+              const isOpen = open === index;
+              return (
+                <article
+                  key={item.title}
+                  className={`treatment-expand ${isOpen ? "is-open" : ""}`}
+                >
+                  <button
+                    type="button"
+                    className="treatment-expand-trigger"
+                    aria-expanded={isOpen}
+                    onClick={() => setOpen(isOpen ? null : index)}
+                  >
+                    <div className="treatment-h-media">
+                      <img src={item.image} alt="" loading="lazy" />
+                    </div>
+                    <div className="treatment-expand-titles">
+                      <h3 className="display">{item.title}</h3>
+                      <p>{item.subtitle}</p>
+                    </div>
+                    <span className="treatment-expand-icon" aria-hidden="true">
+                      {isOpen ? "–" : "+"}
+                    </span>
+                  </button>
+                  <div className="treatment-expand-panel" hidden={!isOpen}>
+                    <p>{item.body}</p>
+                  </div>
+                </article>
+              );
+            })}
+          </div>
+
+          <div style={{ marginTop: "1.5rem" }}>
+            <Link className="btn btn-primary btn-sm" to="/contacto#cita">
+              Pedir cita
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="section blefaro-home" id="blefaroplastia">
+        <div className="shell split-xl">
+          <div className="panel-copy">
+            <p className="eyebrow">Estética de la mirada</p>
+            <h2 className="display h2">Blefaroplastia</h2>
+            <p className="body">
+              Cirugía de párpados para rejuvenecer la mirada: corrige el exceso
+              de piel y las bolsas, recuperando una expresión más descansada,
+              abierta y natural.
+            </p>
+            <ul className="blefaro-list">
+              <li>Párpado superior e inferior</li>
+              <li>Valoración médica personalizada</li>
+              <li>Resultado armónico y natural</li>
+            </ul>
+            <Link className="btn btn-primary btn-sm" to="/contacto#cita">
+              Solicitar valoración
+            </Link>
+          </div>
+          <figure className="panel-media tall blefaro-shot">
+            <img
+              src="/images/generated/blefaroplastia.jpg?v=4"
+              alt="Blefaroplastia — estética de la mirada"
+              loading="eager"
+            />
+            <figcaption>Blefaroplastia</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section className="section" id="mirada">
+        <div className="shell">
+          <div className="services-head-row">
+            <div>
+              <p className="eyebrow">Contorno ocular</p>
+              <h2 className="display h2">Estética de la Mirada</h2>
+            </div>
+            <p className="body services-head-lead">
+              La mirada define tu rostro. En Clínica Burgos devolvemos frescura,
+              corregimos lo que molesta y realzamos lo que ya está. Cirugía de
+              párpados, tratamiento de ojeras y soluciones para cada caso.
+              Resultados que rejuvenecen sin cambiar quién eres.
+            </p>
+          </div>
+
+          <div className="treatments-expand">
+            {miradaTreatments.map((item, index) => {
+              const isOpen = openMirada === index;
+              return (
+                <article
+                  key={item.title}
+                  className={`treatment-expand ${isOpen ? "is-open" : ""}`}
+                >
+                  <button
+                    type="button"
+                    className="treatment-expand-trigger"
+                    aria-expanded={isOpen}
+                    onClick={() => setOpenMirada(isOpen ? null : index)}
+                  >
+                    <div className="treatment-h-media">
+                      <img src={item.image} alt="" loading="lazy" />
+                    </div>
+                    <div className="treatment-expand-titles">
+                      <h3 className="display">{item.title}</h3>
+                      <p>{item.subtitle}</p>
+                    </div>
+                    <span className="treatment-expand-icon" aria-hidden="true">
+                      {isOpen ? "–" : "+"}
+                    </span>
+                  </button>
+                  <div className="treatment-expand-panel" hidden={!isOpen}>
+                    <p>{item.body}</p>
+                  </div>
+                </article>
+              );
+            })}
+          </div>
+
+          <div style={{ marginTop: "1.5rem" }}>
+            <Link className="btn btn-primary btn-sm" to="/contacto#cita">
+              Solicitar valoración
+            </Link>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}
