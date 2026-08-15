@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { miradaTreatments, oftalmologiaTreatments } from "../data/content";
+import { CitaButton } from "../components/CitaContext";
 
 export function Oftalmologia() {
   const [open, setOpen] = useState<number | null>(null);
@@ -44,9 +45,7 @@ export function Oftalmologia() {
               necesidades visuales. Te explicamos con claridad el diagnóstico y
               las opciones de tratamiento.
             </p>
-            <Link className="btn btn-primary btn-sm" to="/contacto#cita">
-              Pedir cita
-            </Link>
+            <CitaButton className="btn btn-primary btn-sm">Pedir cita</CitaButton>
           </div>
         </div>
       </section>
@@ -103,9 +102,7 @@ export function Oftalmologia() {
           </div>
 
           <div style={{ marginTop: "1.5rem" }}>
-            <Link className="btn btn-primary btn-sm" to="/contacto#cita">
-              Pedir cita
-            </Link>
+            <CitaButton className="btn btn-primary btn-sm">Pedir cita</CitaButton>
           </div>
         </div>
       </section>
@@ -125,9 +122,9 @@ export function Oftalmologia() {
               <li>Valoración médica personalizada</li>
               <li>Resultado armónico y natural</li>
             </ul>
-            <Link className="btn btn-primary btn-sm" to="/contacto#cita">
+            <CitaButton className="btn btn-primary btn-sm">
               Solicitar valoración
-            </Link>
+            </CitaButton>
           </div>
           <figure className="panel-media tall blefaro-shot">
             <img
@@ -187,9 +184,9 @@ export function Oftalmologia() {
           </div>
 
           <div style={{ marginTop: "1.5rem" }}>
-            <Link className="btn btn-primary btn-sm" to="/contacto#cita">
+            <CitaButton className="btn btn-primary btn-sm">
               Solicitar valoración
-            </Link>
+            </CitaButton>
           </div>
         </div>
       </section>

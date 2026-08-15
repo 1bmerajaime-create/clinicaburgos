@@ -36,11 +36,11 @@ export const seoByPath: Record<string, SeoConfig> = {
   },
   "/contacto": {
     path: "/contacto",
-    title: "Pedir cita | Clínica Burgos Alhaurín el Grande",
+    title: "Contacto | Clínica Burgos Alhaurín el Grande",
     description:
-      "Pide cita con el oftalmólogo o médico estético en Clínica Burgos. Av. Gerald Brenan 29, Alhaurín el Grande (Málaga). Teléfono 692 353 245.",
+      "Contacto de Clínica Burgos: email info@clinicaburgos.net y dirección en Avenida Gerald Brenan 29, Alhaurín el Grande (Málaga).",
     keywords:
-      "cita oftalmólogo Alhaurín el Grande, pedir cita medicina estética, cita oftalmología Alhaurín el Grande, Clínica Burgos contacto",
+      "Clínica Burgos contacto, email Clínica Burgos, dirección Clínica Burgos Alhaurín el Grande, Avenida Gerald Brenan 29",
   },
   "/aviso-legal": {
     path: "/aviso-legal",

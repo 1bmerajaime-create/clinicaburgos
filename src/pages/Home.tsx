@@ -1,7 +1,7 @@
-import { Link } from "react-router-dom";
 import { motion, useReducedMotion, useScroll, useTransform } from "framer-motion";
 import { useEffect, useRef } from "react";
 import { ServiceCarousel } from "../components/ServiceCarousel";
+import { CitaButton } from "../components/CitaContext";
 
 const services = [
   {
@@ -112,9 +112,7 @@ export function Home() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.25, duration: 0.7 }}
           >
-            <Link className="btn btn-light btn-sm" to="/contacto#cita">
-              Pedir cita
-            </Link>
+            <CitaButton className="btn btn-light btn-sm">Pedir cita</CitaButton>
           </motion.div>
         </div>
         <div className="hero-wave" aria-hidden="true">
@@ -164,9 +162,7 @@ export function Home() {
               Atendemos pacientes del Valle del Guadalhorce, Coín, Cártama,
               Alhaurín de la Torre, Mijas y el resto de la provincia de Málaga.
             </p>
-            <Link className="btn btn-outline btn-sm" to="/contacto#cita">
-              Pedir cita
-            </Link>
+            <CitaButton className="btn btn-outline btn-sm">Pedir cita</CitaButton>
           </motion.div>
         </div>
       </section>
@@ -198,9 +194,9 @@ export function Home() {
               <li>Valoración médica personalizada</li>
               <li>Resultado armónico y natural</li>
             </ul>
-            <Link className="btn btn-primary btn-sm" to="/contacto#cita">
+            <CitaButton className="btn btn-primary btn-sm">
               Solicitar valoración
-            </Link>
+            </CitaButton>
           </motion.div>
           <motion.figure
             className="panel-media tall blefaro-shot"
@@ -236,9 +232,7 @@ export function Home() {
               ti.
             </p>
             <div className="cta-row-actions">
-              <Link className="btn btn-light btn-sm" to="/contacto#cita">
-                Pedir cita
-              </Link>
+              <CitaButton className="btn btn-light btn-sm">Pedir cita</CitaButton>
             </div>
           </div>
         </div>

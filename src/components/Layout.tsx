@@ -3,6 +3,8 @@ import { useEffect } from "react";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 import { Seo } from "./Seo";
+import { CitaProvider, useCita } from "./CitaContext";
+import { CitaModal } from "./CitaModal";
 import { WHATSAPP_HREF } from "../data/content";
 
 function ScrollToTop() {
@@ -35,14 +37,27 @@ function ScrollToTop() {
   return null;
 }
 
+function HashCita() {
+  const { hash } = useLocation();
+  const { openCita } = useCita();
+
+  useEffect(() => {
+    if (hash === "#cita") openCita();
+  }, [hash, openCita]);
+
+  return null;
+}
+
 export function Layout() {
   return (
-    <>
+    <CitaProvider>
       <Seo />
       <ScrollToTop />
+      <HashCita />
       <Header />
       <Outlet />
       <Footer />
+      <CitaModal />
       <a
         className="float-whatsapp"
         href={WHATSAPP_HREF}
@@ -58,6 +73,6 @@ export function Layout() {
         </svg>
         <span>WhatsApp</span>
       </a>
-    </>
+    </CitaProvider>
   );
 }

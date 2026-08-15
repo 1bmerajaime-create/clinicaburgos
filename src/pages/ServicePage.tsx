@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import type { ServicePage as ServicePageData } from "../data/servicePages";
+import { CitaButton } from "../components/CitaContext";
 
 function shortTitle(h1: string) {
   return h1.replace(/\s+en Alhaurín el Grande$/i, "");
@@ -42,9 +43,9 @@ export function ServicePageView({ page }: { page: ServicePageData }) {
               {page.sections[0]?.body ? (
                 <p className="body">{page.sections[0].body}</p>
               ) : null}
-              <Link className="btn btn-primary btn-sm" to="/contacto#cita">
+              <CitaButton className="btn btn-primary btn-sm">
                 {page.ctaLabel ?? "Pedir cita"}
-              </Link>
+              </CitaButton>
             </div>
           </div>
         </div>

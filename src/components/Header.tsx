@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { Logo } from "./Logo";
+import { CitaButton, useCita } from "./CitaContext";
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -20,6 +21,7 @@ export function Header() {
     };
   }, [open]);
 
+  const { openCita } = useCita();
   const close = () => setOpen(false);
 
   return (
@@ -32,9 +34,7 @@ export function Header() {
             <NavLink to="/oftalmologia">Oftalmología</NavLink>
             <NavLink to="/medicina-estetica">Medicina Estética</NavLink>
             <NavLink to="/contacto">Contacto</NavLink>
-            <Link to="/contacto#cita" className="btn btn-primary btn-sm">
-              Pedir cita
-            </Link>
+            <CitaButton className="btn btn-primary btn-sm">Pedir cita</CitaButton>
           </nav>
 
           <button
@@ -59,9 +59,16 @@ export function Header() {
         <NavLink to="/contacto" onClick={close}>
           Contacto
         </NavLink>
-        <Link to="/contacto#cita" className="btn btn-primary btn-sm" onClick={close}>
+        <button
+          type="button"
+          className="btn btn-primary btn-sm"
+          onClick={() => {
+            close();
+            openCita();
+          }}
+        >
           Pedir cita
-        </Link>
+        </button>
       </div>
     </>
   );

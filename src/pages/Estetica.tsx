@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { esteticaTreatments } from "../data/content";
+import { CitaButton } from "../components/CitaContext";
 
 const serviceLinks = [
   { to: "/medicina-estetica/bioestimulacion", label: "Estimuladores de colágeno" },
@@ -54,9 +55,7 @@ export function Estetica() {
               ácido hialurónico, ojeras, labios y rejuvenecimiento facial sin
               cirugía, sin perder naturalidad.
             </p>
-            <Link className="btn btn-outline btn-sm" to="/contacto#cita">
-              Pedir cita
-            </Link>
+            <CitaButton className="btn btn-outline btn-sm">Pedir cita</CitaButton>
           </div>
         </div>
       </section>
@@ -135,9 +134,7 @@ export function Estetica() {
           </div>
 
           <div style={{ marginTop: "1.5rem" }}>
-            <Link className="btn btn-primary btn-sm" to="/contacto#cita">
-              Pedir cita
-            </Link>
+            <CitaButton className="btn btn-primary btn-sm">Pedir cita</CitaButton>
           </div>
         </div>
       </section>
