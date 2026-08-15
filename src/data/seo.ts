@@ -42,6 +42,18 @@ export const seoByPath: Record<string, SeoConfig> = {
     keywords:
       "cita oftalmólogo Alhaurín el Grande, pedir cita medicina estética, cita oftalmología Alhaurín el Grande, Clínica Burgos contacto",
   },
+  "/aviso-legal": {
+    path: "/aviso-legal",
+    title: "Aviso legal | Clínica Burgos",
+    description:
+      "Aviso legal de Clínica Burgos. Información del titular, condiciones de uso y responsabilidad del sitio web clinicaburgos.net.",
+  },
+  "/politica-de-privacidad": {
+    path: "/politica-de-privacidad",
+    title: "Política de privacidad | Clínica Burgos",
+    description:
+      "Política de privacidad de Clínica Burgos. Información sobre el tratamiento de datos personales conforme al RGPD y la LOPDGDD.",
+  },
 };
 
 export function absoluteUrl(path: string) {

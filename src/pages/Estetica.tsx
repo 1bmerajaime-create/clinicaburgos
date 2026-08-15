@@ -3,14 +3,11 @@ import { Link } from "react-router-dom";
 import { esteticaTreatments } from "../data/content";
 
 const serviceLinks = [
-  { to: "/medicina-estetica/acido-hialuronico", label: "Ácido hialurónico" },
-  { to: "/medicina-estetica/labios", label: "Labios" },
+  { to: "/medicina-estetica/bioestimulacion", label: "Estimuladores de colágeno" },
+  { to: "/medicina-estetica/tratamiento-arrugas", label: "Tratamiento arrugas" },
   { to: "/medicina-estetica/ojeras", label: "Ojeras" },
-  { to: "/medicina-estetica/armonizacion-facial", label: "Armonización facial" },
-  { to: "/medicina-estetica/rejuvenecimiento-facial", label: "Rejuvenecimiento facial" },
-  { to: "/medicina-estetica/bioestimulacion", label: "Bioestimulación" },
   { to: "/medicina-estetica/mesoterapia", label: "Mesoterapia" },
-  { to: "/medicina-estetica/tratamiento-arrugas", label: "Tratamiento de arrugas" },
+  { to: "/medicina-estetica/rejuvenecimiento-facial", label: "Rejuvenecimiento facial" },
 ];
 
 export function Estetica() {
@@ -69,8 +66,8 @@ export function Estetica() {
               <h2 className="display h2">Tratamientos más buscados</h2>
             </div>
             <p className="body services-head-lead">
-              Información sobre ácido hialurónico, arrugas, ojeras y
-              rejuvenecimiento facial.
+              Información sobre estimuladores de colágeno, arrugas, ojeras,
+              mesoterapia y rejuvenecimiento facial.
             </p>
           </div>
           <div className="seo-link-grid">

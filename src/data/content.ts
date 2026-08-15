@@ -78,7 +78,7 @@ export const oftalmologiaTreatments: TreatmentItem[] = [
     title: "Herpes ocular",
     subtitle: "Infección viral",
     image: "/images/generated/oft-herpes.jpg",
-    body: "Infección viral que puede afectar córnea o párpados. Requiere valoración especializada y tratamiento precoz para proteger la visión y reducir recidivas.",
+    body: "Infección viral que puede afectar córnea, párpados y retina. Requiere valoración especializada y tratamiento precoz para proteger la visión y reducir recidivas.",
   },
   {
     title: "Retinopatía diabética",
@@ -120,13 +120,6 @@ export const oftalmologiaTreatments: TreatmentItem[] = [
     image: "/images/generated/oft-uveitis.jpg",
     body: "Inflamación de las capas internas del ojo: dolor, fotofobia o visión borrosa. Diagnosticamos el tipo de uveítis y controlamos la inflamación para proteger la visión.",
   },
-  {
-    title: "Oftalmología infantil",
-    subtitle: "Salud visual en niños",
-    image: "/images/generated/oftalmo-hero.jpg?v=5",
-    href: "/oftalmologia/oftalmologia-infantil",
-    body: "Revisión de la vista en niños para detectar a tiempo miopía, hipermetropía, astigmatismo u otros problemas de visión. Oftalmólogo infantil en Alhaurín el Grande con atención cercana a las familias.",
-  },
 ];
 
 export const miradaTreatments: TreatmentItem[] = [
@@ -149,7 +142,7 @@ export const miradaTreatments: TreatmentItem[] = [
     body: "Valoración de lesiones en el párpado, diferenciación entre benignas y sospechosas, y tratamiento quirúrgico preciso cuando está indicado.",
   },
   {
-    title: "Chalazión",
+    title: "Chalazión y orzuelo",
     subtitle: "Inflamación palpebral",
     image: "/images/generated/oft-conjuntivitis.jpg",
     body: "Quiste inflamatorio de las glándulas del párpado. Tratamos con medidas conservadoras y, si persiste, con drenaje quirúrgico ambulatorio.",
@@ -169,7 +162,7 @@ export const miradaTreatments: TreatmentItem[] = [
   {
     title: "Xantelasmas",
     subtitle: "Depósitos palpebrales",
-    image: "/images/generated/oft-pterigion.jpg",
+    image: "/images/generated/oft-xantelasma.jpg",
     body: "Placas amarillentas en los párpados por depósitos lipídicos. Valoramos su eliminación con técnicas quirúrgicas o procedimientos locales según el caso.",
   },
   {
@@ -197,34 +190,34 @@ export const esteticaTreatments: TreatmentItem[] = [
   {
     title: "Rellenos Dérmicos",
     subtitle: "Ácido hialurónico",
-    image: "/images/generated/rellenos.jpg",
+    image: "/images/generated/rellenos.jpg?v=3",
     href: "/medicina-estetica/acido-hialuronico",
     body: "Restaura volumen y armonía facial con ácido hialurónico: labios, ojeras, pómulos, surcos nasogenianos o mentón. Resultados inmediatos, personalizados y naturales en Clínica Burgos.",
   },
   {
     title: "Mesoterapia",
     subtitle: "Luminosidad e hidratación",
-    image: "/images/generated/mesoterapia.jpg",
+    image: "/images/generated/mesoterapia.jpg?v=2",
     href: "/medicina-estetica/mesoterapia",
     body: "Microinyecciones de vitaminas, aminoácidos y ácido hialurónico para hidratar en profundidad, mejorar el brillo y revitalizar la calidad de la piel. Mesoterapia facial en Alhaurín el Grande.",
   },
   {
     title: "Inductores de Colágeno",
     subtitle: "Bioestimulación",
-    image: "/images/generated/colageno.jpg",
+    image: "/images/generated/colageno.jpg?v=2",
     href: "/medicina-estetica/bioestimulacion",
     body: "Bioestimulación facial para estimular la producción natural de colágeno, mejorar firmeza y contorno de forma progresiva. Enfoque regenerativo con efecto sostenido.",
   },
   {
     title: "IPL",
     subtitle: "Luz pulsada",
-    image: "/images/generated/ipl.jpg",
-    body: "Luz pulsada intensa para unificar el tono, reducir manchas solares y rojeces, y mejorar la luminosidad general del rostro con un protocolo suave y controlado.",
+    image: "/images/generated/ipl.jpg?v=2",
+    body: "Luz pulsada intensa para unificar el tono, reducir manchas solares y rojeces, y mejorar la luminosidad general del rostro.",
   },
   {
     title: "Resurfacing",
     subtitle: "Calidad de piel",
-    image: "/images/generated/resurfacing.jpg",
+    image: "/images/generated/resurfacing.jpg?v=2",
     body: "Tratamientos de renovación cutánea para refinar textura, poros y marcas superficiales. Recuperamos una piel más uniforme, suave y luminosa.",
   },
 ];

@@ -288,7 +288,7 @@ export const servicePages: ServicePage[] = [
     keywords:
       "ácido hialurónico Alhaurín el Grande, ácido hialurónico Málaga, relleno ácido hialurónico, rellenos faciales, clínica ácido hialurónico Málaga",
     lead: "El ácido hialurónico restaura volumen y armonía facial con resultados inmediatos, personalizados y naturales.",
-    image: "/images/generated/rellenos.jpg",
+    image: "/images/generated/rellenos.jpg?v=3",
     imageAlt: "Tratamiento de ácido hialurónico en Clínica Burgos",
     sections: [
       {
@@ -317,7 +317,7 @@ export const servicePages: ServicePage[] = [
     keywords:
       "relleno labios Alhaurín el Grande, aumento labios Málaga, perfilado labios, ácido hialurónico labios, hidratación de labios",
     lead: "Perfilamos, hidratamos o aumentamos los labios con ácido hialurónico buscando un resultado armónico y natural.",
-    image: "/images/generated/rellenos.jpg",
+    image: "/images/generated/rellenos.jpg?v=3",
     imageAlt: "Perfilado de labios con ácido hialurónico",
     sections: [
       {
@@ -345,13 +345,13 @@ export const servicePages: ServicePage[] = [
       "Tratamiento de ojeras con ácido hialurónico en Alhaurín el Grande y Málaga. Reduce ojeras y rejuvenece la mirada. Clínica Burgos.",
     keywords:
       "tratamiento ojeras Alhaurín el Grande, tratamiento ojeras Málaga, ácido hialurónico ojeras, eliminar ojeras, rejuvenecimiento mirada",
-    lead: "Las ojeras aportan aspecto cansado. Valoramos surco, pigmento y calidad de piel para proponer el tratamiento más adecuado.",
+    lead: "Valoramos el tipo de ojera —vasculada o pigmentada— y el surco, para indicar el tratamiento más adecuado a cada caso.",
     image: "/images/generated/estetica-mirada-card.jpg?v=1",
     imageAlt: "Tratamiento de ojeras en Clínica Burgos",
     sections: [
       {
         heading: "Cómo tratamos las ojeras",
-        body: "En muchos casos, el relleno con ácido hialurónico en el surco atenúa la sombra y rejuvenece la mirada. En otros, combinamos con cuidados o procedimientos de piel.",
+        body: "Trabajamos tratamientos no quirúrgicos, como rellenos de ácido hialurónico para atenuar el surco y la sombra, y opciones quirúrgicas cuando el caso lo requiere. El objetivo es una mirada más descansada, sin perder naturalidad.",
       },
       {
         heading: "Mirada descansada",
@@ -433,12 +433,12 @@ export const servicePages: ServicePage[] = [
     keywords:
       "bioestimulación facial Málaga, bioestimulación colágeno, inductores de colágeno, regeneración facial, tratamiento bioestimulación",
     lead: "Los inductores de colágeno estimulan la regeneración natural de la piel para mejorar firmeza y contorno de forma progresiva.",
-    image: "/images/generated/colageno.jpg",
+    image: "/images/generated/colageno.jpg?v=2",
     imageAlt: "Bioestimulación facial en Clínica Burgos",
     sections: [
       {
         heading: "Para quién",
-        body: "Ideal si notas flacidez suave, pérdida de definición o quieres mejorar la calidad de la piel a medio plazo.",
+        body: "Ideal si notas flacidez suave, pérdida de definición o quieres mejorar la calidad de la piel.",
       },
       {
         heading: "Cómo actúa",
@@ -462,7 +462,7 @@ export const servicePages: ServicePage[] = [
     keywords:
       "mesoterapia facial Málaga, vitaminas faciales, hidratación facial profunda, revitalización facial, mesoterapia facial Alhaurín",
     lead: "La mesoterapia facial hidrata en profundidad y revitaliza la piel con vitaminas, aminoácidos y ácido hialurónico.",
-    image: "/images/generated/mesoterapia.jpg",
+    image: "/images/generated/mesoterapia.jpg?v=2",
     imageAlt: "Mesoterapia facial en Clínica Burgos",
     sections: [
       {

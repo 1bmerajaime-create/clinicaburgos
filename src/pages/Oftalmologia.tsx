@@ -2,18 +2,6 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { miradaTreatments, oftalmologiaTreatments } from "../data/content";
 
-const serviceLinks = [
-  { to: "/oftalmologia/revision-oftalmologica", label: "Revisión oftalmológica" },
-  { to: "/oftalmologia/ojo-seco", label: "Ojo seco" },
-  { to: "/oftalmologia/cataratas", label: "Cataratas" },
-  { to: "/oftalmologia/glaucoma", label: "Glaucoma" },
-  { to: "/oftalmologia/retina", label: "Retina" },
-  { to: "/oftalmologia/dmae", label: "DMAE" },
-  { to: "/oftalmologia/miopia", label: "Miopía y refracción" },
-  { to: "/oftalmologia/presbicia", label: "Presbicia" },
-  { to: "/oftalmologia/oftalmologia-infantil", label: "Oftalmología infantil" },
-];
-
 export function Oftalmologia() {
   const [open, setOpen] = useState<number | null>(null);
   const [openMirada, setOpenMirada] = useState<number | null>(null);
@@ -56,28 +44,6 @@ export function Oftalmologia() {
             <Link className="btn btn-primary btn-sm" to="/contacto#cita">
               Pedir cita
             </Link>
-          </div>
-        </div>
-      </section>
-
-      <section className="section section-cream">
-        <div className="shell">
-          <div className="services-head-row">
-            <div>
-              <p className="eyebrow">Guías de servicio</p>
-              <h2 className="display h2">Especialidades más buscadas</h2>
-            </div>
-            <p className="body services-head-lead">
-              Información detallada sobre revisión oftalmológica, patologías y
-              tratamientos.
-            </p>
-          </div>
-          <div className="seo-link-grid">
-            {serviceLinks.map((item) => (
-              <Link key={item.to} className="seo-link-chip" to={item.to}>
-                {item.label}
-              </Link>
-            ))}
           </div>
         </div>
       </section>
@@ -162,11 +128,10 @@ export function Oftalmologia() {
           </div>
           <figure className="panel-media tall blefaro-shot">
             <img
-              src="/images/generated/blefaroplastia.jpg?v=4"
-              alt="Blefaroplastia en Clínica Burgos"
+              src="/images/generated/blefaroplastia.jpg?v=5"
+              alt="Valoración y marcaje previo de blefaroplastia en Clínica Burgos"
               loading="eager"
             />
-            <figcaption>Blefaroplastia</figcaption>
           </figure>
         </div>
       </section>

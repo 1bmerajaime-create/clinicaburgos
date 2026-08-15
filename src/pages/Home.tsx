@@ -94,8 +94,8 @@ export function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.85 }}
           >
-            <span>Cuidamos tu visión</span>
-            <span>Realzamos tu bienestar</span>
+            <span>Cuidamos tu mirada</span>
+            <span>Potenciamos tu belleza</span>
           </motion.h1>
           <motion.p
             className="hero-lead"
@@ -137,8 +137,8 @@ export function Home() {
             viewport={{ once: true, amount: 0.25 }}
           >
             <img
-              src="/images/espera.jpg"
-              alt="Clínica Burgos oftalmología y medicina estética en Alhaurín el Grande"
+              src="/images/sala-espera.jpg"
+              alt="Sala de espera de Clínica Burgos en Alhaurín el Grande"
               loading="lazy"
             />
           </motion.figure>
@@ -151,14 +151,13 @@ export function Home() {
           >
             <p className="eyebrow">Clínica Burgos</p>
             <h2 className="display h2">
-              Oftalmólogo y medicina estética en Alhaurín el Grande
+              Oftalmología y medicina estética en Alhaurín el Grande
             </h2>
             <p className="body">
               En Clínica Burgos unimos oftalmología y medicina estética en un
-              espacio sereno en el corazón de Alhaurín el Grande. Si buscas un
-              oftalmólogo privado, una clínica oftalmológica cercana o
-              tratamientos de medicina estética facial con resultado natural,
-              estás en el lugar adecuado.
+              espacio en el corazón de Alhaurín el Grande. Si buscas una
+              clínica oftalmológica cercana o tratamientos de medicina estética
+              facial con resultado natural, estás en el lugar adecuado.
             </p>
             <p className="body">
               Atendemos pacientes del Valle del Guadalhorce, Coín, Cártama,
@@ -174,51 +173,6 @@ export function Home() {
       <section className="section services-visual" id="servicios">
         <div className="shell">
           <ServiceCarousel items={services} />
-        </div>
-      </section>
-
-      <section className="section section-cream" id="especialidades-clave">
-        <div className="shell seo-prose">
-          <p className="eyebrow">Salud visual y estética</p>
-          <h2 className="display h2">Qué tratamos en Clínica Burgos</h2>
-          <p className="body">
-            Ofrecemos{" "}
-            <Link to="/oftalmologia/revision-oftalmologica">
-              revisión oftalmológica
-            </Link>
-            , diagnóstico y seguimiento de{" "}
-            <Link to="/oftalmologia/ojo-seco">ojo seco</Link>,{" "}
-            <Link to="/oftalmologia/cataratas">cataratas</Link>,{" "}
-            <Link to="/oftalmologia/glaucoma">glaucoma</Link>,{" "}
-            <Link to="/oftalmologia/retina">retina</Link> y{" "}
-            <Link to="/oftalmologia/dmae">DMAE</Link>, además de{" "}
-            <Link to="/oftalmologia/presbicia">presbicia</Link> y{" "}
-            <Link to="/oftalmologia/oftalmologia-infantil">
-              oftalmología infantil
-            </Link>
-            .
-          </p>
-          <p className="body">
-            En medicina estética trabajamos{" "}
-            <Link to="/medicina-estetica/acido-hialuronico">
-              ácido hialurónico
-            </Link>
-            ,{" "}
-            <Link to="/medicina-estetica/labios">labios</Link>,{" "}
-            <Link to="/medicina-estetica/ojeras">ojeras</Link>,{" "}
-            <Link to="/medicina-estetica/armonizacion-facial">
-              armonización facial
-            </Link>
-            ,{" "}
-            <Link to="/medicina-estetica/tratamiento-arrugas">
-              tratamiento de arrugas
-            </Link>{" "}
-            y{" "}
-            <Link to="/medicina-estetica/rejuvenecimiento-facial">
-              rejuvenecimiento facial
-            </Link>{" "}
-            sin cirugía.
-          </p>
         </div>
       </section>
 
@@ -255,11 +209,10 @@ export function Home() {
             viewport={{ once: true }}
           >
             <img
-              src="/images/generated/blefaroplastia.jpg?v=4"
-              alt="Blefaroplastia y estética de la mirada en Clínica Burgos Alhaurín el Grande"
+              src="/images/generated/blefaroplastia.jpg?v=5"
+              alt="Valoración y marcaje previo de blefaroplastia en Clínica Burgos"
               loading="eager"
             />
-            <figcaption>Blefaroplastia</figcaption>
           </motion.figure>
         </div>
       </section>
@@ -267,7 +220,7 @@ export function Home() {
       <section className="cta-parallax" ref={ctaRef}>
         <div className="cta-parallax-frame">
           <motion.div className="cta-parallax-bg" style={{ y: bgY }}>
-            <img src="/images/generated/cta-banner.jpg" alt="" />
+            <img src="/images/generated/cta-banner.jpg?v=2" alt="" />
           </motion.div>
           <div className="cta-parallax-veil" />
           <div className="shell cta-parallax-content">
@@ -289,33 +242,6 @@ export function Home() {
         </div>
       </section>
 
-      <section className="section gallery">
-        <div className="shell">
-          <div className="gallery-stack" aria-label="Espacios de la clínica">
-            <figure className="gs gs-a">
-              <img
-                src="/images/doctora-1.jpg"
-                alt="Recepción Clínica Burgos Alhaurín el Grande"
-                loading="lazy"
-              />
-            </figure>
-            <figure className="gs gs-b">
-              <img
-                src="/images/mirada.jpg"
-                alt="Detalle de iluminación en Clínica Burgos"
-                loading="lazy"
-              />
-            </figure>
-            <figure className="gs gs-c">
-              <img
-                src="/images/espacio.jpg"
-                alt="Consulta oftalmológica Clínica Burgos Málaga"
-                loading="lazy"
-              />
-            </figure>
-          </div>
-        </div>
-      </section>
     </main>
   );
 }
