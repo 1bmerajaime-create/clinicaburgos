@@ -11,8 +11,10 @@ export function Oftalmologia() {
       <section className="page-hero page-hero-sm">
         <div className="page-hero-media">
           <img
-            src="/images/generated/oftalmo-hero.jpg?v=5"
+            src="/images/generated/oftalmo-hero.jpg?v=6"
             alt="Oftalmología en Clínica Burgos Alhaurín el Grande"
+            fetchPriority="high"
+            decoding="async"
           />
         </div>
         <div className="page-hero-overlay" />
@@ -31,7 +33,8 @@ export function Oftalmologia() {
             <img
               src="/images/espacio.jpg"
               alt="Consulta de oftalmología Clínica Burgos"
-              loading="eager"
+              loading="lazy"
+              decoding="async"
             />
           </div>
           <div className="panel-copy">

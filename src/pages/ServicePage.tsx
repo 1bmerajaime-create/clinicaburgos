@@ -12,7 +12,7 @@ export function ServicePageView({ page }: { page: ServicePageData }) {
     <main className="page">
       <section className="page-hero page-hero-title">
         <div className="page-hero-media">
-          <img src={page.image} alt={page.imageAlt} />
+          <img src={page.image} alt={page.imageAlt} fetchPriority="high" decoding="async" />
         </div>
         <div className="page-hero-overlay" />
         <div className="page-hero-content">
@@ -34,7 +34,7 @@ export function ServicePageView({ page }: { page: ServicePageData }) {
           </nav>
           <div className="split">
             <div className="panel-media panel-media-sm">
-              <img src={page.image} alt={page.imageAlt} loading="eager" />
+              <img src={page.image} alt={page.imageAlt} loading="lazy" decoding="async" />
             </div>
             <div className="panel-copy">
               <p className="eyebrow">{page.eyebrow}</p>

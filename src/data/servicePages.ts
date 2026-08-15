@@ -259,7 +259,7 @@ export const servicePages: ServicePage[] = [
     keywords:
       "oftalmología infantil Alhaurín el Grande, oftalmólogo infantil Málaga, oculista infantil, revisión vista niños, oftalmólogo niños",
     lead: "Una revisión ocular a tiempo en la infancia previene problemas de aprendizaje y desarrollo visual. Atendemos a niños con cercanía y rigor.",
-    image: "/images/generated/oftalmo-hero.jpg?v=5",
+    image: "/images/generated/oftalmo-hero.jpg?v=6",
     imageAlt: "Oftalmología infantil en Clínica Burgos",
     sections: [
       {
@@ -404,7 +404,7 @@ export const servicePages: ServicePage[] = [
     keywords:
       "rejuvenecimiento facial Alhaurín el Grande, rejuvenecimiento facial Málaga, rejuvenecimiento facial sin cirugía, tratamiento antiedad, medicina antienvejecimiento",
     lead: "Combinamos tratamientos médicos para rejuvenecer el rostro de forma natural: expresión, volumen y calidad de la piel.",
-    image: "/images/generated/estetica-hero.jpg?v=6",
+    image: "/images/generated/estetica-hero.jpg?v=7",
     imageAlt: "Rejuvenecimiento facial en Clínica Burgos",
     sections: [
       {

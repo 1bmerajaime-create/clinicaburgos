@@ -8,7 +8,7 @@ const services = [
     to: "/oftalmologia",
     title: "Oftalmología",
     text: "Oftalmólogo en Alhaurín el Grande: revisión, diagnóstico y tratamientos de salud visual.",
-    image: "/images/generated/oftalmo-hero.jpg?v=5",
+    image: "/images/generated/oftalmo-hero.jpg?v=6",
   },
   {
     to: "/medicina-estetica",
@@ -140,6 +140,7 @@ export function Home() {
               src="/images/sala-espera.jpg"
               alt="Sala de espera de Clínica Burgos en Alhaurín el Grande"
               loading="lazy"
+              decoding="async"
             />
           </motion.figure>
           <motion.div
@@ -211,7 +212,8 @@ export function Home() {
             <img
               src="/images/generated/blefaroplastia.jpg?v=5"
               alt="Valoración y marcaje previo de blefaroplastia en Clínica Burgos"
-              loading="eager"
+              loading="lazy"
+              decoding="async"
             />
           </motion.figure>
         </div>
@@ -220,7 +222,7 @@ export function Home() {
       <section className="cta-parallax" ref={ctaRef}>
         <div className="cta-parallax-frame">
           <motion.div className="cta-parallax-bg" style={{ y: bgY }}>
-            <img src="/images/generated/cta-banner.jpg?v=2" alt="" />
+            <img src="/images/generated/cta-banner.jpg?v=2" alt="" loading="lazy" decoding="async" />
           </motion.div>
           <div className="cta-parallax-veil" />
           <div className="shell cta-parallax-content">

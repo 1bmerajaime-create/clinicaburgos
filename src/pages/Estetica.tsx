@@ -18,8 +18,10 @@ export function Estetica() {
       <section className="page-hero page-hero-sm">
         <div className="page-hero-media">
           <img
-            src="/images/generated/estetica-hero.jpg?v=6"
+            src="/images/generated/estetica-hero.jpg?v=7"
             alt="Medicina estética en Alhaurín el Grande — Clínica Burgos"
+            fetchPriority="high"
+            decoding="async"
           />
         </div>
         <div className="page-hero-overlay" />
@@ -38,7 +40,8 @@ export function Estetica() {
             <img
               src="/images/generated/estetica-persona.jpg"
               alt="Rejuvenecimiento facial natural en Clínica Burgos"
-              loading="eager"
+              loading="lazy"
+              decoding="async"
             />
           </div>
           <div className="panel-copy">
@@ -108,7 +111,7 @@ export function Estetica() {
                     onClick={() => setOpen(isOpen ? null : index)}
                   >
                     <div className="treatment-h-media">
-                      <img src={item.image} alt="" loading="eager" />
+                      <img src={item.image} alt="" loading="lazy" decoding="async" />
                     </div>
                     <div className="treatment-expand-titles">
                       <h3 className="display">{item.title}</h3>

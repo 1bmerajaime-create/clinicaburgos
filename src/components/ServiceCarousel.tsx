@@ -91,7 +91,7 @@ export function ServiceCarousel({
         {items.map((item) => (
           <Link key={item.title} to={item.to} className="service-card svc-slide">
             <div className="service-card-media">
-              <img src={item.image} alt={item.title} loading="eager" />
+              <img src={item.image} alt={item.title} loading="lazy" decoding="async" />
             </div>
             <div className="service-card-body">
               <h3 className="display">{item.title}</h3>
