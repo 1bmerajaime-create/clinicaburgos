@@ -37,7 +37,7 @@ export function Estetica() {
 
       <section className="section section-compact">
         <div className="shell split-xl">
-          <div className="panel-media panel-media-sm">
+          <div className="panel-media tall">
             <img
               src="/images/est-tratamiento.jpg"
               alt="Tratamiento de medicina estética periocular en Clínica Burgos, Alhaurín el Grande, Málaga"
