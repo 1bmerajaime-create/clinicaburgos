@@ -66,51 +66,19 @@ export function Doctora() {
 
       <section className="section section-cream">
         <div className="shell">
-          <div className="services-head-row">
-            <div>
-              <p className="eyebrow">Recorrido</p>
-              <h2 className="display h2">Experiencia hospitalaria en Málaga</h2>
-            </div>
-            <p className="body services-head-lead">
-              Formación y práctica actual en dos centros de referencia de
-              Málaga, junto a su consulta en Alhaurín el Grande.
-            </p>
-          </div>
-          <div className="split doctor-track">
-            <div>
-              <p className="eyebrow">Formación</p>
-              <h3 className="display h2">
-                Hospital Clínico Universitario Virgen de la Victoria
-              </h3>
-              <p className="body">
-                Especialista en Oftalmología formada en Málaga, con especial
-                interés en cirugía y patología periocular.
-              </p>
-            </div>
-            <div>
-              <p className="eyebrow">Actividad hospitalaria</p>
-              <h3 className="display h2">Hospital Quirónsalud Málaga</h3>
-              <p className="body">
-                Ejerce como oftalmóloga y compagina la actividad hospitalaria
-                con la Medicina Estética y el cuidado de la mirada.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="section">
-        <div className="shell">
-          <div className="services-head-row">
-            <div>
-              <p className="eyebrow">Especialidades</p>
-              <h2 className="display h2">Oftalmología y medicina estética</h2>
-            </div>
-            <p className="body services-head-lead">
-              Dos áreas que se complementan en consulta: salud visual y
-              tratamientos faciales con resultado natural.
-            </p>
-          </div>
+          <p className="eyebrow">Especialidades</p>
+          <h2 className="display h2">Oftalmología y medicina estética</h2>
+          <p className="body">
+            La Dra. García Burgos combina su especialización en Oftalmología,
+            con especial interés en la región periocular y la cirugía
+            oculoplástica, con su formación en Medicina Estética.
+          </p>
+          <p className="body">
+            Esta visión integral es la esencia de Clínica Burgos: cuidar la
+            salud visual y la mirada desde un enfoque médico, personalizado y
+            natural, priorizando siempre la seguridad y el bienestar del
+            paciente.
+          </p>
           <div className="seo-link-grid">
             <Link className="seo-link-chip" to="/oftalmologia">
               Oftalmología
