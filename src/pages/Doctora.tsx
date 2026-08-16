@@ -58,73 +58,82 @@ export function Doctora() {
         </div>
       </section>
 
-      <section className="section section-compact doctor-gallery">
-        <div className="shell">
-          <div className="doctor-gallery-grid">
-            <figure>
-              <img
-                src="/images/dra-consulta.jpg"
-                alt="Dra. Teresa García Burgos en consulta, revisando un informe clínico"
-                loading="lazy"
-                decoding="async"
-              />
-            </figure>
-            <figure>
-              <img
-                src="/images/dra-exploracion.jpg"
-                alt="Exploración oftalmológica con lámpara de hendidura"
-                loading="lazy"
-                decoding="async"
-              />
-            </figure>
-            <figure>
-              <img
-                src="/images/dra-cirugia.jpg"
-                alt="Cirugía oculoplástica y periocular"
-                loading="lazy"
-                decoding="async"
-              />
-            </figure>
-            <figure>
-              <img
-                src="/images/dra-estetica.jpg"
-                alt="Tratamiento de medicina estética facial"
-                loading="lazy"
-                decoding="async"
-              />
-            </figure>
-          </div>
+      <section className="section section-compact oft-pair-wrap">
+        <div className="shell oft-pair">
+          <figure>
+            <img
+              src="/images/dra-consulta.jpg"
+              alt="Dra. Teresa García Burgos en consulta, revisando un informe clínico"
+              loading="lazy"
+              decoding="async"
+            />
+          </figure>
+          <figure>
+            <img
+              src="/images/dra-exploracion.jpg"
+              alt="Exploración oftalmológica con lámpara de hendidura en Clínica Burgos, Alhaurín el Grande, Málaga"
+              loading="lazy"
+              decoding="async"
+            />
+          </figure>
         </div>
       </section>
 
       <section className="section section-cream">
-        <div className="shell">
-          <p className="eyebrow">Especialidades</p>
-          <h2 className="display h2">Oftalmología y medicina estética</h2>
-          <p className="body">
-            La Dra. García Burgos combina su especialización en Oftalmología,
-            con especial interés en la región periocular y la cirugía
-            oculoplástica, con su formación en Medicina Estética.
-          </p>
-          <p className="body">
-            Esta visión integral es la esencia de Clínica Burgos: cuidar la
-            salud visual y la mirada desde un enfoque médico, personalizado y
-            natural, priorizando siempre la seguridad y el bienestar del
-            paciente.
-          </p>
-          <div className="seo-link-grid">
-            <Link className="seo-link-chip" to="/oftalmologia">
-              Oftalmología
-            </Link>
-            <Link className="seo-link-chip" to="/medicina-estetica">
-              Medicina Estética
-            </Link>
-            <Link className="seo-link-chip" to="/oftalmologia#blefaroplastia">
-              Blefaroplastia
-            </Link>
+        <div className="shell split-xl">
+          <div className="panel-copy">
+            <p className="eyebrow">Especialidades</p>
+            <h2 className="display h2">Oftalmología y medicina estética</h2>
+            <p className="body">
+              La Dra. García Burgos combina su especialización en Oftalmología,
+              con especial interés en la región periocular y la cirugía
+              oculoplástica, con su formación en Medicina Estética.
+            </p>
+            <div className="seo-link-grid">
+              <Link className="seo-link-chip" to="/oftalmologia">
+                Oftalmología
+              </Link>
+              <Link className="seo-link-chip" to="/oftalmologia#blefaroplastia">
+                Blefaroplastia
+              </Link>
+            </div>
           </div>
-          <div style={{ marginTop: "1.5rem" }}>
-            <CitaButton className="btn btn-primary btn-sm">Pedir cita</CitaButton>
+          <div className="panel-media tall">
+            <img
+              src="/images/dra-cirugia.jpg"
+              alt="Cirugía oculoplástica y periocular en Clínica Burgos"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="shell split-xl">
+          <div className="panel-media tall">
+            <img
+              src="/images/dra-estetica.jpg"
+              alt="Tratamiento de medicina estética facial en Clínica Burgos, Alhaurín el Grande, Málaga"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <div className="panel-copy">
+            <p className="body">
+              Esta visión integral es la esencia de Clínica Burgos: cuidar la
+              salud visual y la mirada desde un enfoque médico, personalizado y
+              natural, priorizando siempre la seguridad y el bienestar del
+              paciente.
+            </p>
+            <div className="seo-link-grid">
+              <Link className="seo-link-chip" to="/medicina-estetica">
+                Medicina Estética
+              </Link>
+            </div>
+            <div style={{ marginTop: "1.5rem" }}>
+              <CitaButton className="btn btn-primary btn-sm">Pedir cita</CitaButton>
+            </div>
           </div>
         </div>
       </section>
