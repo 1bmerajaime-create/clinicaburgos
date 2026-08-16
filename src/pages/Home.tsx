@@ -7,19 +7,19 @@ const services = [
   {
     to: "/oftalmologia",
     title: "Oftalmología",
-    text: "Clínica oftalmológica en Málaga: revisión, diagnóstico y tratamientos de salud visual.",
+    text: "Oftalmólogo en Alhaurín el Grande: revisión, diagnóstico y tratamientos de salud visual.",
     image: "/images/generated/oftalmo-hero.jpg?v=6",
   },
   {
     to: "/medicina-estetica",
     title: "Medicina Estética",
-    text: "Clínica de medicina estética en Málaga: tratamientos faciales con resultado natural.",
+    text: "Clínica estética en Alhaurín el Grande: tratamientos faciales con resultado natural.",
     image: "/images/generated/estetica-card.jpg?v=1",
   },
   {
     to: "/oftalmologia#mirada",
     title: "Estética de la Mirada",
-    text: "Blefaroplastia en Málaga, ojeras y rejuvenecimiento de la mirada con criterio médico.",
+    text: "Blefaroplastia, ojeras y rejuvenecimiento de la mirada con criterio médico.",
     image: "/images/generated/estetica-mirada-card.jpg?v=1",
   },
 ];
@@ -150,17 +150,17 @@ export function Home() {
           >
             <p className="eyebrow">Clínica Burgos</p>
             <h2 className="display h2">
-              Oftalmología y medicina estética en Málaga
+              Oftalmología y medicina estética en Alhaurín el Grande
             </h2>
             <p className="body">
-              En Clínica Burgos unimos oftalmología y medicina estética en
-              Alhaurín el Grande, Málaga. Si buscas una clínica oftalmológica
-              en Málaga o una clínica de medicina estética con resultado
-              natural, estás en el lugar adecuado.
+              En Clínica Burgos unimos oftalmología y medicina estética en el
+              corazón de Alhaurín el Grande. Si buscas una clínica
+              oftalmológica cercana o tratamientos de medicina estética facial
+              con resultado natural, estás en el lugar adecuado.
             </p>
             <p className="body">
               Atendemos pacientes del Valle del Guadalhorce, Coín, Cártama,
-              Alhaurín de la Torre, Mijas y el resto de la provincia.
+              Alhaurín de la Torre, Mijas y el resto de la provincia de Málaga.
             </p>
             <CitaButton className="btn btn-outline btn-sm">Pedir cita</CitaButton>
           </motion.div>
@@ -185,9 +185,9 @@ export function Home() {
             <p className="eyebrow">Estética de la mirada</p>
             <h2 className="display h2">Blefaroplastia</h2>
             <p className="body">
-              Blefaroplastia en Málaga: cirugía de párpados para rejuvenecer la
-              mirada. En Alhaurín el Grande corregimos el exceso de piel y las
-              bolsas, recuperando una expresión más descansada y natural.
+              Cirugía de párpados para rejuvenecer la mirada. En Alhaurín el
+              Grande corregimos el exceso de piel y las bolsas, recuperando
+              una expresión más descansada y natural.
             </p>
             <ul className="blefaro-list">
               <li>Párpado superior e inferior</li>
@@ -207,7 +207,7 @@ export function Home() {
           >
             <img
               src="/images/generated/blefaroplastia.jpg?v=5"
-              alt="Valoración de blefaroplastia en Clínica Burgos, Málaga"
+              alt="Valoración de blefaroplastia en Clínica Burgos, Alhaurín el Grande"
               loading="lazy"
               decoding="async"
             />
@@ -227,9 +227,9 @@ export function Home() {
             </p>
             <h2 className="display">Reserva tu cita en Clínica Burgos</h2>
             <p>
-              Primera consulta de oftalmología o medicina estética en Clínica
-              Burgos, Málaga. Te orientamos hacia el tratamiento más adecuado
-              para ti.
+              Primera consulta de oftalmología o medicina estética en Alhaurín
+              el Grande, Málaga. Te orientamos hacia el tratamiento más
+              adecuado para ti.
             </p>
             <div className="cta-row-actions">
               <CitaButton className="btn btn-light btn-sm">Pedir cita</CitaButton>

@@ -117,7 +117,7 @@ export const miradaTreatments: TreatmentItem[] = [
     title: "Blefaroplastia",
     subtitle: "Cirugía de párpados",
     image: "/images/generated/blefaroplastia.jpg",
-    body: "Blefaroplastia en Málaga: cirugía de párpados para rejuvenecer la mirada. Corregimos el exceso de piel y las bolsas, recuperando una expresión más descansada, abierta y natural.",
+    body: "Cirugía de párpados para rejuvenecer la mirada: corrige el exceso de piel y las bolsas, recuperando una expresión más descansada, abierta y natural.",
   },
   {
     title: "Lagrimeo",
@@ -182,7 +182,7 @@ export const esteticaTreatments: TreatmentItem[] = [
     subtitle: "Ácido hialurónico",
     image: "/images/generated/rellenos.jpg?v=3",
     href: "/medicina-estetica/acido-hialuronico",
-    body: "Restaura volumen y armonía facial con ácido hialurónico: labios, ojeras, pómulos, surcos nasogenianos o mentón. Resultados inmediatos y naturales en Clínica Burgos, Málaga.",
+    body: "Restaura volumen y armonía facial con ácido hialurónico: labios, ojeras, pómulos, surcos nasogenianos o mentón. Resultados inmediatos, personalizados y naturales en Clínica Burgos.",
   },
   {
     title: "Mesoterapia",
@@ -196,7 +196,7 @@ export const esteticaTreatments: TreatmentItem[] = [
     subtitle: "Bioestimulación",
     image: "/images/generated/colageno.jpg?v=2",
     href: "/medicina-estetica/bioestimulacion",
-    body: "Bioestimulación facial para estimular la producción natural de colágeno, mejorar firmeza y contorno de forma progresiva. Enfoque regenerativo en nuestra clínica de medicina estética en Málaga.",
+    body: "Bioestimulación facial para estimular la producción natural de colágeno, mejorar firmeza y contorno de forma progresiva. Enfoque regenerativo con efecto sostenido.",
   },
   {
     title: "IPL",

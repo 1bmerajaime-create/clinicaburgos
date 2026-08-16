@@ -11,35 +11,36 @@ export type SeoConfig = {
 export const seoByPath: Record<string, SeoConfig> = {
   "/": {
     path: "/",
-    title: "Clínica Burgos | Oftalmología y Medicina Estética en Málaga",
+    title:
+      "Clínica Burgos | Oftalmología y Medicina Estética en Alhaurín el Grande",
     description:
-      "Clínica Burgos en Málaga: clínica oftalmológica y de medicina estética en Alhaurín el Grande. Oftalmólogo, blefaroplastia, cataratas y rejuvenecimiento facial. Pide cita.",
+      "Clínica Burgos en Alhaurín el Grande (Málaga): oftalmólogo y medicina estética. Revisión oftalmológica, blefaroplastia, cataratas y rejuvenecimiento facial. Pide cita.",
     keywords:
-      "Clínica Burgos Málaga, clínica oftalmológica Málaga, clínica medicina estética Málaga, blefaroplastia Málaga, oftalmólogo Alhaurín el Grande, medicina estética Alhaurín el Grande",
+      "Clínica Burgos Alhaurín el Grande, oftalmólogo Alhaurín el Grande, clínica oftalmológica Alhaurín el Grande, medicina estética Alhaurín el Grande, Clínica Burgos Málaga, blefaroplastia Málaga",
   },
   "/oftalmologia": {
     path: "/oftalmologia",
-    title: "Clínica oftalmológica en Málaga | Clínica Burgos",
+    title: "Oftalmólogo en Alhaurín el Grande | Clínica Burgos",
     description:
-      "Clínica oftalmológica en Málaga. Oftalmólogo en Alhaurín el Grande: revisión, ojo seco, cataratas, glaucoma, retina y blefaroplastia. Clínica Burgos.",
+      "Oftalmólogo en Alhaurín el Grande, Málaga. Revisión oftalmológica, ojo seco, cataratas, glaucoma, retina y blefaroplastia. Clínica Burgos.",
     keywords:
-      "clínica oftalmológica Málaga, oftalmólogo Málaga, Clínica Burgos Málaga, blefaroplastia Málaga, oftalmólogo Alhaurín el Grande, oculista Málaga",
+      "oftalmólogo Alhaurín el Grande, clínica oftalmológica Alhaurín el Grande, oftalmólogo Málaga, clínica oftalmológica Málaga, blefaroplastia Alhaurín el Grande",
   },
   "/medicina-estetica": {
     path: "/medicina-estetica",
-    title: "Medicina estética en Málaga | Clínica Burgos",
+    title: "Medicina Estética en Alhaurín el Grande | Clínica Burgos",
     description:
-      "Clínica de medicina estética en Málaga: ácido hialurónico, ojeras, labios y rejuvenecimiento facial en Alhaurín el Grande. Clínica Burgos.",
+      "Medicina estética en Alhaurín el Grande, Málaga: ácido hialurónico, ojeras, labios y rejuvenecimiento facial. Clínica Burgos.",
     keywords:
-      "clínica medicina estética Málaga, medicina estética Málaga, Clínica Burgos Málaga, clínica estética Málaga, ácido hialurónico Málaga, rejuvenecimiento facial Málaga",
+      "medicina estética Alhaurín el Grande, clínica estética Alhaurín el Grande, medicina estética Málaga, ácido hialurónico Alhaurín el Grande, rejuvenecimiento facial Alhaurín el Grande",
   },
   "/contacto": {
     path: "/contacto",
-    title: "Contacto | Clínica Burgos Málaga",
+    title: "Contacto | Clínica Burgos Alhaurín el Grande",
     description:
-      "Contacto de Clínica Burgos en Málaga: email info@clinicaburgos.net y consulta en Avenida Gerald Brenan 29, Alhaurín el Grande.",
+      "Contacto de Clínica Burgos: email info@clinicaburgos.net y consulta en Avenida Gerald Brenan 29, Alhaurín el Grande (Málaga).",
     keywords:
-      "Clínica Burgos Málaga, contacto Clínica Burgos, dirección Clínica Burgos Alhaurín el Grande, Avenida Gerald Brenan 29",
+      "Clínica Burgos contacto, dirección Clínica Burgos Alhaurín el Grande, Clínica Burgos Málaga, Avenida Gerald Brenan 29",
   },
   "/aviso-legal": {
     path: "/aviso-legal",

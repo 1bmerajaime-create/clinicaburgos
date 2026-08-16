@@ -26,7 +26,7 @@ export const servicePages: ServicePage[] = [
       "Tratamiento con ácido hialurónico en Alhaurín el Grande y Málaga: rellenos faciales, labios, pómulos, ojeras y surcos. Resultados naturales. Clínica Burgos.",
     keywords:
       "ácido hialurónico Alhaurín el Grande, ácido hialurónico Málaga, relleno ácido hialurónico, rellenos faciales, clínica ácido hialurónico Málaga",
-    lead: "El ácido hialurónico restaura volumen y armonía facial con resultados inmediatos y naturales. Tratamiento en nuestra clínica de medicina estética en Málaga.",
+    lead: "El ácido hialurónico restaura volumen y armonía facial con resultados inmediatos y naturales. Tratamiento en Clínica Burgos, Alhaurín el Grande.",
     image: "/images/generated/rellenos.jpg?v=3",
     imageAlt: "Tratamiento de ácido hialurónico en Clínica Burgos",
     sections: [
@@ -84,7 +84,7 @@ export const servicePages: ServicePage[] = [
       "Tratamiento de ojeras con ácido hialurónico en Alhaurín el Grande y Málaga. Reduce ojeras y rejuvenece la mirada. Clínica Burgos.",
     keywords:
       "tratamiento ojeras Alhaurín el Grande, tratamiento ojeras Málaga, ácido hialurónico ojeras, eliminar ojeras, rejuvenecimiento mirada",
-    lead: "En Clínica Burgos, Málaga, valoramos el tipo de ojera —vasculada o pigmentada— y el surco, para indicar el tratamiento más adecuado a cada caso.",
+    lead: "En Clínica Burgos, en Alhaurín el Grande, valoramos el tipo de ojera —vasculada o pigmentada— y el surco, para indicar el tratamiento más adecuado a cada caso.",
     image: "/images/generated/estetica-mirada-card.jpg?v=1",
     imageAlt: "Tratamiento de ojeras en Clínica Burgos",
     sections: [
@@ -113,7 +113,7 @@ export const servicePages: ServicePage[] = [
       "Armonización facial en Alhaurín el Grande y Málaga: perfilado, pómulos, mentón y mandíbula con enfoque natural. Clínica Burgos.",
     keywords:
       "armonización facial Alhaurín el Grande, armonización facial Málaga, perfilado facial, remodelación facial, medicina estética facial",
-    lead: "La armonización facial en Málaga equilibra proporciones de pómulos, mentón, mandíbula y labios para un resultado coherente y natural.",
+    lead: "La armonización facial equilibra proporciones de pómulos, mentón, mandíbula y labios para un resultado coherente y natural.",
     image: "/images/generated/estetica-persona.jpg",
     imageAlt: "Armonización facial en Clínica Burgos",
     sections: [
@@ -142,7 +142,7 @@ export const servicePages: ServicePage[] = [
       "Rejuvenecimiento facial sin cirugía en Alhaurín el Grande y Málaga: arrugas, calidad de piel, luminosidad y firmeza. Clínica Burgos.",
     keywords:
       "rejuvenecimiento facial Alhaurín el Grande, rejuvenecimiento facial Málaga, rejuvenecimiento facial sin cirugía, tratamiento antiedad, medicina antienvejecimiento",
-    lead: "En nuestra clínica de medicina estética en Málaga combinamos tratamientos para rejuvenecer el rostro de forma natural: expresión, volumen y calidad de la piel.",
+    lead: "Combinamos tratamientos médicos para rejuvenecer el rostro de forma natural: expresión, volumen y calidad de la piel.",
     image: "/images/generated/estetica-hero.jpg?v=7",
     imageAlt: "Rejuvenecimiento facial en Clínica Burgos",
     sections: [
@@ -200,7 +200,7 @@ export const servicePages: ServicePage[] = [
       "Mesoterapia facial y vitaminas faciales en Alhaurín el Grande y Málaga. Hidratación profunda, luminosidad y revitalización. Clínica Burgos.",
     keywords:
       "mesoterapia facial Málaga, vitaminas faciales, hidratación facial profunda, revitalización facial, mesoterapia facial Alhaurín",
-    lead: "La mesoterapia facial en Málaga hidrata en profundidad y revitaliza la piel con vitaminas, aminoácidos y ácido hialurónico.",
+    lead: "La mesoterapia facial hidrata en profundidad y revitaliza la piel con vitaminas, aminoácidos y ácido hialurónico.",
     image: "/images/generated/mesoterapia.jpg?v=2",
     imageAlt: "Mesoterapia facial en Clínica Burgos",
     sections: [
@@ -229,7 +229,7 @@ export const servicePages: ServicePage[] = [
       "Tratamiento de arrugas, patas de gallo, entrecejo y frente en Alhaurín el Grande y Málaga. Neuromoduladores y rejuvenecimiento sin cirugía. Clínica Burgos.",
     keywords:
       "tratamiento arrugas Alhaurín el Grande, tratamiento arrugas Málaga, patas de gallo, entrecejo, líneas de expresión, neuromoduladores",
-    lead: "En Clínica Burgos, Málaga, suavizamos arrugas de expresión en frente, entrecejo y patas de gallo manteniendo un gesto natural y descansado.",
+    lead: "Suavizamos arrugas de expresión en frente, entrecejo y patas de gallo manteniendo un gesto natural y descansado.",
     image: "/images/generated/toxina.jpg",
     imageAlt: "Tratamiento de arrugas con neuromoduladores",
     sections: [
