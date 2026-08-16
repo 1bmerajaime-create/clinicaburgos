@@ -34,7 +34,7 @@ export function Doctora() {
             />
           </div>
           <div className="panel-copy">
-            <p className="eyebrow">La doctora</p>
+            <p className="eyebrow">Quiénes somos</p>
             <h2 className="display h2">
               Un criterio médico para tu mirada y tu rostro
             </h2>

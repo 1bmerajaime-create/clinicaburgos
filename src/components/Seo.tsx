@@ -94,10 +94,10 @@ function buildLocalBusinessJsonLd() {
     medicalSpecialty: ["Ophthalmology", "PlasticSurgery"],
     founder: {
       "@type": "Physician",
-      "@id": `${SITE_URL}/la-doctora#physician`,
+      "@id": `${SITE_URL}/quienes-somos#physician`,
       name: "Teresa García Burgos",
       honorificPrefix: "Dra.",
-      url: `${SITE_URL}/la-doctora`,
+      url: `${SITE_URL}/quienes-somos`,
     },
     priceRange: "€€",
     sameAs: [],
@@ -149,11 +149,11 @@ export function Seo() {
     }
     const physician = {
       "@type": "Physician",
-      "@id": `${SITE_URL}/la-doctora#physician`,
+      "@id": `${SITE_URL}/quienes-somos#physician`,
       name: "Teresa García Burgos",
       honorificPrefix: "Dra.",
       jobTitle: "Oftalmóloga y médica estética",
-      url: `${SITE_URL}/la-doctora`,
+      url: `${SITE_URL}/quienes-somos`,
       worksFor: { "@id": `${SITE_URL}/#clinic` },
       medicalSpecialty: ["Ophthalmology"],
       address: {

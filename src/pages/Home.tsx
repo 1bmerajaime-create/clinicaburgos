@@ -156,7 +156,7 @@ export function Home() {
             <p className="body">
               En Clínica Burgos unimos oftalmología y medicina estética en el
               corazón de Alhaurín el Grande. La consulta está dirigida por la{" "}
-              <Link className="inline-link" to="/la-doctora">
+              <Link className="inline-link" to="/quienes-somos">
                 Dra. Teresa García Burgos
               </Link>
               . Si buscas una clínica oftalmológica cercana o tratamientos de

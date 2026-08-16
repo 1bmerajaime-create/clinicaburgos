@@ -31,9 +31,9 @@ export function Header() {
           <Logo />
 
           <nav className="nav-links" aria-label="Principal">
+            <NavLink to="/quienes-somos">Quiénes somos</NavLink>
             <NavLink to="/oftalmologia">Oftalmología</NavLink>
             <NavLink to="/medicina-estetica">Medicina Estética</NavLink>
-            <NavLink to="/la-doctora">La doctora</NavLink>
             <NavLink to="/contacto">Contacto</NavLink>
             <CitaButton className="btn btn-primary btn-sm">Pedir cita</CitaButton>
           </nav>
@@ -51,14 +51,14 @@ export function Header() {
       </header>
 
       <div className={`mobile-panel ${open ? "open" : ""}`}>
+        <NavLink to="/quienes-somos" onClick={close}>
+          Quiénes somos
+        </NavLink>
         <NavLink to="/oftalmologia" onClick={close}>
           Oftalmología
         </NavLink>
         <NavLink to="/medicina-estetica" onClick={close}>
           Medicina Estética
-        </NavLink>
-        <NavLink to="/la-doctora" onClick={close}>
-          La doctora
         </NavLink>
         <NavLink to="/contacto" onClick={close}>
           Contacto

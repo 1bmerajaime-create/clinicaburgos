@@ -23,10 +23,11 @@ export default function App() {
           />
           <Route path="medicina-estetica" element={<Estetica />} />
           <Route path="estetica" element={<Navigate to="/medicina-estetica" replace />} />
-          <Route path="la-doctora" element={<Doctora />} />
+          <Route path="quienes-somos" element={<Doctora />} />
+          <Route path="la-doctora" element={<Navigate to="/quienes-somos" replace />} />
           <Route
             path="dra-teresa-garcia-burgos"
-            element={<Navigate to="/la-doctora" replace />}
+            element={<Navigate to="/quienes-somos" replace />}
           />
           <Route path="contacto" element={<Contacto />} />
           {servicePages.map((page) => (
