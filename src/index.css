@@ -1539,8 +1539,6 @@ main > section[id] {
 
 .doctor-quote {
   margin: 0 0 1.15rem;
-  padding-left: 0.9rem;
-  border-left: 1px solid var(--bronze-soft);
   color: var(--ink-soft);
   font-size: 0.95rem;
   line-height: 1.55;
