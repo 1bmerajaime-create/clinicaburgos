@@ -93,7 +93,7 @@ ul {
 
 .container,
 .shell {
-  width: min(1180px, calc(100% - 2.5rem));
+  width: min(1040px, calc(100% - 1.75rem));
   margin-inline: auto;
 }
 
@@ -1526,12 +1526,6 @@ main > section[id] {
 .contact-page {
   padding-top: clamp(2.5rem, 5vw, 3.5rem);
   padding-bottom: clamp(3rem, 6vw, 4.5rem);
-}
-
-.contact-page .shell,
-.doctor-page .shell,
-.oft-page .shell {
-  width: min(1040px, calc(100% - 1.75rem));
 }
 
 .doctor-page .doctor-intro .panel-copy .body {
