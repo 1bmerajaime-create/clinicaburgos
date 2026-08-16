@@ -39,8 +39,8 @@ export function Estetica() {
         <div className="shell split-xl">
           <div className="panel-media panel-media-sm">
             <img
-              src="/images/generated/estetica-persona.jpg"
-              alt="Rejuvenecimiento facial natural en Clínica Burgos"
+              src="/images/est-tratamiento.jpg"
+              alt="Tratamiento de medicina estética periocular en Clínica Burgos, Alhaurín el Grande, Málaga"
               loading="lazy"
               decoding="async"
             />
