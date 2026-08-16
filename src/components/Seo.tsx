@@ -152,7 +152,7 @@ export function Seo() {
       "@id": `${SITE_URL}/quienes-somos#physician`,
       name: "Teresa García Burgos",
       honorificPrefix: "Dra.",
-      jobTitle: "Oftalmóloga y médica estética",
+      jobTitle: "Especialista en Oftalmología y Medicina Estética",
       url: `${SITE_URL}/quienes-somos`,
       worksFor: { "@id": `${SITE_URL}/#clinic` },
       medicalSpecialty: ["Ophthalmology"],

@@ -38,9 +38,9 @@ export const seoByPath: Record<string, SeoConfig> = {
     path: "/quienes-somos",
     title: "Quiénes somos | Dra. Teresa García Burgos — Clínica Burgos",
     description:
-      "Dra. Teresa García Burgos, oftalmóloga y médica estética. Recorrido en el Hospital Clínico de Málaga y el Hospital Quirón Málaga. Clínica Burgos, Alhaurín el Grande, Málaga.",
+      "Dra. Teresa García Burgos, especialista en Oftalmología formada en el Hospital Clínico Universitario Virgen de la Victoria. Oftalmóloga en Quirónsalud Málaga y fundadora de Clínica Burgos, en Alhaurín el Grande, Málaga.",
     keywords:
-      "Dra. Teresa García Burgos, oftalmóloga Alhaurín el Grande, médica estética Alhaurín el Grande, Hospital Clínico Málaga, Hospital Quirón Málaga, Clínica Burgos",
+      "Dra. Teresa García Burgos, oftalmóloga Alhaurín el Grande, Hospital Clínico Virgen de la Victoria, Hospital Quirónsalud Málaga, Clínica Burgos, medicina estética periocular",
   },
   "/contacto": {
     path: "/contacto",

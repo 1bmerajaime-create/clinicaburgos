@@ -17,8 +17,8 @@ export function Doctora() {
         <div className="page-hero-content">
           <h1 className="display">Dra. Teresa García Burgos</h1>
           <p>
-            Oftalmóloga y especialista en medicina estética. Dirige Clínica
-            Burgos en Alhaurín el Grande, Málaga.
+            Especialista en Oftalmología y fundadora de Clínica Burgos, en
+            Alhaurín el Grande, Málaga.
           </p>
         </div>
       </section>
@@ -39,15 +39,25 @@ export function Doctora() {
               Un criterio médico para tu mirada y tu rostro
             </h2>
             <p className="body">
-              La Dra. Teresa García Burgos es oftalmóloga y médica estética. En
-              Clínica Burgos, en Alhaurín el Grande, Málaga, une el rigor del
-              diagnóstico ocular con un enfoque sereno del rostro y de la
-              mirada.
+              La Dra. Teresa García Burgos es especialista en Oftalmología,
+              formada en el Hospital Clínico Universitario Virgen de la
+              Victoria de Málaga, con especial interés en cirugía y patología
+              periocular.
             </p>
             <p className="body">
-              Atiende cada caso de forma personalizada: desde la revisión
-              oftalmológica hasta los tratamientos de medicina estética y la
-              estética de la mirada, con el mismo criterio clínico.
+              Actualmente ejerce como oftalmóloga en el Hospital Quirónsalud
+              Málaga y compagina su actividad hospitalaria con la Medicina
+              Estética y el cuidado de la mirada.
+            </p>
+            <p className="body">
+              Es fundadora de Clínica Burgos, en Alhaurín el Grande, Málaga, un
+              espacio que integra Oftalmología y Medicina Estética con especial
+              atención a la salud ocular y la estética periocular.
+            </p>
+            <p className="body">
+              Su filosofía combina una medicina rigurosa y personalizada,
+              buscando resultados naturales y priorizando siempre la seguridad
+              y el bienestar de cada paciente.
             </p>
             <CitaButton className="btn btn-outline btn-sm">Pedir cita</CitaButton>
           </div>
@@ -62,28 +72,27 @@ export function Doctora() {
               <h2 className="display h2">Experiencia hospitalaria en Málaga</h2>
             </div>
             <p className="body services-head-lead">
-              Su trayectoria se ha formado en dos centros de referencia de la
-              ciudad, que sostienen su práctica actual en Alhaurín el Grande,
-              Málaga.
+              Formación y práctica actual en dos centros de referencia de
+              Málaga, junto a su consulta en Alhaurín el Grande.
             </p>
           </div>
           <div className="split doctor-track">
             <div>
-              <p className="eyebrow">Hospital público</p>
-              <h3 className="display h2">Hospital Clínico de Málaga</h3>
+              <p className="eyebrow">Formación</p>
+              <h3 className="display h2">
+                Hospital Clínico Universitario Virgen de la Victoria
+              </h3>
               <p className="body">
-                Ha desarrollado parte de su recorrido en el Hospital Clínico de
-                Málaga, un entorno hospitalario que refuerza su base en
-                oftalmología y el diagnóstico visual.
+                Especialista en Oftalmología formada en Málaga, con especial
+                interés en cirugía y patología periocular.
               </p>
             </div>
             <div>
-              <p className="eyebrow">Hospital privado</p>
-              <h3 className="display h2">Hospital Quirón Málaga</h3>
+              <p className="eyebrow">Actividad hospitalaria</p>
+              <h3 className="display h2">Hospital Quirónsalud Málaga</h3>
               <p className="body">
-                También ha ejercido en el Hospital Quirón Málaga, donde ha
-                ampliado su práctica clínica en un entorno privado, con la
-                misma exigencia de trato y de criterio médico.
+                Ejerce como oftalmóloga y compagina la actividad hospitalaria
+                con la Medicina Estética y el cuidado de la mirada.
               </p>
             </div>
           </div>
