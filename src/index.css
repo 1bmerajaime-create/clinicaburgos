@@ -1562,6 +1562,34 @@ main > section[id] {
   object-fit: cover;
 }
 
+.oft-pair-wrap {
+  padding-top: 0;
+}
+
+.oft-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.7rem;
+}
+
+.oft-pair figure {
+  margin: 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--cream);
+  aspect-ratio: 4 / 5;
+}
+
+.oft-pair img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.oft-mirada-intro {
+  margin-bottom: 2rem;
+}
+
 .contact-title {
   font-size: clamp(2.4rem, 5vw, 3.4rem);
   color: var(--bronze-deep);
@@ -1957,7 +1985,8 @@ main > section[id] {
   .treatments-grid,
   .treatments-row,
   .intro-thumbs,
-  .footer-bar {
+  .footer-bar,
+  .oft-pair {
     grid-template-columns: 1fr;
   }
 
