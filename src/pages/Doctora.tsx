@@ -5,10 +5,10 @@ export function Doctora() {
   return (
     <main className="page doctor-page">
       <section className="page-hero page-hero-sm">
-        <div className="page-hero-media">
+        <div className="page-hero-media doctor-hero-media">
           <img
-            src="/images/espacio.jpg"
-            alt="Consulta de la Dra. Teresa García Burgos en Clínica Burgos, Alhaurín el Grande, Málaga"
+            src="/images/dra-hero.jpg"
+            alt="Dra. Teresa García Burgos realizando una exploración oftalmológica en Clínica Burgos, Alhaurín el Grande, Málaga"
             fetchPriority="high"
             decoding="async"
           />
