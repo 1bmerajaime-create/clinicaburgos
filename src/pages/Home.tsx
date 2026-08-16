@@ -1,5 +1,6 @@
 import { motion, useReducedMotion, useScroll, useTransform } from "framer-motion";
 import { useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 import { ServiceCarousel } from "../components/ServiceCarousel";
 import { CitaButton } from "../components/CitaContext";
 
@@ -154,9 +155,13 @@ export function Home() {
             </h2>
             <p className="body">
               En Clínica Burgos unimos oftalmología y medicina estética en el
-              corazón de Alhaurín el Grande. Si buscas una clínica
-              oftalmológica cercana o tratamientos de medicina estética facial
-              con resultado natural, estás en el lugar adecuado.
+              corazón de Alhaurín el Grande. La consulta está dirigida por la{" "}
+              <Link className="inline-link" to="/la-doctora">
+                Dra. Teresa García Burgos
+              </Link>
+              . Si buscas una clínica oftalmológica cercana o tratamientos de
+              medicina estética facial con resultado natural, estás en el lugar
+              adecuado.
             </p>
             <p className="body">
               Atendemos pacientes del Valle del Guadalhorce, Coín, Cártama,

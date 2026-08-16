@@ -92,6 +92,13 @@ function buildLocalBusinessJsonLd() {
       { "@type": "AdministrativeArea", name: "Costa del Sol" },
     ],
     medicalSpecialty: ["Ophthalmology", "PlasticSurgery"],
+    founder: {
+      "@type": "Physician",
+      "@id": `${SITE_URL}/la-doctora#physician`,
+      name: "Teresa García Burgos",
+      honorificPrefix: "Dra.",
+      url: `${SITE_URL}/la-doctora`,
+    },
     priceRange: "€€",
     sameAs: [],
     contactPoint: {
@@ -140,7 +147,28 @@ export function Seo() {
       script.type = "application/ld+json";
       document.head.appendChild(script);
     }
-    script.textContent = JSON.stringify(buildLocalBusinessJsonLd());
+    const physician = {
+      "@type": "Physician",
+      "@id": `${SITE_URL}/la-doctora#physician`,
+      name: "Teresa García Burgos",
+      honorificPrefix: "Dra.",
+      jobTitle: "Oftalmóloga y médica estética",
+      url: `${SITE_URL}/la-doctora`,
+      worksFor: { "@id": `${SITE_URL}/#clinic` },
+      medicalSpecialty: ["Ophthalmology"],
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: ADDRESS.street,
+        addressLocality: ADDRESS.city,
+        postalCode: ADDRESS.zip,
+        addressRegion: ADDRESS.region,
+        addressCountry: "ES",
+      },
+    };
+    script.textContent = JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": [buildLocalBusinessJsonLd(), physician],
+    });
   }, [pathname]);
 
   return null;

@@ -34,6 +34,14 @@ export const seoByPath: Record<string, SeoConfig> = {
     keywords:
       "medicina estética Alhaurín el Grande, clínica estética Alhaurín el Grande, medicina estética Málaga, ácido hialurónico Alhaurín el Grande, rejuvenecimiento facial Alhaurín el Grande",
   },
+  "/la-doctora": {
+    path: "/la-doctora",
+    title: "Dra. Teresa García Burgos | Clínica Burgos Alhaurín el Grande",
+    description:
+      "Dra. Teresa García Burgos, oftalmóloga y médica estética. Recorrido en el Hospital Clínico de Málaga y el Hospital Quirón Málaga. Clínica Burgos, Alhaurín el Grande.",
+    keywords:
+      "Dra. Teresa García Burgos, oftalmóloga Alhaurín el Grande, médica estética Alhaurín el Grande, Hospital Clínico Málaga, Hospital Quirón Málaga, Clínica Burgos",
+  },
   "/contacto": {
     path: "/contacto",
     title: "Contacto | Clínica Burgos Alhaurín el Grande",

@@ -137,6 +137,11 @@ ul {
   background: var(--cream);
 }
 
+.doctor-track .h2 {
+  font-size: clamp(1.25rem, 2.2vw, 1.55rem);
+  margin-bottom: 0.7rem;
+}
+
 .section-head.center,
 .section-title.center,
 .center-cta {
@@ -220,6 +225,15 @@ ul {
   background: rgba(255, 255, 255, 0.12);
 }
 
+.inline-link {
+  color: var(--bronze);
+  border-bottom: 1px solid rgba(91, 76, 58, 0.35);
+}
+
+.inline-link:hover {
+  color: var(--bronze-deep);
+}
+
 .text-link {
   display: inline-block;
   margin-top: 0.55rem;
@@ -275,7 +289,7 @@ ul {
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 1.15rem;
+  gap: 1rem;
 }
 
 .nav-links a:not(.btn),

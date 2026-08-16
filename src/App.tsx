@@ -3,6 +3,7 @@ import { Layout } from "./components/Layout";
 import { Home } from "./pages/Home";
 import { Oftalmologia } from "./pages/Oftalmologia";
 import { Estetica } from "./pages/Estetica";
+import { Doctora } from "./pages/Doctora";
 import { Contacto } from "./pages/Contacto";
 import { ServicePageView } from "./pages/ServicePage";
 import { LegalPageView } from "./pages/LegalPage";
@@ -22,6 +23,11 @@ export default function App() {
           />
           <Route path="medicina-estetica" element={<Estetica />} />
           <Route path="estetica" element={<Navigate to="/medicina-estetica" replace />} />
+          <Route path="la-doctora" element={<Doctora />} />
+          <Route
+            path="dra-teresa-garcia-burgos"
+            element={<Navigate to="/la-doctora" replace />}
+          />
           <Route path="contacto" element={<Contacto />} />
           {servicePages.map((page) => (
             <Route
