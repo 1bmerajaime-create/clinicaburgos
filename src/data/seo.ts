@@ -38,7 +38,7 @@ export const seoByPath: Record<string, SeoConfig> = {
     path: "/quienes-somos",
     title: "Quiénes somos | Dra. Teresa García Burgos — Clínica Burgos",
     description:
-      "Dra. Teresa García Burgos, oftalmóloga y médica estética. Recorrido en el Hospital Clínico de Málaga y el Hospital Quirón Málaga. Clínica Burgos, Alhaurín el Grande.",
+      "Dra. Teresa García Burgos, oftalmóloga y médica estética. Recorrido en el Hospital Clínico de Málaga y el Hospital Quirón Málaga. Clínica Burgos, Alhaurín el Grande, Málaga.",
     keywords:
       "Dra. Teresa García Burgos, oftalmóloga Alhaurín el Grande, médica estética Alhaurín el Grande, Hospital Clínico Málaga, Hospital Quirón Málaga, Clínica Burgos",
   },

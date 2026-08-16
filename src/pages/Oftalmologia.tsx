@@ -12,7 +12,7 @@ export function Oftalmologia() {
         <div className="page-hero-media">
           <img
             src="/images/generated/oftalmo-hero.jpg?v=6"
-            alt="Oftalmología en Clínica Burgos, Alhaurín el Grande"
+            alt="Oftalmología en Clínica Burgos, Alhaurín el Grande, Málaga"
             fetchPriority="high"
             decoding="async"
           />
@@ -32,7 +32,7 @@ export function Oftalmologia() {
           <div className="panel-media panel-media-sm">
             <img
               src="/images/espacio.jpg"
-              alt="Consulta de oftalmología en Clínica Burgos, Alhaurín el Grande"
+              alt="Consulta de oftalmología en Clínica Burgos, Alhaurín el Grande, Málaga"
               loading="lazy"
               decoding="async"
             />
@@ -123,7 +123,7 @@ export function Oftalmologia() {
           <figure className="panel-media tall blefaro-shot">
             <img
               src="/images/generated/blefaroplastia.jpg?v=5"
-              alt="Valoración de blefaroplastia en Clínica Burgos, Alhaurín el Grande"
+              alt="Valoración de blefaroplastia en Clínica Burgos, Alhaurín el Grande, Málaga"
               loading="eager"
             />
           </figure>

@@ -20,7 +20,7 @@ export function Estetica() {
         <div className="page-hero-media">
           <img
             src="/images/generated/estetica-hero.jpg?v=7"
-            alt="Medicina estética en Alhaurín el Grande — Clínica Burgos"
+            alt="Medicina estética en Alhaurín el Grande, Málaga — Clínica Burgos"
             fetchPriority="high"
             decoding="async"
           />
@@ -51,9 +51,9 @@ export function Estetica() {
               Tratamientos estéticos con criterio médico
             </h2>
             <p className="body">
-              Un enfoque sereno en Alhaurín el Grande: armonización facial,
-              ácido hialurónico, ojeras, labios y rejuvenecimiento facial sin
-              cirugía, sin perder naturalidad.
+              Un enfoque sereno en Alhaurín el Grande, Málaga: armonización
+              facial, ácido hialurónico, ojeras, labios y rejuvenecimiento
+              facial sin cirugía, sin perder naturalidad.
             </p>
             <CitaButton className="btn btn-outline btn-sm">Pedir cita</CitaButton>
           </div>

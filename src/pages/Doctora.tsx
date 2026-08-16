@@ -8,7 +8,7 @@ export function Doctora() {
         <div className="page-hero-media">
           <img
             src="/images/espacio.jpg"
-            alt="Consulta de la Dra. Teresa García Burgos en Clínica Burgos, Alhaurín el Grande"
+            alt="Consulta de la Dra. Teresa García Burgos en Clínica Burgos, Alhaurín el Grande, Málaga"
             fetchPriority="high"
             decoding="async"
           />
@@ -18,7 +18,7 @@ export function Doctora() {
           <h1 className="display">Dra. Teresa García Burgos</h1>
           <p>
             Oftalmóloga y especialista en medicina estética. Dirige Clínica
-            Burgos en Alhaurín el Grande.
+            Burgos en Alhaurín el Grande, Málaga.
           </p>
         </div>
       </section>
@@ -40,7 +40,7 @@ export function Doctora() {
             </h2>
             <p className="body">
               La Dra. Teresa García Burgos es oftalmóloga y médica estética. En
-              Clínica Burgos, en Alhaurín el Grande, une el rigor del
+              Clínica Burgos, en Alhaurín el Grande, Málaga, une el rigor del
               diagnóstico ocular con un enfoque sereno del rostro y de la
               mirada.
             </p>
@@ -63,7 +63,8 @@ export function Doctora() {
             </div>
             <p className="body services-head-lead">
               Su trayectoria se ha formado en dos centros de referencia de la
-              ciudad, que sostienen su práctica actual en Alhaurín el Grande.
+              ciudad, que sostienen su práctica actual en Alhaurín el Grande,
+              Málaga.
             </p>
           </div>
           <div className="split doctor-track">

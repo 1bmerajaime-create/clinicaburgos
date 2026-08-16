@@ -26,7 +26,7 @@ export const servicePages: ServicePage[] = [
       "Tratamiento con ácido hialurónico en Alhaurín el Grande y Málaga: rellenos faciales, labios, pómulos, ojeras y surcos. Resultados naturales. Clínica Burgos.",
     keywords:
       "ácido hialurónico Alhaurín el Grande, ácido hialurónico Málaga, relleno ácido hialurónico, rellenos faciales, clínica ácido hialurónico Málaga",
-    lead: "El ácido hialurónico restaura volumen y armonía facial con resultados inmediatos y naturales. Tratamiento en Clínica Burgos, Alhaurín el Grande.",
+    lead: "El ácido hialurónico restaura volumen y armonía facial con resultados inmediatos y naturales. Tratamiento en Clínica Burgos, Alhaurín el Grande, Málaga.",
     image: "/images/generated/rellenos.jpg?v=3",
     imageAlt: "Tratamiento de ácido hialurónico en Clínica Burgos",
     sections: [
@@ -40,7 +40,7 @@ export const servicePages: ServicePage[] = [
       },
       {
         heading: "Clínica en Alhaurín el Grande",
-        body: "Si buscas dónde hacerse ácido hialurónico en Málaga o cerca de Alhaurín el Grande, Coín o Cártama, reserva tu valoración en Clínica Burgos.",
+        body: "Si buscas dónde hacerse ácido hialurónico cerca de Alhaurín el Grande, Málaga, Coín o Cártama, reserva tu valoración en Clínica Burgos.",
       },
     ],
   },
@@ -69,7 +69,7 @@ export const servicePages: ServicePage[] = [
       },
       {
         heading: "Cita cerca de ti",
-        body: "Tratamiento de labios en Alhaurín el Grande para pacientes de Málaga, Valle del Guadalhorce y Costa del Sol.",
+        body: "Tratamiento de labios en Alhaurín el Grande, Málaga, para pacientes del Valle del Guadalhorce y Costa del Sol.",
       },
     ],
   },
@@ -84,7 +84,7 @@ export const servicePages: ServicePage[] = [
       "Tratamiento de ojeras con ácido hialurónico en Alhaurín el Grande y Málaga. Reduce ojeras y rejuvenece la mirada. Clínica Burgos.",
     keywords:
       "tratamiento ojeras Alhaurín el Grande, tratamiento ojeras Málaga, ácido hialurónico ojeras, eliminar ojeras, rejuvenecimiento mirada",
-    lead: "En Clínica Burgos, en Alhaurín el Grande, valoramos el tipo de ojera —vasculada o pigmentada— y el surco, para indicar el tratamiento más adecuado a cada caso.",
+    lead: "En Clínica Burgos, en Alhaurín el Grande, Málaga, valoramos el tipo de ojera —vasculada o pigmentada— y el surco, para indicar el tratamiento más adecuado a cada caso.",
     image: "/images/generated/estetica-mirada-card.jpg?v=1",
     imageAlt: "Tratamiento de ojeras en Clínica Burgos",
     sections: [
@@ -98,7 +98,7 @@ export const servicePages: ServicePage[] = [
       },
       {
         heading: "Medicina estética local",
-        body: "Tratamiento de ojeras en Alhaurín el Grande, con fácil acceso desde Coín, Cártama, Alhaurín de la Torre y Mijas.",
+        body: "Tratamiento de ojeras en Alhaurín el Grande, Málaga, con fácil acceso desde Coín, Cártama, Alhaurín de la Torre y Mijas.",
       },
     ],
   },
@@ -127,7 +127,7 @@ export const servicePages: ServicePage[] = [
       },
       {
         heading: "Clínica estética Alhaurín",
-        body: "Armonización facial en Clínica Burgos, Alhaurín el Grande, para pacientes de Málaga y el Valle del Guadalhorce.",
+        body: "Armonización facial en Clínica Burgos, Alhaurín el Grande, Málaga, para pacientes del Valle del Guadalhorce.",
       },
     ],
   },
@@ -185,7 +185,7 @@ export const servicePages: ServicePage[] = [
       },
       {
         heading: "Medicina estética en Alhaurín",
-        body: "Bioestimulación facial en Clínica Burgos, con atención a pacientes de Alhaurín el Grande, Coín, Cártama y Málaga.",
+        body: "Bioestimulación facial en Clínica Burgos, con atención a pacientes de Alhaurín el Grande, Málaga, Coín y Cártama.",
       },
     ],
   },
@@ -214,7 +214,7 @@ export const servicePages: ServicePage[] = [
       },
       {
         heading: "Cita en Alhaurín el Grande",
-        body: "Mesoterapia facial en Clínica Burgos para quienes buscan tratamientos estéticos cercanos en el Valle del Guadalhorce.",
+        body: "Mesoterapia facial en Clínica Burgos, Alhaurín el Grande, Málaga, para quienes buscan tratamientos estéticos cercanos en el Valle del Guadalhorce.",
       },
     ],
   },
@@ -243,7 +243,7 @@ export const servicePages: ServicePage[] = [
       },
       {
         heading: "Médico estético cerca de ti",
-        body: "Tratamiento de arrugas en Alhaurín el Grande, con pacientes de Málaga, Mijas, Fuengirola y el Valle del Guadalhorce.",
+        body: "Tratamiento de arrugas en Alhaurín el Grande, Málaga, con pacientes de Mijas, Fuengirola y el Valle del Guadalhorce.",
       },
     ],
   },

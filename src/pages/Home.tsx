@@ -8,13 +8,13 @@ const services = [
   {
     to: "/oftalmologia",
     title: "Oftalmología",
-    text: "Oftalmólogo en Alhaurín el Grande: revisión, diagnóstico y tratamientos de salud visual.",
+    text: "Oftalmólogo en Alhaurín el Grande, Málaga: revisión, diagnóstico y tratamientos de salud visual.",
     image: "/images/generated/oftalmo-hero.jpg?v=6",
   },
   {
     to: "/medicina-estetica",
     title: "Medicina Estética",
-    text: "Clínica estética en Alhaurín el Grande: tratamientos faciales con resultado natural.",
+    text: "Clínica estética en Alhaurín el Grande, Málaga: tratamientos faciales con resultado natural.",
     image: "/images/generated/estetica-card.jpg?v=1",
   },
   {
@@ -155,7 +155,8 @@ export function Home() {
             </h2>
             <p className="body">
               En Clínica Burgos unimos oftalmología y medicina estética en el
-              corazón de Alhaurín el Grande. La consulta está dirigida por la{" "}
+              corazón de Alhaurín el Grande, Málaga. La consulta está dirigida
+              por la{" "}
               <Link className="inline-link" to="/quienes-somos">
                 Dra. Teresa García Burgos
               </Link>
@@ -212,7 +213,7 @@ export function Home() {
           >
             <img
               src="/images/generated/blefaroplastia.jpg?v=5"
-              alt="Valoración de blefaroplastia en Clínica Burgos, Alhaurín el Grande"
+              alt="Valoración de blefaroplastia en Clínica Burgos, Alhaurín el Grande, Málaga"
               loading="lazy"
               decoding="async"
             />
