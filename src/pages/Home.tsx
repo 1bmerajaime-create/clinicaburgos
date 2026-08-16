@@ -189,11 +189,12 @@ export function Home() {
             viewport={{ once: true }}
           >
             <p className="eyebrow">Estética de la mirada</p>
-            <h2 className="display h2">Blefaroplastia</h2>
+            <h2 className="display h2">
+              Rejuvenece tu mirada: Blefaroplastia
+            </h2>
             <p className="body">
-              Cirugía de párpados para rejuvenecer la mirada. En Clínica
-              Burgos corregimos el exceso de piel y las bolsas, recuperando
-              una expresión más descansada, abierta y natural.
+              En Clínica Burgos corregimos el exceso de piel y las bolsas,
+              recuperando una expresión más descansada, abierta y natural.
             </p>
             <ul className="blefaro-list">
               <li>Párpado superior e inferior</li>
