@@ -49,27 +49,6 @@ export function Oftalmologia() {
         </div>
       </section>
 
-      <section className="section section-compact oft-pair-wrap">
-        <div className="shell oft-pair">
-          <figure>
-            <img
-              src="/images/dra-consulta.jpg"
-              alt="Dra. Teresa García Burgos revisando un informe en consulta"
-              loading="lazy"
-              decoding="async"
-            />
-          </figure>
-          <figure>
-            <img
-              src="/images/espacio.jpg"
-              alt="Consulta de oftalmología en Clínica Burgos, Alhaurín el Grande, Málaga"
-              loading="lazy"
-              decoding="async"
-            />
-          </figure>
-        </div>
-      </section>
-
       <section className="section" id="especialidades">
         <div className="shell">
           <div className="services-head-row">
@@ -143,10 +122,9 @@ export function Oftalmologia() {
           </div>
           <figure className="panel-media tall blefaro-shot">
             <img
-              src="/images/dra-cirugia.jpg"
-              alt="Cirugía periocular y blefaroplastia en Clínica Burgos, Alhaurín el Grande, Málaga"
-              loading="lazy"
-              decoding="async"
+              src="/images/generated/blefaroplastia.jpg?v=5"
+              alt="Valoración de blefaroplastia en Clínica Burgos, Alhaurín el Grande, Málaga"
+              loading="eager"
             />
           </figure>
         </div>
@@ -154,24 +132,16 @@ export function Oftalmologia() {
 
       <section className="section" id="mirada">
         <div className="shell">
-          <div className="split-xl oft-mirada-intro">
-            <div className="panel-media tall">
-              <img
-                src="/images/dra-estetica.jpg"
-                alt="Cuidado de la mirada y medicina estética periocular en Clínica Burgos"
-                loading="lazy"
-                decoding="async"
-              />
-            </div>
-            <div className="panel-copy">
+          <div className="services-head-row">
+            <div>
               <p className="eyebrow">Contorno ocular</p>
               <h2 className="display h2">Estética de la Mirada</h2>
-              <p className="body">
-                La mirada define tu rostro. Devolvemos frescura, corregimos lo
-                que molesta y realzamos lo que ya está. Pulsa cada opción para
-                más detalle.
-              </p>
             </div>
+            <p className="body services-head-lead">
+              La mirada define tu rostro. Devolvemos frescura, corregimos lo que
+              molesta y realzamos lo que ya está. Pulsa cada opción para más
+              detalle.
+            </p>
           </div>
 
           <div className="treatments-expand">

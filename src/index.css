@@ -1584,10 +1584,6 @@ main > section[id] {
   object-fit: cover;
 }
 
-.oft-mirada-intro {
-  margin-bottom: 2rem;
-}
-
 .contact-title {
   font-size: clamp(2.4rem, 5vw, 3.4rem);
   color: var(--bronze-deep);
