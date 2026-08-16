@@ -185,9 +185,9 @@ export function Home() {
             <p className="eyebrow">Estética de la mirada</p>
             <h2 className="display h2">Blefaroplastia</h2>
             <p className="body">
-              Cirugía de párpados para rejuvenecer la mirada. En Alhaurín el
-              Grande corregimos el exceso de piel y las bolsas, recuperando
-              una expresión más descansada y natural.
+              Cirugía de párpados para rejuvenecer la mirada. En Clínica
+              Burgos corregimos el exceso de piel y las bolsas, recuperando
+              una expresión más descansada, abierta y natural.
             </p>
             <ul className="blefaro-list">
               <li>Párpado superior e inferior</li>

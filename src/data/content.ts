@@ -117,7 +117,7 @@ export const miradaTreatments: TreatmentItem[] = [
     title: "Blefaroplastia",
     subtitle: "Cirugía de párpados",
     image: "/images/generated/blefaroplastia.jpg",
-    body: "Cirugía de párpados para rejuvenecer la mirada: corrige el exceso de piel y las bolsas, recuperando una expresión más descansada, abierta y natural.",
+    body: "Cirugía de párpados para rejuvenecer la mirada. En Clínica Burgos corregimos el exceso de piel y las bolsas, recuperando una expresión más descansada, abierta y natural.",
   },
   {
     title: "Lagrimeo",
