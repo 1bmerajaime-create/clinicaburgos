@@ -58,6 +58,45 @@ export function Doctora() {
         </div>
       </section>
 
+      <section className="section section-compact doctor-gallery">
+        <div className="shell">
+          <div className="doctor-gallery-grid">
+            <figure>
+              <img
+                src="/images/dra-consulta.jpg"
+                alt="Dra. Teresa García Burgos en consulta, revisando un informe clínico"
+                loading="lazy"
+                decoding="async"
+              />
+            </figure>
+            <figure>
+              <img
+                src="/images/dra-exploracion.jpg"
+                alt="Exploración oftalmológica con lámpara de hendidura"
+                loading="lazy"
+                decoding="async"
+              />
+            </figure>
+            <figure>
+              <img
+                src="/images/dra-cirugia.jpg"
+                alt="Cirugía oculoplástica y periocular"
+                loading="lazy"
+                decoding="async"
+              />
+            </figure>
+            <figure>
+              <img
+                src="/images/dra-estetica.jpg"
+                alt="Tratamiento de medicina estética facial"
+                loading="lazy"
+                decoding="async"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+
       <section className="section section-cream">
         <div className="shell">
           <p className="eyebrow">Especialidades</p>

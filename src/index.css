@@ -1537,6 +1537,30 @@ main > section[id] {
   max-width: none;
 }
 
+.doctor-gallery {
+  padding-top: 0;
+}
+
+.doctor-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.7rem;
+}
+
+.doctor-gallery-grid figure {
+  margin: 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--cream);
+  aspect-ratio: 3 / 4;
+}
+
+.doctor-gallery-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .contact-title {
   font-size: clamp(2.4rem, 5vw, 3.4rem);
   color: var(--bronze-deep);
@@ -1885,6 +1909,10 @@ main > section[id] {
 }
 
 @media (max-width: 900px) {
+  .doctor-gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .blefaro-showcase {
     grid-template-columns: 1fr;
     min-height: 0;
