@@ -25,7 +25,7 @@ export const oftalmologiaTreatments: TreatmentItem[] = [
     subtitle: "Cirugía del cristalino",
     image: "/images/generated/oft-cataratas.jpg",
     href: "/oftalmologia/cataratas",
-    body: "Opacidad del cristalino que genera visión borrosa y deslumbramiento. En Clínica Burgos (Alhaurín el Grande) valoramos el grado de afectación y, cuando procede, orientamos la operación de cataratas para recuperar nitidez y calidad visual.",
+    body: "Opacidad del cristalino que genera visión borrosa y deslumbramiento. En Clínica Burgos, en Alhaurín el Grande (Málaga), valoramos el grado de afectación y, cuando procede, orientamos la operación de cataratas para recuperar nitidez y calidad visual.",
   },
   {
     title: "Presbicia o vista cansada",
@@ -60,7 +60,7 @@ export const oftalmologiaTreatments: TreatmentItem[] = [
     subtitle: "Confort ocular",
     image: "/images/generated/oft-ojoseco.jpg",
     href: "/oftalmologia/ojo-seco",
-    body: "Sequedad, escozor, fatiga o sensación de arenilla. Diagnosticamos la causa (lágrima, párpados, ambiente) y diseñamos un tratamiento personalizado. Especialistas en ojo seco en Alhaurín el Grande.",
+    body: "Sequedad, escozor, fatiga o sensación de arenilla. Diagnosticamos la causa (lágrima, párpados, ambiente) y diseñamos un tratamiento personalizado. Especialistas en ojo seco en Alhaurín el Grande, Málaga.",
   },
   {
     title: "Blefaritis",
@@ -92,7 +92,7 @@ export const oftalmologiaTreatments: TreatmentItem[] = [
     subtitle: "Presión intraocular",
     image: "/images/generated/oft-glaucoma.jpg",
     href: "/oftalmologia/glaucoma",
-    body: "Enfermedad del nervio óptico ligada a menudo a la presión ocular o tensión ocular. El diagnóstico precoz y el seguimiento permiten frenar la pérdida de campo visual. Revisión de glaucoma en Alhaurín el Grande.",
+    body: "Enfermedad del nervio óptico ligada a menudo a la presión ocular o tensión ocular. El diagnóstico precoz y el seguimiento permiten frenar la pérdida de campo visual. Revisión de glaucoma en Alhaurín el Grande, Málaga.",
   },
   {
     title: "Desprendimiento de retina",
@@ -127,7 +127,7 @@ export const miradaTreatments: TreatmentItem[] = [
     title: "Blefaroplastia",
     subtitle: "Cirugía de párpados",
     image: "/images/generated/blefaroplastia.jpg",
-    body: "Cirugía de párpados para rejuvenecer la mirada: corrige el exceso de piel y las bolsas, recuperando una expresión más descansada, abierta y natural.",
+    body: "Blefaroplastia en Málaga: cirugía de párpados para rejuvenecer la mirada. Corregimos el exceso de piel y las bolsas, recuperando una expresión más descansada, abierta y natural.",
   },
   {
     title: "Lagrimeo",
@@ -185,28 +185,28 @@ export const esteticaTreatments: TreatmentItem[] = [
     subtitle: "Arrugas de expresión",
     image: "/images/generated/toxina.jpg",
     href: "/medicina-estetica/tratamiento-arrugas",
-    body: "Suavizan arrugas de expresión en frente, entrecejo y patas de gallo, manteniendo un gesto natural y descansado. Tratamiento de líneas de expresión sin cirugía en Alhaurín el Grande.",
+    body: "Suavizan arrugas de expresión en frente, entrecejo y patas de gallo, manteniendo un gesto natural y descansado. Tratamiento de líneas de expresión sin cirugía en Alhaurín el Grande, Málaga.",
   },
   {
     title: "Rellenos Dérmicos",
     subtitle: "Ácido hialurónico",
     image: "/images/generated/rellenos.jpg?v=3",
     href: "/medicina-estetica/acido-hialuronico",
-    body: "Restaura volumen y armonía facial con ácido hialurónico: labios, ojeras, pómulos, surcos nasogenianos o mentón. Resultados inmediatos, personalizados y naturales en Clínica Burgos.",
+    body: "Restaura volumen y armonía facial con ácido hialurónico: labios, ojeras, pómulos, surcos nasogenianos o mentón. Resultados inmediatos y naturales en Clínica Burgos, Málaga.",
   },
   {
     title: "Mesoterapia",
     subtitle: "Luminosidad e hidratación",
     image: "/images/generated/mesoterapia.jpg?v=2",
     href: "/medicina-estetica/mesoterapia",
-    body: "Microinyecciones de vitaminas, aminoácidos y ácido hialurónico para hidratar en profundidad, mejorar el brillo y revitalizar la calidad de la piel. Mesoterapia facial en Alhaurín el Grande.",
+    body: "Microinyecciones de vitaminas, aminoácidos y ácido hialurónico para hidratar en profundidad, mejorar el brillo y revitalizar la calidad de la piel. Mesoterapia facial en Alhaurín el Grande, Málaga.",
   },
   {
     title: "Inductores de Colágeno",
     subtitle: "Bioestimulación",
     image: "/images/generated/colageno.jpg?v=2",
     href: "/medicina-estetica/bioestimulacion",
-    body: "Bioestimulación facial para estimular la producción natural de colágeno, mejorar firmeza y contorno de forma progresiva. Enfoque regenerativo con efecto sostenido.",
+    body: "Bioestimulación facial para estimular la producción natural de colágeno, mejorar firmeza y contorno de forma progresiva. Enfoque regenerativo en nuestra clínica de medicina estética en Málaga.",
   },
   {
     title: "IPL",

@@ -13,7 +13,7 @@ export function Oftalmologia() {
         <div className="page-hero-media">
           <img
             src="/images/generated/oftalmo-hero.jpg?v=6"
-            alt="Oftalmología en Clínica Burgos Alhaurín el Grande"
+            alt="Clínica oftalmológica en Málaga — Clínica Burgos"
             fetchPriority="high"
             decoding="async"
           />
@@ -22,8 +22,9 @@ export function Oftalmologia() {
         <div className="page-hero-content">
           <h1 className="display">Oftalmología</h1>
           <p>
-            Cuidamos tu salud visual con precisión clínica, tecnología
-            diagnóstica y un acompañamiento cercano en cada etapa.
+            Clínica oftalmológica en Málaga: cuidamos tu salud visual con
+            precisión clínica, tecnología diagnóstica y un acompañamiento
+            cercano en cada etapa.
           </p>
         </div>
       </section>
@@ -33,7 +34,7 @@ export function Oftalmologia() {
           <div className="panel-media panel-media-sm">
             <img
               src="/images/espacio.jpg"
-              alt="Consulta de oftalmología Clínica Burgos"
+              alt="Consulta de oftalmología en Clínica Burgos, Málaga"
               loading="lazy"
               decoding="async"
             />
@@ -41,9 +42,10 @@ export function Oftalmologia() {
           <div className="panel-copy">
             <h2 className="display h2">Primera consulta oftalmológica</h2>
             <p className="body">
-              Valoramos tu caso de forma personalizada: antecedentes, síntomas y
-              necesidades visuales. Te explicamos con claridad el diagnóstico y
-              las opciones de tratamiento.
+              Valoramos tu caso de forma personalizada en Alhaurín el Grande,
+              Málaga: antecedentes, síntomas y necesidades visuales. Te
+              explicamos con claridad el diagnóstico y las opciones de
+              tratamiento.
             </p>
             <CitaButton className="btn btn-primary btn-sm">Pedir cita</CitaButton>
           </div>
@@ -113,9 +115,9 @@ export function Oftalmologia() {
             <p className="eyebrow">Estética de la mirada</p>
             <h2 className="display h2">Blefaroplastia</h2>
             <p className="body">
-              Cirugía de párpados para rejuvenecer la mirada: corrige el exceso
-              de piel y las bolsas, recuperando una expresión más descansada,
-              abierta y natural.
+              Blefaroplastia en Málaga: cirugía de párpados para rejuvenecer la
+              mirada. Corregimos el exceso de piel y las bolsas, recuperando
+              una expresión más descansada, abierta y natural.
             </p>
             <ul className="blefaro-list">
               <li>Párpado superior e inferior</li>
@@ -129,7 +131,7 @@ export function Oftalmologia() {
           <figure className="panel-media tall blefaro-shot">
             <img
               src="/images/generated/blefaroplastia.jpg?v=5"
-              alt="Valoración y marcaje previo de blefaroplastia en Clínica Burgos"
+              alt="Valoración de blefaroplastia en Clínica Burgos, Málaga"
               loading="eager"
             />
           </figure>

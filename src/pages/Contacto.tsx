@@ -11,8 +11,8 @@ export function Contacto() {
         <div className="shell">
           <h1 className="display contact-title">Contacto</h1>
           <p className="body contact-lead">
-            Estamos en Alhaurín el Grande. Escríbenos o visítanos; para reservar
-            una consulta, usa Pedir cita.
+            Estamos en Alhaurín el Grande, Málaga. Escríbenos o visítanos; para
+            reservar una consulta, usa Pedir cita.
           </p>
 
           <div className="split contact-layout">

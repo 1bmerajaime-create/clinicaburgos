@@ -21,12 +21,12 @@ export const servicePages: ServicePage[] = [
     parentLabel: "Oftalmología",
     eyebrow: "Diagnóstico",
     h1: "Revisión oftalmológica en Alhaurín el Grande",
-    title: "Revisión oftalmológica en Alhaurín el Grande | Clínica Burgos",
+    title: "Revisión oftalmológica en Alhaurín el Grande, Málaga | Clínica Burgos",
     description:
-      "Revisión oftalmológica y examen ocular en Clínica Burgos, Alhaurín el Grande. Graduación de la vista, fondo de ojo y control de presión ocular. Pide cita con tu oftalmólogo.",
+      "Revisión oftalmológica en Clínica Burgos, Málaga. Examen ocular en Alhaurín el Grande: graduación de la vista, fondo de ojo y control de presión ocular.",
     keywords:
-      "revisión oftalmológica Alhaurín el Grande, revisión ocular, examen ocular, consulta oftalmólogo, graduación de la vista, presión ocular",
-    lead: "Una revisión oftalmológica completa permite detectar a tiempo problemas de visión, ojo seco, glaucoma, cataratas o alteraciones de retina.",
+      "revisión oftalmológica Málaga, revisión ocular Alhaurín el Grande, examen ocular, consulta oftalmólogo Málaga, graduación de la vista",
+    lead: "Una revisión oftalmológica completa en Alhaurín el Grande, Málaga, permite detectar a tiempo problemas de visión, ojo seco, glaucoma, cataratas o alteraciones de retina.",
     image: "/images/espacio.jpg",
     imageAlt: "Consulta oftalmológica en Clínica Burgos Alhaurín el Grande",
     sections: [
@@ -50,12 +50,12 @@ export const servicePages: ServicePage[] = [
     parentLabel: "Oftalmología",
     eyebrow: "Superficie ocular",
     h1: "Tratamiento de ojo seco en Alhaurín el Grande",
-    title: "Ojo seco en Alhaurín el Grande | Clínica Burgos",
+    title: "Ojo seco en Alhaurín el Grande, Málaga | Clínica Burgos",
     description:
       "Especialista en ojo seco en Alhaurín el Grande y Málaga. Diagnóstico y tratamiento del síndrome de ojo seco: escozor, arenilla y fatiga ocular. Clínica Burgos.",
     keywords:
       "ojo seco Alhaurín el Grande, tratamiento ojo seco, especialista ojo seco Málaga, síndrome ojo seco, ojos secos",
-    lead: "El ojo seco causa escozor, arenilla, visión fluctuante y fatiga. Diagnosticamos la causa y diseñamos un tratamiento personalizado.",
+    lead: "El ojo seco causa escozor, arenilla, visión fluctuante y fatiga. En nuestra clínica oftalmológica de Málaga diagnosticamos la causa y diseñamos un tratamiento personalizado.",
     image: "/images/generated/oft-ojoseco.jpg",
     imageAlt: "Tratamiento de ojo seco en Clínica Burgos",
     sections: [
@@ -79,12 +79,12 @@ export const servicePages: ServicePage[] = [
     parentLabel: "Oftalmología",
     eyebrow: "Cirugía del cristalino",
     h1: "Cataratas en Alhaurín el Grande",
-    title: "Cataratas en Alhaurín el Grande | Clínica Burgos",
+    title: "Cataratas en Alhaurín el Grande, Málaga | Clínica Burgos",
     description:
       "Especialista en cataratas en Alhaurín el Grande y Málaga. Diagnóstico, valoración y orientación sobre operación de cataratas. Oftalmólogo en Clínica Burgos.",
     keywords:
       "cataratas Alhaurín el Grande, especialista cataratas Málaga, operación cataratas, cirugía cataratas, oftalmólogo cataratas",
-    lead: "Las cataratas provocan visión borrosa, deslumbramiento y pérdida progresiva de nitidez. Te acompañamos en el diagnóstico y la decisión quirúrgica.",
+    lead: "Las cataratas provocan visión borrosa, deslumbramiento y pérdida progresiva de nitidez. En Clínica Burgos, Málaga, te acompañamos en el diagnóstico y la decisión quirúrgica.",
     image: "/images/generated/oft-cataratas.jpg",
     imageAlt: "Diagnóstico de cataratas en Clínica Burgos",
     sections: [
@@ -108,12 +108,12 @@ export const servicePages: ServicePage[] = [
     parentLabel: "Oftalmología",
     eyebrow: "Nervio óptico",
     h1: "Glaucoma en Alhaurín el Grande",
-    title: "Glaucoma en Alhaurín el Grande | Clínica Burgos",
+    title: "Glaucoma en Alhaurín el Grande, Málaga | Clínica Burgos",
     description:
       "Especialista en glaucoma en Alhaurín el Grande y Málaga. Revisión de presión ocular, diagnóstico precoz y tratamiento del glaucoma. Clínica Burgos.",
     keywords:
       "glaucoma Alhaurín el Grande, especialista glaucoma Málaga, tratamiento glaucoma, presión ocular glaucoma, oftalmólogo glaucoma",
-    lead: "El glaucoma puede dañar el nervio óptico de forma silenciosa. El control de la presión ocular y el diagnóstico precoz son esenciales.",
+    lead: "El glaucoma puede dañar el nervio óptico de forma silenciosa. En Alhaurín el Grande, Málaga, el control de la presión ocular y el diagnóstico precoz son esenciales.",
     image: "/images/generated/oft-glaucoma.jpg",
     imageAlt: "Revisión de glaucoma y presión ocular",
     sections: [
@@ -137,12 +137,12 @@ export const servicePages: ServicePage[] = [
     parentLabel: "Oftalmología",
     eyebrow: "Fondo de ojo",
     h1: "Especialista en retina en Alhaurín el Grande",
-    title: "Retina en Alhaurín el Grande | Clínica Burgos",
+    title: "Retina en Alhaurín el Grande, Málaga | Clínica Burgos",
     description:
       "Oftalmólogo especialista en retina en Alhaurín el Grande y Málaga. Revisión de retina, desprendimiento, retinopatía diabética y moscas volantes. Clínica Burgos.",
     keywords:
       "especialista retina Alhaurín el Grande, oftalmólogo retina Málaga, problemas retina, desprendimiento retina, revisión retina",
-    lead: "La retina es clave para una visión nítida. Valoramos moscas volantes, destellos, manchas o pérdida súbita de visión con exploración de fondo de ojo.",
+    lead: "La retina es clave para una visión nítida. En Clínica Burgos, Málaga, valoramos moscas volantes, destellos, manchas o pérdida súbita de visión con exploración de fondo de ojo.",
     image: "/images/generated/oft-desprendimiento.jpg",
     imageAlt: "Exploración de retina en Clínica Burgos",
     sections: [
@@ -166,12 +166,12 @@ export const servicePages: ServicePage[] = [
     parentLabel: "Oftalmología",
     eyebrow: "Visión central",
     h1: "DMAE y degeneración macular en Alhaurín el Grande",
-    title: "DMAE en Alhaurín el Grande | Clínica Burgos",
+    title: "DMAE en Alhaurín el Grande, Málaga | Clínica Burgos",
     description:
       "Especialista en DMAE y degeneración macular asociada a la edad en Alhaurín el Grande y Málaga. Diagnóstico precoz y seguimiento. Clínica Burgos.",
     keywords:
       "DMAE Málaga, degeneración macular, especialista DMAE, tratamiento DMAE, degeneración macular asociada a la edad",
-    lead: "La DMAE afecta la mácula y puede reducir la visión central. La detección precoz permite preservar visión el mayor tiempo posible.",
+    lead: "La DMAE afecta la mácula y puede reducir la visión central. La detección precoz en nuestra consulta de Málaga permite preservar visión el mayor tiempo posible.",
     image: "/images/generated/oft-dmae.jpg",
     imageAlt: "Valoración de DMAE en Clínica Burgos",
     sections: [
@@ -195,12 +195,12 @@ export const servicePages: ServicePage[] = [
     parentLabel: "Oftalmología",
     eyebrow: "Defectos refractivos",
     h1: "Miopía, hipermetropía y astigmatismo en Alhaurín el Grande",
-    title: "Miopía y defectos refractivos | Clínica Burgos Alhaurín",
+    title: "Miopía y defectos refractivos en Málaga | Clínica Burgos",
     description:
-      "Revisión y tratamiento de miopía, hipermetropía y astigmatismo en Alhaurín el Grande. Oftalmólogo para graduación de la vista. Clínica Burgos.",
+      "Revisión de miopía, hipermetropía y astigmatismo en Alhaurín el Grande, Málaga. Oftalmólogo para graduación de la vista. Clínica Burgos.",
     keywords:
-      "miopía Alhaurín el Grande, astigmatismo Alhaurín el Grande, hipermetropía Málaga, oftalmólogo miopía, defectos refractivos",
-    lead: "Los defectos refractivos impiden ver nítido de lejos o de cerca. Realizamos una refracción completa y orientamos la mejor corrección.",
+      "miopía Málaga, astigmatismo Málaga, hipermetropía Málaga, oftalmólogo miopía, defectos refractivos Alhaurín el Grande",
+    lead: "Los defectos refractivos impiden ver nítido de lejos o de cerca. En Clínica Burgos, Málaga, realizamos una refracción completa y orientamos la mejor corrección.",
     image: "/images/generated/oft-refractivos.jpg",
     imageAlt: "Revisión de miopía y graduación de la vista",
     sections: [
@@ -224,12 +224,12 @@ export const servicePages: ServicePage[] = [
     parentLabel: "Oftalmología",
     eyebrow: "Vista cansada",
     h1: "Presbicia o vista cansada en Alhaurín el Grande",
-    title: "Presbicia (vista cansada) en Alhaurín el Grande | Clínica Burgos",
+    title: "Presbicia (vista cansada) en Alhaurín el Grande, Málaga | Clínica Burgos",
     description:
       "Tratamiento de presbicia y vista cansada en Alhaurín el Grande y Málaga. Oftalmólogo para visión de cerca a partir de los 40–45 años. Clínica Burgos.",
     keywords:
       "presbicia Alhaurín el Grande, vista cansada, tratamiento presbicia Málaga, oftalmólogo presbicia, visión de cerca",
-    lead: "La presbicia o vista cansada dificulta enfocar de cerca a partir de los 40–45 años. Estudiamos tus hábitos y proponemos la solución más adecuada.",
+    lead: "La presbicia o vista cansada dificulta enfocar de cerca a partir de los 40–45 años. En Alhaurín el Grande, Málaga, estudiamos tus hábitos y proponemos la solución más adecuada.",
     image: "/images/generated/oft-presbicia.jpg",
     imageAlt: "Consulta de presbicia o vista cansada",
     sections: [
@@ -253,12 +253,12 @@ export const servicePages: ServicePage[] = [
     parentLabel: "Oftalmología",
     eyebrow: "Salud visual infantil",
     h1: "Oftalmología infantil en Alhaurín el Grande",
-    title: "Oftalmólogo infantil en Alhaurín el Grande | Clínica Burgos",
+    title: "Oftalmólogo infantil en Alhaurín el Grande, Málaga | Clínica Burgos",
     description:
-      "Oftalmólogo infantil y revisión de la vista en niños en Alhaurín el Grande. Detección precoz de problemas de visión. Clínica Burgos.",
+      "Oftalmólogo infantil en Málaga: revisión de la vista en niños en Alhaurín el Grande. Detección precoz de problemas de visión. Clínica Burgos.",
     keywords:
-      "oftalmología infantil Alhaurín el Grande, oftalmólogo infantil Málaga, oculista infantil, revisión vista niños, oftalmólogo niños",
-    lead: "Una revisión ocular a tiempo en la infancia previene problemas de aprendizaje y desarrollo visual. Atendemos a niños con cercanía y rigor.",
+      "oftalmología infantil Málaga, oftalmólogo infantil Málaga, oculista infantil Alhaurín el Grande, revisión vista niños, oftalmólogo niños",
+    lead: "Una revisión ocular a tiempo en la infancia previene problemas de aprendizaje y desarrollo visual. Atendemos a niños en Alhaurín el Grande, Málaga, con cercanía y rigor.",
     image: "/images/generated/oftalmo-hero.jpg?v=6",
     imageAlt: "Oftalmología infantil en Clínica Burgos",
     sections: [
@@ -282,12 +282,12 @@ export const servicePages: ServicePage[] = [
     parentLabel: "Medicina Estética",
     eyebrow: "Rellenos dérmicos",
     h1: "Ácido hialurónico en Alhaurín el Grande",
-    title: "Ácido hialurónico en Alhaurín el Grande | Clínica Burgos",
+    title: "Ácido hialurónico en Alhaurín el Grande, Málaga | Clínica Burgos",
     description:
       "Tratamiento con ácido hialurónico en Alhaurín el Grande y Málaga: rellenos faciales, labios, pómulos, ojeras y surcos. Resultados naturales. Clínica Burgos.",
     keywords:
       "ácido hialurónico Alhaurín el Grande, ácido hialurónico Málaga, relleno ácido hialurónico, rellenos faciales, clínica ácido hialurónico Málaga",
-    lead: "El ácido hialurónico restaura volumen y armonía facial con resultados inmediatos, personalizados y naturales.",
+    lead: "El ácido hialurónico restaura volumen y armonía facial con resultados inmediatos y naturales. Tratamiento en nuestra clínica de medicina estética en Málaga.",
     image: "/images/generated/rellenos.jpg?v=3",
     imageAlt: "Tratamiento de ácido hialurónico en Clínica Burgos",
     sections: [
@@ -311,12 +311,12 @@ export const servicePages: ServicePage[] = [
     parentLabel: "Medicina Estética",
     eyebrow: "Perfilado e hidratación",
     h1: "Relleno y perfilado de labios en Alhaurín el Grande",
-    title: "Relleno de labios en Alhaurín el Grande | Clínica Burgos",
+    title: "Relleno de labios en Alhaurín el Grande, Málaga | Clínica Burgos",
     description:
       "Aumento, perfilado e hidratación de labios con ácido hialurónico en Alhaurín el Grande y Málaga. Resultado natural. Clínica Burgos.",
     keywords:
       "relleno labios Alhaurín el Grande, aumento labios Málaga, perfilado labios, ácido hialurónico labios, hidratación de labios",
-    lead: "Perfilamos, hidratamos o aumentamos los labios con ácido hialurónico buscando un resultado armónico y natural.",
+    lead: "Perfilamos, hidratamos o aumentamos los labios con ácido hialurónico en Alhaurín el Grande, Málaga, buscando un resultado armónico y natural.",
     image: "/images/generated/rellenos.jpg?v=3",
     imageAlt: "Perfilado de labios con ácido hialurónico",
     sections: [
@@ -340,12 +340,12 @@ export const servicePages: ServicePage[] = [
     parentLabel: "Medicina Estética",
     eyebrow: "Rejuvenecimiento de la mirada",
     h1: "Tratamiento de ojeras en Alhaurín el Grande",
-    title: "Tratamiento de ojeras en Alhaurín el Grande | Clínica Burgos",
+    title: "Tratamiento de ojeras en Alhaurín el Grande, Málaga | Clínica Burgos",
     description:
       "Tratamiento de ojeras con ácido hialurónico en Alhaurín el Grande y Málaga. Reduce ojeras y rejuvenece la mirada. Clínica Burgos.",
     keywords:
       "tratamiento ojeras Alhaurín el Grande, tratamiento ojeras Málaga, ácido hialurónico ojeras, eliminar ojeras, rejuvenecimiento mirada",
-    lead: "Valoramos el tipo de ojera —vasculada o pigmentada— y el surco, para indicar el tratamiento más adecuado a cada caso.",
+    lead: "En Clínica Burgos, Málaga, valoramos el tipo de ojera —vasculada o pigmentada— y el surco, para indicar el tratamiento más adecuado a cada caso.",
     image: "/images/generated/estetica-mirada-card.jpg?v=1",
     imageAlt: "Tratamiento de ojeras en Clínica Burgos",
     sections: [
@@ -369,12 +369,12 @@ export const servicePages: ServicePage[] = [
     parentLabel: "Medicina Estética",
     eyebrow: "Equilibrio facial",
     h1: "Armonización facial en Alhaurín el Grande",
-    title: "Armonización facial en Alhaurín el Grande | Clínica Burgos",
+    title: "Armonización facial en Alhaurín el Grande, Málaga | Clínica Burgos",
     description:
       "Armonización facial en Alhaurín el Grande y Málaga: perfilado, pómulos, mentón y mandíbula con enfoque natural. Clínica Burgos.",
     keywords:
       "armonización facial Alhaurín el Grande, armonización facial Málaga, perfilado facial, remodelación facial, medicina estética facial",
-    lead: "La armonización facial equilibra proporciones de pómulos, mentón, mandíbula y labios para un resultado coherente y natural.",
+    lead: "La armonización facial en Málaga equilibra proporciones de pómulos, mentón, mandíbula y labios para un resultado coherente y natural.",
     image: "/images/generated/estetica-persona.jpg",
     imageAlt: "Armonización facial en Clínica Burgos",
     sections: [
@@ -398,12 +398,12 @@ export const servicePages: ServicePage[] = [
     parentLabel: "Medicina Estética",
     eyebrow: "Antiedad natural",
     h1: "Rejuvenecimiento facial en Alhaurín el Grande",
-    title: "Rejuvenecimiento facial en Alhaurín el Grande | Clínica Burgos",
+    title: "Rejuvenecimiento facial en Alhaurín el Grande, Málaga | Clínica Burgos",
     description:
       "Rejuvenecimiento facial sin cirugía en Alhaurín el Grande y Málaga: arrugas, calidad de piel, luminosidad y firmeza. Clínica Burgos.",
     keywords:
       "rejuvenecimiento facial Alhaurín el Grande, rejuvenecimiento facial Málaga, rejuvenecimiento facial sin cirugía, tratamiento antiedad, medicina antienvejecimiento",
-    lead: "Combinamos tratamientos médicos para rejuvenecer el rostro de forma natural: expresión, volumen y calidad de la piel.",
+    lead: "En nuestra clínica de medicina estética en Málaga combinamos tratamientos para rejuvenecer el rostro de forma natural: expresión, volumen y calidad de la piel.",
     image: "/images/generated/estetica-hero.jpg?v=7",
     imageAlt: "Rejuvenecimiento facial en Clínica Burgos",
     sections: [
@@ -427,12 +427,12 @@ export const servicePages: ServicePage[] = [
     parentLabel: "Medicina Estética",
     eyebrow: "Colágeno y firmeza",
     h1: "Bioestimulación facial en Alhaurín el Grande",
-    title: "Bioestimulación facial en Alhaurín el Grande | Clínica Burgos",
+    title: "Bioestimulación facial en Alhaurín el Grande, Málaga | Clínica Burgos",
     description:
       "Bioestimulación facial y de colágeno en Alhaurín el Grande y Málaga. Mejora firmeza y regeneración de la piel. Clínica Burgos.",
     keywords:
       "bioestimulación facial Málaga, bioestimulación colágeno, inductores de colágeno, regeneración facial, tratamiento bioestimulación",
-    lead: "Los inductores de colágeno estimulan la regeneración natural de la piel para mejorar firmeza y contorno de forma progresiva.",
+    lead: "Los inductores de colágeno estimulan la regeneración natural de la piel. Bioestimulación facial en Alhaurín el Grande, Málaga, para mejorar firmeza y contorno.",
     image: "/images/generated/colageno.jpg?v=2",
     imageAlt: "Bioestimulación facial en Clínica Burgos",
     sections: [
@@ -456,12 +456,12 @@ export const servicePages: ServicePage[] = [
     parentLabel: "Medicina Estética",
     eyebrow: "Hidratación y luminosidad",
     h1: "Mesoterapia facial en Alhaurín el Grande",
-    title: "Mesoterapia facial en Alhaurín el Grande | Clínica Burgos",
+    title: "Mesoterapia facial en Alhaurín el Grande, Málaga | Clínica Burgos",
     description:
       "Mesoterapia facial y vitaminas faciales en Alhaurín el Grande y Málaga. Hidratación profunda, luminosidad y revitalización. Clínica Burgos.",
     keywords:
       "mesoterapia facial Málaga, vitaminas faciales, hidratación facial profunda, revitalización facial, mesoterapia facial Alhaurín",
-    lead: "La mesoterapia facial hidrata en profundidad y revitaliza la piel con vitaminas, aminoácidos y ácido hialurónico.",
+    lead: "La mesoterapia facial en Málaga hidrata en profundidad y revitaliza la piel con vitaminas, aminoácidos y ácido hialurónico.",
     image: "/images/generated/mesoterapia.jpg?v=2",
     imageAlt: "Mesoterapia facial en Clínica Burgos",
     sections: [
@@ -485,12 +485,12 @@ export const servicePages: ServicePage[] = [
     parentLabel: "Medicina Estética",
     eyebrow: "Líneas de expresión",
     h1: "Tratamiento de arrugas en Alhaurín el Grande",
-    title: "Tratamiento de arrugas en Alhaurín el Grande | Clínica Burgos",
+    title: "Tratamiento de arrugas en Alhaurín el Grande, Málaga | Clínica Burgos",
     description:
       "Tratamiento de arrugas, patas de gallo, entrecejo y frente en Alhaurín el Grande y Málaga. Neuromoduladores y rejuvenecimiento sin cirugía. Clínica Burgos.",
     keywords:
       "tratamiento arrugas Alhaurín el Grande, tratamiento arrugas Málaga, patas de gallo, entrecejo, líneas de expresión, neuromoduladores",
-    lead: "Suavizamos arrugas de expresión en frente, entrecejo y patas de gallo manteniendo un gesto natural y descansado.",
+    lead: "En Clínica Burgos, Málaga, suavizamos arrugas de expresión en frente, entrecejo y patas de gallo manteniendo un gesto natural y descansado.",
     image: "/images/generated/toxina.jpg",
     imageAlt: "Tratamiento de arrugas con neuromoduladores",
     sections: [

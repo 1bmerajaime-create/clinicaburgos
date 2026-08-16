@@ -60,13 +60,14 @@ function buildLocalBusinessJsonLd() {
     "@type": ["MedicalClinic", "LocalBusiness"],
     "@id": `${SITE_URL}/#clinic`,
     name: SITE_NAME,
+    alternateName: "Clínica Burgos Málaga",
     url: SITE_URL,
     logo: `${SITE_URL}/favicon-192.png`,
     image: `${SITE_URL}/images/espera.jpg`,
     telephone: PHONE_HREF.replace("tel:", ""),
     email: EMAIL,
     description:
-      "Clínica de oftalmología y medicina estética en Alhaurín el Grande, Málaga. Oftalmólogo, revisión oftalmológica y tratamientos faciales.",
+      "Clínica Burgos en Málaga: clínica oftalmológica y de medicina estética en Alhaurín el Grande. Oftalmólogo, blefaroplastia y tratamientos faciales.",
     address: {
       "@type": "PostalAddress",
       streetAddress: ADDRESS.street,
@@ -86,6 +87,7 @@ function buildLocalBusinessJsonLd() {
       { "@type": "City", name: "Cártama" },
       { "@type": "City", name: "Alhaurín de la Torre" },
       { "@type": "City", name: "Mijas" },
+      { "@type": "City", name: "Málaga" },
       { "@type": "AdministrativeArea", name: "Valle del Guadalhorce" },
       { "@type": "AdministrativeArea", name: "Málaga" },
       { "@type": "AdministrativeArea", name: "Costa del Sol" },
