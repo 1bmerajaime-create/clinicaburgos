@@ -1699,6 +1699,18 @@ main > section[id] {
   color: var(--bronze-deep);
 }
 
+.cita-modal-done {
+  display: grid;
+  gap: 1.15rem;
+  padding: 0.35rem 0 0.15rem;
+}
+
+.cita-modal-done .body {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.55;
+}
+
 .form-success,
 .form-error {
   padding: 0.7rem 0.85rem;

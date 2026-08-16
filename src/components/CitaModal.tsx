@@ -107,7 +107,7 @@ export function CitaModal() {
         <div className="cita-modal-head">
           <p className="eyebrow">Reserva</p>
           <h2 className="display h2" id={titleId}>
-            Pedir cita
+            {status === "ok" ? "Solicitud enviada" : "Pedir cita"}
           </h2>
           <button
             type="button"
@@ -119,96 +119,114 @@ export function CitaModal() {
           </button>
         </div>
 
-        {status === "ok" && (
-          <div className="form-success" role="status">
-            Gracias. Hemos recibido tu solicitud y te contactaremos pronto.
+        {status === "ok" ? (
+          <div className="cita-modal-done" role="status">
+            <p className="body">
+              Gracias. Hemos recibido tu solicitud y te contactaremos pronto.
+            </p>
+            <button
+              type="button"
+              className="btn btn-outline btn-sm"
+              onClick={() => setStatus("idle")}
+            >
+              Enviar otra solicitud
+            </button>
           </div>
-        )}
-        {status === "activate" && (
-          <div className="form-error" role="alert">
-            El envío está pendiente de activar. Revisa{" "}
-            <strong>{EMAIL}</strong> (también spam) y pulsa el enlace de
-            FormSubmit para activar el formulario. Hasta entonces no llegarán
-            las citas.
-          </div>
-        )}
-        {status === "error" && (
-          <div className="form-error" role="alert">
-            No hemos podido enviar el formulario. Llámanos al{" "}
-            <a href={PHONE_HREF}>{PHONE_DISPLAY}</a>.
-          </div>
-        )}
+        ) : (
+          <>
+            {status === "activate" && (
+              <div className="form-error" role="alert">
+                El envío está pendiente de activar. Revisa{" "}
+                <strong>{EMAIL}</strong> (también spam) y pulsa el enlace de
+                FormSubmit para activar el formulario. Hasta entonces no
+                llegarán las citas.
+              </div>
+            )}
+            {status === "error" && (
+              <div className="form-error" role="alert">
+                No hemos podido enviar el formulario. Llámanos al{" "}
+                <a href={PHONE_HREF}>{PHONE_DISPLAY}</a>.
+              </div>
+            )}
 
-        <form className="line-form" onSubmit={handleSubmit}>
-          <input
-            type="text"
-            name="_honey"
-            tabIndex={-1}
-            autoComplete="off"
-            aria-hidden="true"
-            className="sr-only"
-          />
-          <div className="line-form-grid">
-            <div className="field-line">
-              <label htmlFor="cita-nombre">Nombre (obligatorio)</label>
+            <form className="line-form" onSubmit={handleSubmit}>
               <input
-                id="cita-nombre"
-                name="nombre"
-                required
-                autoComplete="given-name"
+                type="text"
+                name="_honey"
+                tabIndex={-1}
+                autoComplete="off"
+                aria-hidden="true"
+                className="sr-only"
               />
-            </div>
-            <div className="field-line">
-              <label htmlFor="cita-apellido">Apellido (obligatorio)</label>
-              <input
-                id="cita-apellido"
-                name="apellido"
-                required
-                autoComplete="family-name"
-              />
-            </div>
-          </div>
-          <div className="field-line">
-            <label htmlFor="cita-email">Correo electrónico (obligatorio)</label>
-            <input
-              id="cita-email"
-              name="email"
-              type="email"
-              required
-              autoComplete="email"
-            />
-          </div>
-          <div className="field-line">
-            <label htmlFor="cita-telefono">Teléfono</label>
-            <input
-              id="cita-telefono"
-              name="telefono"
-              type="tel"
-              autoComplete="tel"
-            />
-          </div>
-          <div className="field-line">
-            <label htmlFor="cita-interes">Interés</label>
-            <select id="cita-interes" name="interes" defaultValue="Blefaroplastia">
-              <option>Blefaroplastia</option>
-              <option>Oftalmología</option>
-              <option>Medicina Estética</option>
-              <option>Estética de la Mirada</option>
-              <option>Consulta general</option>
-            </select>
-          </div>
-          <div className="field-line">
-            <label htmlFor="cita-mensaje">Mensaje (obligatorio)</label>
-            <textarea id="cita-mensaje" name="mensaje" required rows={4} />
-          </div>
-          <button
-            className="btn btn-primary btn-sm"
-            type="submit"
-            disabled={status === "sending"}
-          >
-            {status === "sending" ? "Enviando…" : "Enviar"}
-          </button>
-        </form>
+              <div className="line-form-grid">
+                <div className="field-line">
+                  <label htmlFor="cita-nombre">Nombre (obligatorio)</label>
+                  <input
+                    id="cita-nombre"
+                    name="nombre"
+                    required
+                    autoComplete="given-name"
+                  />
+                </div>
+                <div className="field-line">
+                  <label htmlFor="cita-apellido">Apellido (obligatorio)</label>
+                  <input
+                    id="cita-apellido"
+                    name="apellido"
+                    required
+                    autoComplete="family-name"
+                  />
+                </div>
+              </div>
+              <div className="field-line">
+                <label htmlFor="cita-email">
+                  Correo electrónico (obligatorio)
+                </label>
+                <input
+                  id="cita-email"
+                  name="email"
+                  type="email"
+                  required
+                  autoComplete="email"
+                />
+              </div>
+              <div className="field-line">
+                <label htmlFor="cita-telefono">Teléfono</label>
+                <input
+                  id="cita-telefono"
+                  name="telefono"
+                  type="tel"
+                  autoComplete="tel"
+                />
+              </div>
+              <div className="field-line">
+                <label htmlFor="cita-interes">Interés</label>
+                <select
+                  id="cita-interes"
+                  name="interes"
+                  defaultValue="Blefaroplastia"
+                >
+                  <option>Blefaroplastia</option>
+                  <option>Oftalmología</option>
+                  <option>Medicina Estética</option>
+                  <option>Estética de la Mirada</option>
+                  <option>Consulta general</option>
+                </select>
+              </div>
+              <div className="field-line">
+                <label htmlFor="cita-mensaje">Mensaje (obligatorio)</label>
+                <textarea id="cita-mensaje" name="mensaje" required rows={4} />
+              </div>
+              <button
+                className="btn btn-primary btn-sm"
+                type="submit"
+                disabled={status === "sending"}
+              >
+                {status === "sending" ? "Enviando…" : "Enviar"}
+              </button>
+            </form>
+          </>
+        )}
       </div>
     </div>
   );
