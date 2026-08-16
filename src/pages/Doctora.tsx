@@ -1,43 +1,21 @@
 import { Link } from "react-router-dom";
-import { CitaButton } from "../components/CitaContext";
 
 export function Doctora() {
   return (
     <main className="page doctor-page">
-      <section className="page-hero page-hero-sm">
-        <div className="page-hero-media doctor-hero-media">
-          <img
-            src="/images/dra-hero.jpg"
-            alt="Dra. Teresa García Burgos realizando una exploración oftalmológica en Clínica Burgos, Alhaurín el Grande, Málaga"
-            fetchPriority="high"
-            decoding="async"
-          />
-        </div>
-        <div className="page-hero-overlay" />
-        <div className="page-hero-content">
-          <h1 className="display">Dra. Teresa García Burgos</h1>
-          <p>
-            Especialista en Oftalmología y fundadora de Clínica Burgos, en
-            Alhaurín el Grande, Málaga.
-          </p>
-        </div>
-      </section>
-
-      <section className="section section-compact doctor-intro">
+      <section className="section doctor-intro">
         <div className="shell split-xl">
           <div className="panel-media tall doctor-photo">
             <img
               src="/images/dra-teresa-garcia-burgos.jpg"
               alt="Dra. Teresa García Burgos, oftalmóloga y médica estética en Clínica Burgos, Alhaurín el Grande, Málaga"
-              loading="lazy"
+              fetchPriority="high"
               decoding="async"
             />
           </div>
           <div className="panel-copy">
             <p className="eyebrow">Quiénes somos</p>
-            <h2 className="display h2">
-              Un criterio médico para tu mirada y tu rostro
-            </h2>
+            <h1 className="display h2">Dra. Teresa García Burgos</h1>
             <p className="body">
               La Dra. Teresa García Burgos es especialista en Oftalmología,
               formada en el Hospital Clínico Universitario Virgen de la
@@ -83,7 +61,7 @@ export function Doctora() {
         <div className="shell split-xl">
           <div className="panel-copy">
             <p className="eyebrow">Especialidades</p>
-            <h2 className="display h2">Oftalmología y medicina estética</h2>
+            <h2 className="display h2">Oftalmología</h2>
             <p className="body">
               La Dra. García Burgos combina su especialización en Oftalmología,
               con especial interés en la región periocular y la cirugía
@@ -120,6 +98,7 @@ export function Doctora() {
             />
           </div>
           <div className="panel-copy">
+            <h2 className="display h2">Medicina Estética</h2>
             <p className="body">
               Esta visión integral es la esencia de Clínica Burgos: cuidar la
               salud visual y la mirada desde un enfoque médico, personalizado y
@@ -130,9 +109,6 @@ export function Doctora() {
               <Link className="seo-link-chip" to="/medicina-estetica">
                 Medicina Estética
               </Link>
-            </div>
-            <div style={{ marginTop: "1.5rem" }}>
-              <CitaButton className="btn btn-primary btn-sm">Pedir cita</CitaButton>
             </div>
           </div>
         </div>
