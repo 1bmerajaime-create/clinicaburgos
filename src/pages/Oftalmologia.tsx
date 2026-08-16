@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import { miradaTreatments, oftalmologiaTreatments } from "../data/content";
 import { CitaButton } from "../components/CitaContext";
 
@@ -92,11 +91,6 @@ export function Oftalmologia() {
                   </button>
                   <div className="treatment-expand-panel" hidden={!isOpen}>
                     <p>{item.body}</p>
-                    {item.href ? (
-                      <p style={{ marginTop: "0.85rem" }}>
-                        <Link to={item.href}>Más información →</Link>
-                      </p>
-                    ) : null}
                   </div>
                 </article>
               );

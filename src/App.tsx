@@ -16,6 +16,10 @@ export default function App() {
         <Route element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="oftalmologia" element={<Oftalmologia />} />
+          <Route
+            path="oftalmologia/:slug"
+            element={<Navigate to="/oftalmologia" replace />}
+          />
           <Route path="medicina-estetica" element={<Estetica />} />
           <Route path="estetica" element={<Navigate to="/medicina-estetica" replace />} />
           <Route path="contacto" element={<Contacto />} />
