@@ -61,6 +61,7 @@ function buildLocalBusinessJsonLd() {
     "@id": `${SITE_URL}/#clinic`,
     name: SITE_NAME,
     url: SITE_URL,
+    logo: `${SITE_URL}/favicon-192.png`,
     image: `${SITE_URL}/images/espera.jpg`,
     telephone: PHONE_HREF.replace("tel:", ""),
     email: EMAIL,

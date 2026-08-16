@@ -19,7 +19,8 @@ npm run preview
 ## Formulario de cita
 
 El formulario envía a `info@clinicaburgos.net` mediante [FormSubmit](https://formsubmit.co).
-La primera vez que alguien envíe el formulario, FormSubmit pedirá confirmar el email una sola vez.
+La primera vez, FormSubmit envía un email de activación a esa cuenta (revisar spam).
+Hasta pulsar el enlace de activación, las citas no llegan.
 
 ## Contacto
 
