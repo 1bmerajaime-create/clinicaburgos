@@ -3,7 +3,7 @@ import { CitaButton } from "../components/CitaContext";
 
 export function Doctora() {
   return (
-    <main className="page">
+    <main className="page doctor-page">
       <section className="page-hero page-hero-sm">
         <div className="page-hero-media">
           <img
@@ -23,7 +23,7 @@ export function Doctora() {
         </div>
       </section>
 
-      <section className="section section-compact">
+      <section className="section section-compact doctor-intro">
         <div className="shell split-xl">
           <div className="panel-media tall doctor-photo">
             <img
