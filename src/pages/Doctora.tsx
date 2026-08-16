@@ -63,9 +63,10 @@ export function Doctora() {
             <p className="eyebrow">Especialidades</p>
             <h2 className="display h2">Oftalmología</h2>
             <p className="body">
-              La Dra. García Burgos combina su especialización en Oftalmología,
-              con especial interés en la región periocular y la cirugía
-              oculoplástica, con su formación en Medicina Estética.
+              Especialista en Oftalmología, con particular interés en la
+              región periocular y la cirugía oculoplástica. Diagnóstico y
+              tratamiento de la salud visual con criterio médico, de forma
+              precisa y personalizada.
             </p>
             <div className="seo-link-grid">
               <Link className="seo-link-chip" to="/oftalmologia">
@@ -100,10 +101,10 @@ export function Doctora() {
           <div className="panel-copy">
             <h2 className="display h2">Medicina Estética</h2>
             <p className="body">
-              Esta visión integral es la esencia de Clínica Burgos: cuidar la
-              salud visual y la mirada desde un enfoque médico, personalizado y
-              natural, priorizando siempre la seguridad y el bienestar del
-              paciente.
+              En Medicina Estética trabaja el rostro y el contorno ocular con
+              un enfoque médico y natural: armonización facial, rejuvenecimiento
+              y cuidado de la mirada, priorizando siempre la seguridad y el
+              bienestar de cada paciente.
             </p>
             <div className="seo-link-grid">
               <Link className="seo-link-chip" to="/medicina-estetica">
