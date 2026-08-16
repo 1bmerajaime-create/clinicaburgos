@@ -25,10 +25,10 @@ export function Doctora() {
 
       <section className="section section-compact">
         <div className="shell split-xl">
-          <div className="panel-media panel-media-sm">
+          <div className="panel-media tall doctor-photo">
             <img
-              src="/images/sala-espera.jpg"
-              alt="Clínica Burgos, consulta de la Dra. Teresa García Burgos"
+              src="/images/dra-teresa-garcia-burgos.jpg"
+              alt="Dra. Teresa García Burgos, oftalmóloga y médica estética en Clínica Burgos, Alhaurín el Grande, Málaga"
               loading="lazy"
               decoding="async"
             />
