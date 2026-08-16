@@ -7,7 +7,7 @@ export function Oftalmologia() {
   const [openMirada, setOpenMirada] = useState<number | null>(null);
 
   return (
-    <main className="page">
+    <main className="page oft-page">
       <section className="page-hero page-hero-sm">
         <div className="page-hero-media">
           <img
@@ -29,10 +29,10 @@ export function Oftalmologia() {
 
       <section className="section section-compact">
         <div className="shell split">
-          <div className="panel-media panel-media-sm">
+          <div className="panel-media tall">
             <img
-              src="/images/espacio.jpg"
-              alt="Consulta de oftalmología en Clínica Burgos, Alhaurín el Grande, Málaga"
+              src="/images/oft-primera-consulta.jpg"
+              alt="Primera consulta oftalmológica en Clínica Burgos, Alhaurín el Grande, Málaga"
               loading="lazy"
               decoding="async"
             />

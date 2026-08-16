@@ -1529,7 +1529,8 @@ main > section[id] {
 }
 
 .contact-page .shell,
-.doctor-page .shell {
+.doctor-page .shell,
+.oft-page .shell {
   width: min(1040px, calc(100% - 1.75rem));
 }
 
