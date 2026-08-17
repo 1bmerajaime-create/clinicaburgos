@@ -31,7 +31,7 @@ export function Oftalmologia() {
         <div className="shell split">
           <div className="panel-media panel-media-sm">
             <img
-              src="/images/oft-primera-consulta.jpg"
+              src="/images/oft-primera-consulta.jpg?v=2"
               alt="Primera consulta oftalmológica en Clínica Burgos, Alhaurín el Grande, Málaga"
               loading="lazy"
               decoding="async"

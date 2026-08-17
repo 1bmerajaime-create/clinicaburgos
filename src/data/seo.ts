@@ -11,7 +11,7 @@ export type SeoConfig = {
 export const seoByPath: Record<string, SeoConfig> = {
   "/": {
     path: "/",
-    title: "Oftalmología y Medicina Estética",
+    title: "Clínica Burgos | Oftalmología y Medicina Estética",
     description:
       "Clínica Burgos en Alhaurín el Grande (Málaga): oftalmólogo y medicina estética. Revisión oftalmológica, blefaroplastia, cataratas y rejuvenecimiento facial. Pide cita.",
     keywords:

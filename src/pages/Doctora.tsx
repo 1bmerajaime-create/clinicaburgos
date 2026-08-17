@@ -36,27 +36,6 @@ export function Doctora() {
         </div>
       </section>
 
-      <section className="section section-compact oft-pair-wrap">
-        <div className="shell oft-pair">
-          <figure>
-            <img
-              src="/images/dra-consulta.jpg"
-              alt="Dra. Teresa García Burgos en consulta, revisando un informe clínico"
-              loading="lazy"
-              decoding="async"
-            />
-          </figure>
-          <figure>
-            <img
-              src="/images/dra-exploracion.jpg"
-              alt="Exploración oftalmológica con lámpara de hendidura en Clínica Burgos, Alhaurín el Grande, Málaga"
-              loading="lazy"
-              decoding="async"
-            />
-          </figure>
-        </div>
-      </section>
-
       <section className="section section-cream">
         <div className="shell split-xl">
           <div className="panel-copy">
@@ -92,7 +71,7 @@ export function Doctora() {
         <div className="shell split-xl">
           <div className="panel-media tall">
             <img
-              src="/images/dra-estetica.jpg"
+              src="/images/dra-estetica.jpg?v=2"
               alt="Tratamiento de medicina estética facial en Clínica Burgos, Alhaurín el Grande, Málaga"
               loading="lazy"
               decoding="async"
