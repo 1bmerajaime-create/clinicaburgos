@@ -15,6 +15,8 @@ import {
 } from "../data/seo";
 import { servicePages } from "../data/servicePages";
 
+const SEO_SHARE_VERSION = "v=3";
+
 function upsertMeta(attr: "name" | "property", key: string, content: string) {
   let el = document.head.querySelector<HTMLMetaElement>(
     `meta[${attr}="${key}"]`,
@@ -54,6 +56,10 @@ function resolveSeo(pathname: string): SeoConfig {
   return seoByPath["/"];
 }
 
+function withSeoVersion(url: string) {
+  return `${url}${url.includes("?") ? "&" : "?"}${SEO_SHARE_VERSION}`;
+}
+
 function buildLocalBusinessJsonLd() {
   return {
     "@context": "https://schema.org",
@@ -62,8 +68,8 @@ function buildLocalBusinessJsonLd() {
     name: SITE_NAME,
     alternateName: "Clínica Burgos Alhaurín el Grande",
     url: SITE_URL,
-    logo: `${SITE_URL}/favicon-192.png`,
-    image: `${SITE_URL}/images/espera.jpg`,
+    logo: withSeoVersion(`${SITE_URL}/favicon-192.png`),
+    image: withSeoVersion(`${SITE_URL}/images/espera.jpg`),
     telephone: PHONE_HREF.replace("tel:", ""),
     email: EMAIL,
     description:
@@ -116,6 +122,8 @@ export function Seo() {
   useEffect(() => {
     const seo = resolveSeo(pathname);
     const url = absoluteUrl(seo.path === "/" ? "/" : seo.path);
+    const shareUrl = withSeoVersion(url);
+    const shareImage = withSeoVersion(`${SITE_URL}/images/espera.jpg`);
 
     document.title = seo.title;
     upsertMeta("name", "description", seo.description);
@@ -132,12 +140,13 @@ export function Seo() {
     upsertMeta("property", "og:site_name", SITE_NAME);
     upsertMeta("property", "og:title", seo.title);
     upsertMeta("property", "og:description", seo.description);
-    upsertMeta("property", "og:url", url);
-    upsertMeta("property", "og:image", `${SITE_URL}/images/espera.jpg`);
+    upsertMeta("property", "og:url", shareUrl);
+    upsertMeta("property", "og:image", shareImage);
 
     upsertMeta("name", "twitter:card", "summary_large_image");
     upsertMeta("name", "twitter:title", seo.title);
     upsertMeta("name", "twitter:description", seo.description);
+    upsertMeta("name", "twitter:image", shareImage);
 
     const scriptId = "cb-jsonld";
     let script = document.getElementById(scriptId) as HTMLScriptElement | null;

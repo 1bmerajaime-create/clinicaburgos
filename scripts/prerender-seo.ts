@@ -8,6 +8,7 @@ type PageSeo = SeoConfig & { changefreq: string; priority: string };
 
 const dist = join(process.cwd(), "dist");
 const today = new Date().toISOString().slice(0, 10);
+const SEO_SHARE_VERSION = "v=3";
 
 function esc(value: string) {
   return value
@@ -59,6 +60,10 @@ function absolute(path: string) {
   return `${SITE_URL}${path}`;
 }
 
+function withSeoVersion(url: string) {
+  return `${url}${url.includes("?") ? "&" : "?"}${SEO_SHARE_VERSION}`;
+}
+
 function replaceMeta(
   html: string,
   attr: "name" | "property",
@@ -76,6 +81,8 @@ function replaceMeta(
 
 function applySeo(html: string, page: PageSeo) {
   const url = absolute(page.path);
+  const shareUrl = withSeoVersion(url);
+  const shareImage = withSeoVersion(`${SITE_URL}/images/espera.jpg`);
   let next = html.replace(
     /<title>[^<]*<\/title>/,
     `<title>${esc(page.title)}</title>`,
@@ -90,7 +97,9 @@ function applySeo(html: string, page: PageSeo) {
   );
   next = replaceMeta(next, "property", "og:title", page.title);
   next = replaceMeta(next, "property", "og:description", page.description);
-  next = replaceMeta(next, "property", "og:url", url);
+  next = replaceMeta(next, "property", "og:url", shareUrl);
+  next = replaceMeta(next, "property", "og:image", shareImage);
+  next = replaceMeta(next, "name", "twitter:image", shareImage);
   return next;
 }
 
