@@ -15,7 +15,7 @@ import {
 } from "../data/seo";
 import { servicePages } from "../data/servicePages";
 
-const SEO_SHARE_VERSION = "v=3";
+const SEO_SHARE_VERSION = "v=4";
 
 function upsertMeta(attr: "name" | "property", key: string, content: string) {
   let el = document.head.querySelector<HTMLMetaElement>(
