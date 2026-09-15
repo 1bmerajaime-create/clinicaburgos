@@ -18,7 +18,7 @@ export function ServicePageView({ page }: { page: ServicePageData }) {
         <div className="page-hero-overlay" />
         <div className="page-hero-content">
           <p className="eyebrow" style={{ color: "rgba(255,255,255,0.78)" }}>
-            {page.eyebrow}
+            {page.parentLabel}
           </p>
           <h1 className="display">{name}</h1>
         </div>
@@ -38,7 +38,7 @@ export function ServicePageView({ page }: { page: ServicePageData }) {
               <img src={page.image} alt={page.imageAlt} loading="lazy" decoding="async" />
             </div>
             <div className="panel-copy">
-              <p className="eyebrow">{page.eyebrow}</p>
+              <p className="eyebrow">{page.parentLabel}</p>
               <p className="body">{page.lead}</p>
               {page.sections[0]?.body ? (
                 <p className="body">{page.sections[0].body}</p>

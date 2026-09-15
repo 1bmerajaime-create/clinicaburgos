@@ -202,12 +202,14 @@ export const esteticaTreatments: TreatmentItem[] = [
     title: "IPL",
     subtitle: "Luz pulsada",
     image: "/images/generated/ipl.jpg?v=2",
+    href: "/medicina-estetica/ipl",
     body: "Luz pulsada intensa para unificar el tono, reducir manchas solares y rojeces, y mejorar la luminosidad general del rostro.",
   },
   {
     title: "Resurfacing",
     subtitle: "Calidad de piel",
     image: "/images/generated/resurfacing.jpg?v=2",
+    href: "/medicina-estetica/resurfacing",
     body: "Tratamientos de renovación cutánea para refinar textura, poros y marcas superficiales. Recuperamos una piel más uniforme, suave y luminosa.",
   },
 ];

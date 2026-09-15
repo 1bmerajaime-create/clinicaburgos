@@ -6,7 +6,6 @@ export type ServicePage = {
   title: string;
   description: string;
   keywords: string;
-  eyebrow: string;
   lead: string;
   sections: { heading: string; body: string }[];
   ctaLabel?: string;
@@ -19,16 +18,15 @@ export const servicePages: ServicePage[] = [
     path: "/medicina-estetica/acido-hialuronico",
     parent: "/medicina-estetica",
     parentLabel: "Medicina Estética",
-    eyebrow: "Rellenos dérmicos",
-    h1: "Ácido hialurónico en Alhaurín el Grande",
-    title: "Ácido hialurónico en Alhaurín el Grande, Málaga | Clínica Burgos",
+    h1: "Rellenos Dérmicos en Alhaurín el Grande",
+    title: "Rellenos dérmicos en Alhaurín el Grande, Málaga | Clínica Burgos",
     description:
-      "Tratamiento con ácido hialurónico en Alhaurín el Grande y Málaga: rellenos faciales, labios, pómulos, ojeras y surcos. Resultados naturales. Clínica Burgos.",
+      "Rellenos dérmicos con ácido hialurónico en Alhaurín el Grande y Málaga: labios, pómulos, ojeras y surcos. Resultados naturales. Clínica Burgos.",
     keywords:
-      "ácido hialurónico Alhaurín el Grande, ácido hialurónico Málaga, relleno ácido hialurónico, rellenos faciales, clínica ácido hialurónico Málaga",
-    lead: "El ácido hialurónico restaura volumen y armonía facial con resultados inmediatos y naturales. Tratamiento en Clínica Burgos, Alhaurín el Grande, Málaga.",
+      "rellenos dérmicos Alhaurín el Grande, ácido hialurónico Málaga, relleno ácido hialurónico, rellenos faciales, clínica ácido hialurónico Málaga",
+    lead: "Los rellenos dérmicos con ácido hialurónico restauran volumen y armonía facial con resultados inmediatos y naturales. Tratamiento en Clínica Burgos, Alhaurín el Grande, Málaga.",
     image: "/images/generated/rellenos.jpg?v=3",
-    imageAlt: "Tratamiento de ácido hialurónico en Clínica Burgos",
+    imageAlt: "Rellenos dérmicos con ácido hialurónico en Clínica Burgos",
     sections: [
       {
         heading: "¿Para qué sirve?",
@@ -48,7 +46,6 @@ export const servicePages: ServicePage[] = [
     path: "/medicina-estetica/labios",
     parent: "/medicina-estetica",
     parentLabel: "Medicina Estética",
-    eyebrow: "Perfilado e hidratación",
     h1: "Relleno y perfilado de labios en Alhaurín el Grande",
     title: "Relleno de labios en Alhaurín el Grande, Málaga | Clínica Burgos",
     description:
@@ -77,7 +74,6 @@ export const servicePages: ServicePage[] = [
     path: "/medicina-estetica/ojeras",
     parent: "/medicina-estetica",
     parentLabel: "Medicina Estética",
-    eyebrow: "Rejuvenecimiento de la mirada",
     h1: "Tratamiento de ojeras en Alhaurín el Grande",
     title: "Tratamiento de ojeras en Alhaurín el Grande, Málaga | Clínica Burgos",
     description:
@@ -106,7 +102,6 @@ export const servicePages: ServicePage[] = [
     path: "/medicina-estetica/armonizacion-facial",
     parent: "/medicina-estetica",
     parentLabel: "Medicina Estética",
-    eyebrow: "Equilibrio facial",
     h1: "Armonización facial en Alhaurín el Grande",
     title: "Armonización facial en Alhaurín el Grande, Málaga | Clínica Burgos",
     description:
@@ -135,7 +130,6 @@ export const servicePages: ServicePage[] = [
     path: "/medicina-estetica/rejuvenecimiento-facial",
     parent: "/medicina-estetica",
     parentLabel: "Medicina Estética",
-    eyebrow: "Antiedad natural",
     h1: "Rejuvenecimiento facial en Alhaurín el Grande",
     title: "Rejuvenecimiento facial en Alhaurín el Grande, Málaga | Clínica Burgos",
     description:
@@ -164,16 +158,15 @@ export const servicePages: ServicePage[] = [
     path: "/medicina-estetica/bioestimulacion",
     parent: "/medicina-estetica",
     parentLabel: "Medicina Estética",
-    eyebrow: "Colágeno y firmeza",
-    h1: "Bioestimulación facial en Alhaurín el Grande",
-    title: "Bioestimulación facial en Alhaurín el Grande, Málaga | Clínica Burgos",
+    h1: "Inductores de Colágeno en Alhaurín el Grande",
+    title: "Inductores de colágeno en Alhaurín el Grande, Málaga | Clínica Burgos",
     description:
-      "Bioestimulación facial y de colágeno en Alhaurín el Grande y Málaga. Mejora firmeza y regeneración de la piel. Clínica Burgos.",
+      "Inductores de colágeno y bioestimulación facial en Alhaurín el Grande y Málaga. Mejora firmeza y regeneración de la piel. Clínica Burgos.",
     keywords:
-      "bioestimulación facial Málaga, bioestimulación colágeno, inductores de colágeno, regeneración facial, tratamiento bioestimulación",
+      "inductores de colágeno Alhaurín el Grande, bioestimulación facial Málaga, bioestimulación colágeno, regeneración facial, tratamiento bioestimulación",
     lead: "Los inductores de colágeno estimulan la regeneración natural de la piel. Bioestimulación facial en Alhaurín el Grande, Málaga, para mejorar firmeza y contorno.",
     image: "/images/generated/colageno.jpg?v=2",
-    imageAlt: "Bioestimulación facial en Clínica Burgos",
+    imageAlt: "Inductores de colágeno en Clínica Burgos",
     sections: [
       {
         heading: "Para quién",
@@ -185,7 +178,7 @@ export const servicePages: ServicePage[] = [
       },
       {
         heading: "Medicina estética en Alhaurín",
-        body: "Bioestimulación facial en Clínica Burgos, con atención a pacientes de Alhaurín el Grande, Málaga, Coín y Cártama.",
+        body: "Inductores de colágeno en Clínica Burgos, con atención a pacientes de Alhaurín el Grande, Málaga, Coín y Cártama.",
       },
     ],
   },
@@ -193,14 +186,13 @@ export const servicePages: ServicePage[] = [
     path: "/medicina-estetica/mesoterapia",
     parent: "/medicina-estetica",
     parentLabel: "Medicina Estética",
-    eyebrow: "Hidratación y luminosidad",
-    h1: "Mesoterapia facial en Alhaurín el Grande",
-    title: "Mesoterapia facial en Alhaurín el Grande, Málaga | Clínica Burgos",
+    h1: "Mesoterapia en Alhaurín el Grande",
+    title: "Mesoterapia en Alhaurín el Grande, Málaga | Clínica Burgos",
     description:
       "Mesoterapia facial y vitaminas faciales en Alhaurín el Grande y Málaga. Hidratación profunda, luminosidad y revitalización. Clínica Burgos.",
     keywords:
       "mesoterapia facial Málaga, vitaminas faciales, hidratación facial profunda, revitalización facial, mesoterapia facial Alhaurín",
-    lead: "La mesoterapia facial hidrata en profundidad y revitaliza la piel con vitaminas, aminoácidos y ácido hialurónico.",
+    lead: "La mesoterapia hidrata en profundidad y revitaliza la piel con vitaminas, aminoácidos y ácido hialurónico.",
     image: "/images/generated/mesoterapia.jpg?v=2",
     imageAlt: "Mesoterapia facial en Clínica Burgos",
     sections: [
@@ -214,7 +206,7 @@ export const servicePages: ServicePage[] = [
       },
       {
         heading: "Cita en Alhaurín el Grande",
-        body: "Mesoterapia facial en Clínica Burgos, Alhaurín el Grande, Málaga, para quienes buscan tratamientos estéticos cercanos en el Valle del Guadalhorce.",
+        body: "Mesoterapia en Clínica Burgos, Alhaurín el Grande, Málaga, para quienes buscan tratamientos estéticos cercanos en el Valle del Guadalhorce.",
       },
     ],
   },
@@ -222,16 +214,15 @@ export const servicePages: ServicePage[] = [
     path: "/medicina-estetica/tratamiento-arrugas",
     parent: "/medicina-estetica",
     parentLabel: "Medicina Estética",
-    eyebrow: "Líneas de expresión",
-    h1: "Tratamiento de arrugas en Alhaurín el Grande",
-    title: "Tratamiento de arrugas en Alhaurín el Grande, Málaga | Clínica Burgos",
+    h1: "Neuromoduladores en Alhaurín el Grande",
+    title: "Neuromoduladores en Alhaurín el Grande, Málaga | Clínica Burgos",
     description:
-      "Tratamiento de arrugas, patas de gallo, entrecejo y frente en Alhaurín el Grande y Málaga. Neuromoduladores y rejuvenecimiento sin cirugía. Clínica Burgos.",
+      "Neuromoduladores para arrugas, patas de gallo, entrecejo y frente en Alhaurín el Grande y Málaga. Rejuvenecimiento sin cirugía. Clínica Burgos.",
     keywords:
-      "tratamiento arrugas Alhaurín el Grande, tratamiento arrugas Málaga, patas de gallo, entrecejo, líneas de expresión, neuromoduladores",
+      "neuromoduladores Alhaurín el Grande, tratamiento arrugas Málaga, patas de gallo, entrecejo, líneas de expresión, neuromoduladores",
     lead: "Suavizamos arrugas de expresión en frente, entrecejo y patas de gallo manteniendo un gesto natural y descansado.",
     image: "/images/generated/toxina.jpg",
-    imageAlt: "Tratamiento de arrugas con neuromoduladores",
+    imageAlt: "Tratamiento con neuromoduladores en Clínica Burgos",
     sections: [
       {
         heading: "Qué tratamos",
@@ -243,7 +234,63 @@ export const servicePages: ServicePage[] = [
       },
       {
         heading: "Médico estético cerca de ti",
-        body: "Tratamiento de arrugas en Alhaurín el Grande, Málaga, con pacientes de Mijas, Fuengirola y el Valle del Guadalhorce.",
+        body: "Neuromoduladores en Alhaurín el Grande, Málaga, con pacientes de Mijas, Fuengirola y el Valle del Guadalhorce.",
+      },
+    ],
+  },
+  {
+    path: "/medicina-estetica/ipl",
+    parent: "/medicina-estetica",
+    parentLabel: "Medicina Estética",
+    h1: "IPL en Alhaurín el Grande",
+    title: "IPL en Alhaurín el Grande, Málaga | Clínica Burgos",
+    description:
+      "Tratamiento IPL (luz pulsada intensa) en Alhaurín el Grande y Málaga. Unifica el tono, reduce manchas y rojeces. Clínica Burgos.",
+    keywords:
+      "IPL Alhaurín el Grande, IPL Málaga, luz pulsada intensa, tratamiento manchas solares, rojeces faciales, fotorejuvenecimiento",
+    lead: "La luz pulsada intensa (IPL) unifica el tono, reduce manchas solares y rojeces, y mejora la luminosidad general del rostro.",
+    image: "/images/generated/ipl.jpg?v=2",
+    imageAlt: "Tratamiento IPL en Clínica Burgos",
+    sections: [
+      {
+        heading: "Para qué sirve",
+        body: "Manchas solares, enrojecimiento, tono irregular y falta de luminosidad. Ideal como fotorejuvenecimiento sin cirugía.",
+      },
+      {
+        heading: "Resultado progresivo",
+        body: "La piel gana uniformidad y brillo de forma gradual. El número de sesiones se adapta a tu fototipo y objetivo.",
+      },
+      {
+        heading: "Cita en Alhaurín el Grande",
+        body: "Tratamiento IPL en Clínica Burgos, Alhaurín el Grande, Málaga, con acceso fácil desde Coín, Cártama y el Valle del Guadalhorce.",
+      },
+    ],
+  },
+  {
+    path: "/medicina-estetica/resurfacing",
+    parent: "/medicina-estetica",
+    parentLabel: "Medicina Estética",
+    h1: "Resurfacing en Alhaurín el Grande",
+    title: "Resurfacing en Alhaurín el Grande, Málaga | Clínica Burgos",
+    description:
+      "Resurfacing facial en Alhaurín el Grande y Málaga. Renovación cutánea para textura, poros y marcas superficiales. Clínica Burgos.",
+    keywords:
+      "resurfacing Alhaurín el Grande, resurfacing facial Málaga, renovación cutánea, calidad de piel, textura facial, poros",
+    lead: "Los tratamientos de resurfacing renuevan la piel para refinar textura, poros y marcas superficiales, con un resultado más uniforme y luminoso.",
+    image: "/images/generated/resurfacing.jpg?v=2",
+    imageAlt: "Resurfacing facial en Clínica Burgos",
+    sections: [
+      {
+        heading: "Qué mejora",
+        body: "Textura irregular, poros visibles, marcas superficiales y falta de suavidad. Recuperamos una piel más uniforme y luminosa.",
+      },
+      {
+        heading: "Enfoque personalizado",
+        body: "Valoramos tu tipo de piel y el tiempo de recuperación disponible para indicar la intensidad adecuada.",
+      },
+      {
+        heading: "Medicina estética local",
+        body: "Resurfacing en Clínica Burgos, Alhaurín el Grande, Málaga, para pacientes del Valle del Guadalhorce y Costa del Sol.",
       },
     ],
   },

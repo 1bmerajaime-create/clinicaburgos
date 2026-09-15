@@ -4,11 +4,12 @@ import { esteticaTreatments } from "../data/content";
 import { CitaButton } from "../components/CitaContext";
 
 const serviceLinks = [
-  { to: "/medicina-estetica/bioestimulacion", label: "Estimuladores de colágeno" },
-  { to: "/medicina-estetica/tratamiento-arrugas", label: "Tratamiento arrugas" },
-  { to: "/medicina-estetica/ojeras", label: "Ojeras" },
+  { to: "/medicina-estetica/tratamiento-arrugas", label: "Neuromoduladores" },
+  { to: "/medicina-estetica/acido-hialuronico", label: "Rellenos Dérmicos" },
   { to: "/medicina-estetica/mesoterapia", label: "Mesoterapia" },
-  { to: "/medicina-estetica/rejuvenecimiento-facial", label: "Rejuvenecimiento facial" },
+  { to: "/medicina-estetica/bioestimulacion", label: "Inductores de Colágeno" },
+  { to: "/medicina-estetica/ipl", label: "IPL" },
+  { to: "/medicina-estetica/resurfacing", label: "Resurfacing" },
 ];
 
 export function Estetica() {
@@ -68,8 +69,8 @@ export function Estetica() {
               <h2 className="display h2">Tratamientos más buscados</h2>
             </div>
             <p className="body services-head-lead">
-              Información sobre estimuladores de colágeno, arrugas, ojeras,
-              mesoterapia y rejuvenecimiento facial.
+              Información sobre neuromoduladores, rellenos dérmicos, mesoterapia,
+              inductores de colágeno, IPL y resurfacing.
             </p>
           </div>
           <div className="seo-link-grid">
