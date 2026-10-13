@@ -13,7 +13,7 @@ export const seoByPath: Record<string, SeoConfig> = {
     path: "/",
     title: "Clinica Burgos | Oftalmología y Medicina Estética",
     description:
-      "Clínica Burgos en Alhaurín el Grande (Málaga): oftalmólogo y medicina estética. Revisión oftalmológica, blefaroplastia, cataratas y rejuvenecimiento facial. Pide cita.",
+      "Clínica Burgos, Alhaurín el Grande (Málaga), especialistas en oftalmología y medicina estética. Cuidamos de tu salud ocular y rejuvenecimiento facial.",
     keywords:
       "Clínica Burgos Alhaurín el Grande, oftalmólogo Alhaurín el Grande, clínica oftalmológica Alhaurín el Grande, medicina estética Alhaurín el Grande, Clínica Burgos Málaga, blefaroplastia Málaga",
   },
